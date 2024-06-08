@@ -5,7 +5,7 @@ export default function Math() {
     return (
      <div className="p-10 border border-red-700 bg-orange-50">
         {/* heading */}
-        <div className="text-3xl font-bold text-red-900 mb-10">MATHEMATICS</div>
+        <div className="text-3xl font-bold text-red-900 mb-10">MATHEMATICS & COMPUTING SCIENCE</div>
         {/* Section one */}
         <div className="grid grid-cols-6 max-md:grid-cols-1">
             {/* Department Picture */}
