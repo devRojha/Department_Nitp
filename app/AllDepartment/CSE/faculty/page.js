@@ -31,6 +31,34 @@ function page() {
             research:"Cloud Computing, Nature Inspired Algorithms, Edge Computing, Workflow Scheduling Algorithm, Optimization, Quantum Computing"
         },
         {
+            id:4,
+            name:"Dr. B Balaji Naik",
+            designation:"Assistant Professor",
+            img:"https://lh3.googleusercontent.com/d/1Abn5VMv4oWnpUYyNtO_j-mrh5YBNzD-C=w320?authuser=0",
+            research:"Cloud Computing, Nature Inspired Algorithms, Edge Computing, Workflow Scheduling Algorithm, Optimization, Quantum Computing"
+        },
+        {
+            id:4,
+            name:"Dr. B Balaji Naik",
+            designation:"Assistant Professor",
+            img:"https://lh3.googleusercontent.com/d/1Abn5VMv4oWnpUYyNtO_j-mrh5YBNzD-C=w320?authuser=0",
+            research:"Cloud Computing, Nature Inspired Algorithms, Edge Computing, Workflow Scheduling Algorithm, Optimization, Quantum Computing"
+        },
+        {
+            id:4,
+            name:"Dr. B Balaji Naik",
+            designation:"Assistant Professor",
+            img:"https://lh3.googleusercontent.com/d/1Abn5VMv4oWnpUYyNtO_j-mrh5YBNzD-C=w320?authuser=0",
+            research:"Cloud Computing, Nature Inspired Algorithms, Edge Computing, Workflow Scheduling Algorithm, Optimization, Quantum Computing"
+        },
+        {
+            id:4,
+            name:"Dr. B Balaji Naik",
+            designation:"Assistant Professor",
+            img:"https://lh3.googleusercontent.com/d/1Abn5VMv4oWnpUYyNtO_j-mrh5YBNzD-C=w320?authuser=0",
+            research:"Cloud Computing, Nature Inspired Algorithms, Edge Computing, Workflow Scheduling Algorithm, Optimization, Quantum Computing"
+        },
+        {
             id:5,
             name:"Dr. B Balaji Naik",
             designation:"Assistant Professor",

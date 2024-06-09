@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function FacultyCards(props) {
   return (
-    <div className="bg-transparent rounded-lg shadow-lg items-center
+    <button onClick={()=>console.log("hii")} className="bg-transparent rounded-lg shadow-lg shadow-slate-600 items-center
     h-[310px] w-[250px] [perspective:1000px] group">
         <div className="relative h-full w-full group-hover:my-rotate-y-180 duration-500
          [transform-style:preserve-3d]">
@@ -38,7 +38,7 @@ function FacultyCards(props) {
             </div>
         </div>
 
-    </div>
+    </button>
   )
 }
 
