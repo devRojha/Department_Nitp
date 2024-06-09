@@ -1,7 +1,9 @@
 "use client"
 import { DepartmentNavigationButton } from "@/components/DepartmentNavigationButton"
 import Image from "next/image"
+import {useRouter} from 'next/navigation';
 export default function CSE() {
+    const router=useRouter();
     return (
         <div className="p-10 max-sm:px-0 border border-red-700 bg-orange-50">
            {/* heading */}
@@ -48,7 +50,7 @@ export default function CSE() {
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
                        <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"SYLLABUS"}/>
                        <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"ACTIVITIES"}/>
-                       <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"FACULTY"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/faculty')} Title={"FACULTY"}/>
                        <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"LABS"}/>
                        <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"MISSION AND VISSION"}/>
                        <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"ACHIVMENTS"}/>
