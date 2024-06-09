@@ -1,6 +1,6 @@
 
 
-function page(){
+export default function page(){
     return (
         <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2">  
             <div className="flex flex-col  mb-16">
@@ -49,4 +49,3 @@ function page(){
         </div>
     )
 }
-export default page
