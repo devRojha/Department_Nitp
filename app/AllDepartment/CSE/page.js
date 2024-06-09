@@ -1,7 +1,94 @@
 "use client"
 import { DepartmentNavigationButton } from "@/components/DepartmentNavigationButton"
+import DepartmentNotify from "@/components/DepartmentNotify";
 import Image from "next/image"
 import {useRouter} from 'next/navigation';
+
+const Notices = [
+    {
+        id:1,
+        notice:"this is notice1",
+        fun:""
+    },
+    {
+        id:2,
+        notice:"this is notice2",
+        fun:""
+    },
+    {
+        id:3,
+        notice:"this is notice3",
+        fun:""
+    },
+    {
+        id:4,
+        notice:"this is notice4",
+        fun:""
+    },
+    {
+        id:5,
+        notice:"this is notice5",
+        fun:""
+    },
+    {
+        id:6,
+        notice:"this is notice6",
+        fun:""
+    },
+
+    {
+        id:7,
+        notice:"this is notice7",
+        fun:""
+    },
+    {
+        id:8,
+        notice:"this is notice8",
+        fun:""
+    },
+    {
+        id:9,
+        notice:"this is notice9",
+        fun:""
+    },
+    {
+        id:10,
+        notice:"this is notice10",
+        fun:""
+    },
+    {
+        id:11,
+        notice:"this is notice11",
+        fun:""
+    },
+    {
+        id:12,
+        notice:"this is notice12",
+        fun:""
+    },
+    {
+        id:13,
+        notice:"this is notice13",
+        fun:""
+    },
+    {
+        id:14,
+        notice:"this is notice14",
+        fun:""
+    },
+    {
+        id:15,
+        notice:"this is notice15",
+        fun:""
+    },
+    {
+        id:16,
+        notice:"this is notice16",
+        fun:""
+    },
+    
+]
+
 export default function CSE() {
     const router=useRouter();
     return (
@@ -35,10 +122,16 @@ export default function CSE() {
                {/* Notice  */}
                <div className="bg-white px-2 py-4 h-[600px] rounded-lg shadow-lg shadow-slate-600 col-span-2 max-lg:col-span-3 flex flex-col max-md:mb-10">
                    <div className="mb-6 flex justify-between text-lg font-semibold text-slate-500">
-                       <div>Importent Notice</div>
-                       <div>View All</div>
+                       <div>Important Notice</div>
+                       <button className="hover:text-blue-500">View All</button>
                    </div>
-                   <div>- incoming Notice</div>
+                   <div className="overflow-hidden space-y-2">
+                    {Notices.map((notice, id)=>{
+                        return (
+                            <DepartmentNotify key={id} title={notice.notice} fun={notice.fun} />
+                        )
+                    })}
+                   </div>
                </div>
                <div className="col-span-4 max-lg:col-span-3 flex flex-col justify-between ml-4">
                    {/* About */}

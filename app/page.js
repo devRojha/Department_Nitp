@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex flex-col w-full">
         {/* heading */}
         <div className="font-bold text-3xl text-red-900 flex justify-center">DEPARTMENTS</div>
-        <div className="mt-10 mx-20 max-sm:mx-2 grid grid-cols-2 max-md:grid-cols-1">
+          <div className="mt-10 mx-20 max-sm:mx-2 grid grid-cols-2 max-md:grid-cols-1">
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Archi");}}department={"Architecture & Planning"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Chem");}}department={"Chemistry"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/CE");}}department={"Civil"}/>
@@ -20,8 +20,8 @@ export default function Home() {
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/IMSc");}}department={"IMSc Math"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Math");}}department={"Mathmatics And Computing"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/ME");}}department={"Mechanical"}/>
-        </div>                      
-    </div>
+          </div>                      
+      </div>
   </div>
  )
 }
