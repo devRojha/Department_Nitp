@@ -48,13 +48,13 @@ export default function CSE() {
                    </div>
                    {/* Navigation Button  */}
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
-                       <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"SYLLABUS"}/>
-                       <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"ACTIVITIES"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/syllabus')} Title={"SYLLABUS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/activities')} Title={"ACTIVITIES"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/faculty')} Title={"FACULTY"}/>
-                       <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"LABS"}/>
-                       <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"ACHIVMENTS"}/>
-                       <DepartmentNavigationButton onClick={()=>console.log("hii")} Title={"TIME TABLE"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/labs')} Title={"LABS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/mission')} Title={"MISSION AND VISSION"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/achivments')} Title={"ACHIVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/timeTable')} Title={"TIME TABLE"}/>
                    </div>
                </div>
            </div>
