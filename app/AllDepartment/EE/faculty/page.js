@@ -1,6 +1,6 @@
 "use client"
 import FacultyCards from '@/components/facultyCards';
-function page() {
+export default function faculty() {
     const faculty=[
         {
             id:1,
@@ -97,5 +97,3 @@ function page() {
     </div>
   )
 }
-
-export default page

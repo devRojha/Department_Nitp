@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-function page(){
+export default function labs(){
     var labUrl = [
         "https://web.nitp.ac.in/dept/ee/labs/DSC_0063.jpg",
         "https://web.nitp.ac.in/dept/ee/labs/DSC_0056.jpg",
@@ -99,4 +99,3 @@ function page(){
         </div>
     )
 }
-export default page

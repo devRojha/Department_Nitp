@@ -1,6 +1,6 @@
 
 
-function page(){
+export default function research(){
     return (
         <div className="bg-orange-50 flex flex-col p-5 h-screen">  
             <div className="flex flex-col md:ml-10">
@@ -19,4 +19,3 @@ function page(){
 
     )
 }
-export default page
