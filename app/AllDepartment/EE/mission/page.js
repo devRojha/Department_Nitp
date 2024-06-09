@@ -55,7 +55,7 @@ export default function mission(){
                     <li>Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.</li>
                     <li>Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.</li>
                     <li>Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.</li>
-                    <li>Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.</li>
+                    <li>Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one&apos;s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.</li>
                     <li>Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.</li>
                 </ol>
                 <div className="text-red-900 text-2xl max-sm:text-sm mt-8">Programme Specific Outcomes (PSO) for UG (B.Tech - EE)</div>
@@ -86,7 +86,7 @@ export default function mission(){
                     <li>To encourage students to pursue life-long learning and professional development through continuing education and self-improvement.</li>
                 </ol>
                 <div className="text-red-900 text-2xl max-sm:text-sm mt-8">Program Outcomes (PO)</div>
-                <div className="text-lg max-sm:text-sm mt-2 font-semibold mb-6">After the successful completion of the two years' postgraduate program, students should be able to:</div>
+                <div className="text-lg max-sm:text-sm mt-2 font-semibold mb-6">After the successful completion of the two years&apos; postgraduate program, students should be able to:</div>
                 <ol className="list-decimal ml-5 space-y-4 text-lg max-sm:text-sm">
                     <li>An ability to independently carry out research /investigation and development work to solve practical problems</li>
                     <li>An ability to write and present a substantial technical report/document</li>
