@@ -71,12 +71,12 @@ function page() {
         <div className="flex flex-col md:ml-10">
             <div>
                 <p className="text-red-900 text-3xl font-bold">
-                    Faculty
+                    FACULTY
                 </p>
             </div>
             <div className="mt-2">
                 <p className="text-gray-500 text-xl font-semibold">
-                    Computer Science and Engineering
+                    ELECTRICAL ENGINEERING
                 </p>
             </div>
         </div>
