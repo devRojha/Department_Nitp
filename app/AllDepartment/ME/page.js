@@ -137,7 +137,7 @@ export default function ME() {
                    {/* About */}
                    <div className="px-6 max-sm:px-2">
                        <div className="mb-4 text-2xl max-sm:text-lg font-semibold text-red-950">About</div>
-                       <div className="text-justify max-sm:text-[12px]">The Department of Mechanical Engineering was established in 1952 with B. Tech program during the era of Bihar College of Engineering (BCE) which is well-known since 1924 as the sixth oldest Engineering College in India. In 1978, M. Tech Program was started with specializations in 'Thermal Turbo Machinery' and 'Refrigeration, Air Conditioning and Heat Transfer'. The Bihar College of Engineering was converted to National Institute of Technology Patna in 2004. <button onClick={()=>router.push('/AllDepartment/ME/about')} className="text-blue-600">more..</button></div>
+                       <div className="text-justify max-sm:text-[12px]">The Department of Mechanical Engineering was established in 1952 with B. Tech program during the era of Bihar College of Engineering (BCE) which is well-known since 1924 as the sixth oldest Engineering College in India. In 1978, M. Tech Program was started with specializations in &quot;Thermal Turbo Machinery&quot; and &quot;Refrigeration, Air Conditioning and Heat Transfer&quot;. The Bihar College of Engineering was converted to National Institute of Technology Patna in 2004. <button onClick={()=>router.push('/AllDepartment/ME/about')} className="text-blue-600">more..</button></div>
                    </div>
                    {/* Navigation Button  */}
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">

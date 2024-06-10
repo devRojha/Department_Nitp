@@ -3,7 +3,7 @@
 import { useState } from "react"
 
 
-export default function page(){
+export default function Page(){
     const [ug , setUg] = useState(true);
     const [pg , setPg] = useState(false);
     const [dual , setdual] = useState(false);
