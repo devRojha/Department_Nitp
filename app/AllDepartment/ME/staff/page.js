@@ -6,7 +6,7 @@ export default function achivments(){
             <div className="flex flex-col  mb-16">
                 <div>
                     <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
-                        ACHIVMENTS
+                        LIST OF NON-TEACHING STAFF
                     </p>
                 </div>
                 <div className="mt-2">
@@ -16,6 +16,7 @@ export default function achivments(){
                 </div>
             </div>
             {/* Achivment */}
+            
         </div>
     )
 }
