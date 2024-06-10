@@ -137,17 +137,17 @@ export default function CE() {
                    {/* About */}
                    <div className="px-6 max-sm:px-2">
                        <div className="mb-4 text-2xl max-sm:text-lg font-semibold text-red-950">About</div>
-                       <div className="text-justify max-sm:text-[12px]">The Department of Computer Science and Engineering offers courses leading to Bachelor of Technology in Computer Science and Engineering. The department has a very good infrastructure and faculty to provide excellent education. The curriculum is updated regularly to keep up with the growing demands and the changing trends of the software industry and research laboratories. The department provides a wide range of courses. The prominent among them includes Data Structures, Design and Analysis of Algorithms, System Programming, Computer Networks, Data Mining and Warehousing, Distributed and Parallel Computing, Mobile and Wireless Computing, Real-time Systems, Cryptography, Genetic Algorithm and Artificial Intelligence. Apart from these, students are also offered a wide variety of electives.</div>
+                       <div className="text-justify max-sm:text-[12px]">The Department of Civil Engineering is the oldest and vibrant department of the institute, which was established along with the inception of the Institute in the year 1924. The Institute was formerly known as the Bihar College of Engineering Patna, a constituent engineering college under Patna University, until 27thJan 2004. It was rechristened to National Institute of Technology Patna on 28th Jan 2004 as an Autonomous Institute under MHRD, Govt. of India. <button onClick={()=>router.push('/AllDepartment/CE/about')} className="text-blue-600 cursor-pointer">more..</button></div>
                    </div>
                    {/* Navigation Button  */}
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/syllabus')} Title={"SYLLABUS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/activities')} Title={"ACTIVITIES"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/faculty')} Title={"FACULTY"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/labs')} Title={"LABS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/mission')} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/achivments')} Title={"ACHIVMENTS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/timeTable')} Title={"TIME TABLE"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CE/syllabus')} Title={"SYLLABUS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CE/activities')} Title={"ACTIVITIES"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CE/faculty')} Title={"FACULTY"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CE/labs')} Title={"LABS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CE/mission')} Title={"MISSION AND VISSION"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CE/achivments')} Title={"ACHIVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CE/timeTable')} Title={"TIME TABLE"}/>
                    </div>
                </div>
            </div>
