@@ -54,9 +54,9 @@ export default function Page(){
                 <div className="border grid grid-cols-12">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
-                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
-                    <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Title</div>
-                    <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">L</div>
+                    <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
+                    <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Title</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">L</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">T</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">P</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Credits</div>
@@ -833,9 +833,9 @@ export default function Page(){
                 <div className="border grid grid-cols-12">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
-                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
-                    <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Title</div>
-                    <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">L</div>
+                    <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
+                    <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Title</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">L</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">T</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">P</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Credits</div>
@@ -2310,7 +2310,7 @@ export default function Page(){
                     cred="3" />
                     <SyallbusComp 
                     dep="CEPG"
-                    sem="
+                    sem=""
                     code="CE678" 
                     title="Finite Element Analysis" 
                     L="3" T="0" P="0" 
@@ -2332,9 +2332,9 @@ export default function Page(){
                 <div className="border grid grid-cols-12">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
-                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
-                    <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Title</div>
-                    <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">L</div>
+                    <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
+                    <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Title</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">L</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">T</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">P</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Credits</div>
@@ -2423,14 +2423,14 @@ export default function Page(){
     )
 }
 
-function SyallbusComp({dep, sem, code, title, L, T, P, cred}){
+function SyallbusComp({ dep, sem, code, title, L, T, P, cred, url }) {
     return (
         <>
             <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{dep}</div>
             <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{sem}</div>
-            <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{code}</div>
-            <div className="col-span-2 border border-black flex flex-col justify-center pl-4 py-2">{title}</div>
-            <div className="col-span-4 border border-black flex flex-col justify-center pl-4 py-2">{L}</div>
+            <div className="col-span-2 border border-black flex flex-col justify-center pl-4 py-2">{code}</div>
+            <a href={url} className="col-span-4 border border-black flex flex-col justify-center pl-4 py-2 cursor-pointer">{title}</a>
+            <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{L}</div>
             <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{T}</div>
             <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{P}</div>
             <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{cred}</div>
