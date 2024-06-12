@@ -22,7 +22,7 @@ export default function Page(){
                     </p>
                 </div>
             </div>
-            <div className="mb-10 flex space-x-1">
+            <div className="mb-10 flex space-x-1 max-sm:text-[10px]">
                 <button onClick={()=>{
                     setUg(true);
                     setPg(false);
@@ -51,7 +51,8 @@ export default function Page(){
             {/* UG PROGRAM */}
             <div className={`mb-10 ${(ug == false)?"hidden":""}`}>
                 <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">UG PROGRAM :-</div>
-                <div className="border grid grid-cols-12">
+                <div className=" overflow-x-auto">
+                <div className="border grid grid-cols-12 min-w-[1100px]">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
                     <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
@@ -826,11 +827,13 @@ export default function Page(){
                     />
 
                 </div>
+                </div>
             </div>
             {/* PG PROGRAM  */}
             <div className={`mb-10 ${(pg == false)?"hidden":""}`}>
                 <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">PG PROGRAM :-</div>
-                <div className="border grid grid-cols-12">
+                <div className=" overflow-x-auto">
+                <div className="border grid grid-cols-12 min-w-[1100px]">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
                     <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
@@ -2323,13 +2326,14 @@ export default function Page(){
                     L="3" T="0" P="0" 
                     cred="3" />
 
-                  
+                </div>
                 </div>
             </div>
             {/* PhD  */}
             <div className={`mb-10 ${(phd == false)?"hidden":""}`}>
                 <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">PhD PROGRAM :-</div>
-                <div className="border grid grid-cols-12">
+                <div className=" overflow-x-auto">
+                <div className="border grid grid-cols-12 min-w-[1100px]">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
                     <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
@@ -2410,6 +2414,7 @@ export default function Page(){
                         L={"3"} T={"0"} P={"0"}
                         cred={"3"}
                     />
+                </div>
                 </div>
             </div>
             {/* Dual PROGRAM  */}
