@@ -141,13 +141,13 @@ export default function ECE() {
                    </div>
                    {/* Navigation Button  */}
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/syllabus')} Title={"SYLLABUS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/activities')} Title={"ACTIVITIES"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/faculty')} Title={"FACULTY"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/labs')} Title={"LABS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/mission')} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/achivments')} Title={"ACHIVMENTS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/timeTable')} Title={"TIME TABLE"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/syllabus')} Title={"SYLLABUS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/activities')} Title={"ACTIVITIES"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/faculty')} Title={"FACULTY"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/labs')} Title={"LABS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/mission')} Title={"MISSION AND VISSION"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/achivments')} Title={"ACHIVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/timeTable')} Title={"TIME TABLE"}/>
                    </div>
                </div>
            </div>
