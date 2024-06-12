@@ -4,12 +4,12 @@ import { useState } from "react"
 
 
 export default function Page(){
-    const [ug , setUg] = useState(true);
-    const [ug2021 , setUg2021] = useState(true);
+    const [ug , setUg] = useState(false);
+    const [ug2021 , setUg2021] = useState(false);
     const [pg , setPg] = useState(false);
     const [dualCyber , setDualCyber] = useState(false);
     const [phd , setPhd] = useState(false);
-    const [ug2022,setUg2022]=useState(false);
+    const [ug2022,setUg2022]=useState(true);
     const [dualData,setDualData]=useState(false);
     return (
         <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2">  
@@ -94,6 +94,56 @@ export default function Page(){
             </div>
             {/* UG PROGRAM 2022*/}
             <div className={`mb-10 ${(ug2022 == false)?"hidden":""}`}>
+                <div className=" overflow-x-auto">
+                <div className="border grid grid-cols-12 min-w-[1100px]">
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
+                    <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
+                    <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Title</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">L</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">T</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">P</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Credits</div>
+                   <SyallbusComp
+                        dep={"CSUG"}
+                        sem={"1"}
+                        code={"CS14102"}
+                        title={"Programming in C"}
+                        L={"3"} T={"0"} P={"2"}
+                        cred={"4"}
+                        url={"https://web.nitp.ac.in/dept/cse/syllabus/syllabus_btech_2021_onwards/CS14102_Programming%20in%20C.docx"}
+                    />
+
+                </div>
+                </div>
+            </div>
+            {/* UG PROGRAM 2021*/}
+            <div className={`mb-10 ${(ug2021 == false)?"hidden":""}`}>
+                <div className=" overflow-x-auto">
+                <div className="border grid grid-cols-12 min-w-[1100px]">
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
+                    <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
+                    <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Title</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">L</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">T</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">P</div>
+                    <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Credits</div>
+                   <SyallbusComp
+                        dep={"CSUG"}
+                        sem={"1"}
+                        code={"CS14102"}
+                        title={"Programming in C"}
+                        L={"3"} T={"0"} P={"2"}
+                        cred={"4"}
+                        url={"https://web.nitp.ac.in/dept/cse/syllabus/syllabus_btech_2021_onwards/CS14102_Programming%20in%20C.docx"}
+                    />
+
+                </div>
+                </div>
+            </div>
+            {/* UG PROGRAM */}
+            <div className={`mb-10 ${(ug == false)?"hidden":""}`}>
                 <div className=" overflow-x-auto">
                 <div className="border grid grid-cols-12 min-w-[1100px]">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
