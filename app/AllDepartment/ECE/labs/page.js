@@ -37,11 +37,12 @@ function page(){
                             width={350}
                             height={300}
                             alt="labsPic"
-                            className="mb-4" />
+                            className="mb-4 rounded-lg bg-rose-200" />
                             <Image src={"https://web.nitp.ac.in/dept/ece/labs/eceimage003.jpg"}
                             width={350}
                             height={300}
-                            alt="labsPic" />
+                            alt="labsPic"
+                            className="rounded-lg bg-rose-200" />
                         </div>
                     </div>
                 </div>
@@ -73,11 +74,12 @@ function page(){
                             width={350}
                             height={300}
                             alt="labsPic"
-                            className="mb-4" />
+                            className="mb-4 rounded-lg bg-rose-200" />
                             <Image src={"https://web.nitp.ac.in/dept/ece/labs/eceimage006.jpg"}
                             width={350}
                             height={300}
-                            alt="labsPic" />
+                            alt="labsPic"
+                            className="rounded-lg bg-rose-200"  />
                         </div>
                     </div>
                 </div>
@@ -116,16 +118,17 @@ function page(){
                             width={350}
                             height={300}
                             alt="labsPic"
-                            className="mb-4" />
+                            className="mb-4 rounded-lg bg-rose-200" />
                             <Image src={"https://web.nitp.ac.in/dept/ece/labs/DSC_0031.jpg"}
                             width={350}
                             height={300}
-                            alt="labsPic" />
+                            alt="labsPic"
+                            className="rounded-lg bg-rose-200"  />
                             <Image src={"https://web.nitp.ac.in/dept/ece/labs/DSC_0011.jpg"}
                             width={350}
                             height={300}
                             alt="labsPic"
-                            className="mt-4" />
+                            className="mt-4 rounded-lg bg-rose-200" />
                         </div>
                     </div>
                 </div>
