@@ -1,6 +1,8 @@
 "use client"
 
-import {useState} from 'react';
+import { useState } from "react";
+
+
 
 function SyallbusComp({ dep, sem, code, title, L, T, P, cred, url }) {
     return (
@@ -33,7 +35,7 @@ function ActComp({content}){
     )
 }
 
-function page(){
+function Page(){
     const [ug , setUg] = useState(true);
     const [pg , setPg] = useState(false);
     return (
@@ -123,4 +125,4 @@ function page(){
 
     )
 }
-export default page
+export default Page

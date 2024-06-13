@@ -33,7 +33,7 @@ function ActComp({content}){
     )
 }
 
-function page(){
+function Page(){
     const [ug , setUg] = useState(true);
     const [pg , setPg] = useState(false);
     const [dual , setdual] = useState(false);
@@ -239,4 +239,4 @@ function page(){
 
     )
 }
-export default page
+export default Page
