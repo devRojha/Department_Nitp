@@ -1,3 +1,6 @@
+"use client"
+
+import { useState } from "react"
 
 
 "use client"
@@ -5857,6 +5860,7 @@ export default function Page() {
         </div>
     )
 }
+
 
 function SyllabusComp({ dep, sem, code, title, L, T, P, cred, url }) {
     return (

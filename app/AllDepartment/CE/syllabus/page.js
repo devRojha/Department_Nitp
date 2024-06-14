@@ -22,7 +22,7 @@ export default function Page(){
                     </p>
                 </div>
             </div>
-            <div className="mb-10 flex space-x-1">
+            <div className="mb-10 flex space-x-1 max-sm:text-[10px]">
                 <button onClick={()=>{
                     setUg(true);
                     setPg(false);
@@ -51,7 +51,8 @@ export default function Page(){
             {/* UG PROGRAM */}
             <div className={`mb-10 ${(ug == false)?"hidden":""}`}>
                 <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">UG PROGRAM :-</div>
-                <div className="border grid grid-cols-12">
+                <div className=" overflow-x-auto">
+                <div className="border grid grid-cols-12 min-w-[1100px]">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
                     <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
@@ -826,11 +827,13 @@ export default function Page(){
                     />
 
                 </div>
+                </div>
             </div>
             {/* PG PROGRAM  */}
             <div className={`mb-10 ${(pg == false)?"hidden":""}`}>
                 <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">PG PROGRAM :-</div>
-                <div className="border grid grid-cols-12">
+                <div className=" overflow-x-auto">
+                <div className="border grid grid-cols-12 min-w-[1100px]">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
                     <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
@@ -839,7 +842,7 @@ export default function Page(){
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">T</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">P</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Credits</div>
-                  <SyallbusComp
+                              <SyallbusComp
                         dep={"CEPG"}
                         sem={"1"}
                         code={"CE601"}
@@ -890,7 +893,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE603"}
                         title={"Advanced Design of Concrete and Steel Structures"}
                         L={"0"} T={"0"} P={"3"}
@@ -898,7 +901,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE6xx"}
                         title={"Elective IV"}
                         L={"3"} T={"0"} P={"0"}
@@ -906,7 +909,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE6xx"}
                         title={"Elective V"}
                         L={"3"} T={"0"} P={"0"}
@@ -914,7 +917,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE6xx"}
                         title={"Elective VI"}
                         L={"3"} T={"0"} P={"0"}
@@ -922,7 +925,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE6xx"}
                         title={"Elective VII/Open Elective"}
                         L={"3"} T={"0"} P={"0"}
@@ -930,7 +933,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE690"}
                         title={"Seminar"}
                         L={"3"} T={"0"} P={"0"}
@@ -938,7 +941,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE686"}
                         title={"Advanced Civil Engineering Lab II"}
                         L={"0"} T={"0"} P={"6"}
@@ -946,7 +949,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"3"}
                         code={"CE691"}
                         title={"Seminar and Comprehensive Viva I"}
                         L={"0"} T={"0"} P={"3"}
@@ -954,7 +957,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"3"}
                         code={"CE692"}
                         title={"Dissertion (to be continued in 4th sem)"}
                         L={"0"} T={"0"} P={"12"}
@@ -962,7 +965,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"4"}
                         code={"CE693"}
                         title={"Seminar and Comprehensive Viva II"}
                         L={"0"} T={"0"} P={"3"}
@@ -970,7 +973,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"4"}
                         code={"CE694"}
                         title={"Dissertation"}
                         L={"0"} T={"0"} P={"15"}
@@ -978,7 +981,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE604"}
 
                         title={"Advanced Concrete Technology"}
@@ -987,7 +990,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE605"}
                         title={"Pre-Stressed Concrete Structure"}
                         L={"3"} T={"0"} P={"0"}
@@ -995,7 +998,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE606"}
                         title={"Bridge Engineering"}
                         L={"3"} T={"0"} P={"0"}
@@ -1003,7 +1006,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE607"}
                         title={"Theory of Plates and Shells"}
                         L={"3"} T={"0"} P={"0"}
@@ -1011,7 +1014,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE608"}
                         title={"Stuctural Stability"}
                         L={"3"} T={"0"} P={"0"}
@@ -1019,7 +1022,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE609"}
                         title={"Earthquakes Resistant Design of Structures"}
                         L={"3"} T={"0"} P={"0"}
@@ -1027,7 +1030,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE610"}
                         title={"Finite Element Method"}
                         L={"3"} T={"0"} P={"0"}
@@ -1035,7 +1038,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE611"}
                         title={"Structural Dynamics "}
                         L={"3"} T={"0"} P={"0"}
@@ -1043,7 +1046,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE612"}
                         title={"Construction Technology and Management"}
                         L={"3"} T={"0"} P={"0"}
@@ -1051,7 +1054,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE613"}
                         title={"Mechanics of Composite Materials"}
                         L={"3"} T={"0"} P={"0"}
@@ -1059,7 +1062,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE614"}
                         title={"Reliability Engineering"}
                         L={"3"} T={"0"} P={"0"}
@@ -1067,7 +1070,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE615"}
                         title={"Fracture Mechanics"}
                         L={"3"} T={"0"} P={"0"}
@@ -1076,7 +1079,7 @@ export default function Page(){
 
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE616"}
                         title={"Structural Health Monitoring"}
                         L={"3"} T={"0"} P={"0"}
@@ -1084,7 +1087,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE617"}
                         title={"Optimization Techniques in Civil Engineering"}
                         L={"3"} T={"0"} P={"0"}
@@ -1094,7 +1097,7 @@ export default function Page(){
 
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE618"}
                         title={"Fuzzy Logic and Artificial Intelligence in Civil Engineering Applications"}
                         L={"3"} T={"0"} P={"0"}
@@ -1102,7 +1105,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"CE619"}
                         title={"Computational Plasticity"}
                         L={"3"} T={"0"} P={"0"}
@@ -1111,7 +1114,7 @@ export default function Page(){
 
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"EL-x"}
                         code={"MA604"}
                         title={"Probability and Statistics"}
                         L={"3"} T={"0"} P={"0"}
@@ -1238,7 +1241,7 @@ export default function Page(){
                         dep={"CEPG"}
                         sem={"2"}
                         code={"CE690"}
-                        title={`"sem_elect"inar"`}
+                        title={`seminar`}
                         L={"0"} T={"0"} P={"6"}
                         cred={"4"}
                     />
@@ -1324,7 +1327,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE636"}
                         title={"Railway Engineering"}
                         L={"3"} T={"0"} P={"0"}
@@ -1332,7 +1335,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE637"}
                         title={"Remote Sensing and GIS and their Appications"}
                         L={"3"} T={"0"} P={"0"}
@@ -1340,7 +1343,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE638"}
                         title={"Highway Construction Practices and Maintenance"}
                         L={"3"} T={"0"} P={"0"}
@@ -1348,7 +1351,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE639"}
                         title={"Multi-Modal Transportation System Planning and Design"}
                         L={"3"} T={"0"} P={"0"}
@@ -1356,7 +1359,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE640"}
                         title={"Intelligent Transportation Systems"}
                         L={"3"} T={"0"} P={"0"}
@@ -1364,7 +1367,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE641"}
                         title={"Advance Highway Design"}
                         L={"3"} T={"0"} P={"0"}
@@ -1372,7 +1375,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE642"}
                         title={"Traffic Flow Theory"}
                         L={"3"} T={"0"} P={"0"}
@@ -1380,7 +1383,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE643"}
                         title={"Highway Subgrade and Foundation"}
                         L={"3"} T={"0"} P={"0"}
@@ -1388,7 +1391,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE644"}
                         title={"Pavement Materials"}
                         L={"3"} T={"0"} P={"0"}
@@ -1396,55 +1399,16 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE645"}
                         title={"Urban Transportation Planning"}
                         L={"3"} T={"0"} P={"0"}
                         cred={"3"}
                     />
+
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
-                        code={"CE641"}
-                        title={"Advance Highway Design"}
-                        L={"3"} T={"0"} P={"0"}
-                        cred={"3"}
-                    />
-                    <SyallbusComp
-                        dep={"CEPG"}
-                        sem={"1"}
-                        code={"CE642"}
-                        title={"Traffic Flow Theory"}
-                        L={"3"} T={"0"} P={"0"}
-                        cred={"3"}
-                    />
-                    <SyallbusComp
-                        dep={"CEPG"}
-                        sem={"1"}
-                        code={"CE643"}
-                        title={"Highway Subgrade and Foundation"}
-                        L={"3"} T={"0"} P={"0"}
-                        cred={"3"}
-                    />
-                    <SyallbusComp
-                        dep={"CEPG"}
-                        sem={"1"}
-                        code={"CE644"}
-                        title={"Pavement Materials"}
-                        L={"3"} T={"0"} P={"0"}
-                        cred={"3"}
-                    />
-                    <SyallbusComp
-                        dep={"CEPG"}
-                        sem={"1"}
-                        code={"CE645"}
-                        title={"Urban Transparent Planning"}
-                        L={"3"} T={"0"} P={"0"}
-                        cred={"3"}
-                    />
-                    <SyallbusComp
-                        dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE646"}
                         title={"Pavement Management System"}
                         L={"3"} T={"0"} P={"0"}
@@ -1452,7 +1416,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE647"}
                         title={"System Analysis and Optimization Techniques"}
                         L={"3"} T={"0"} P={"0"}
@@ -1460,7 +1424,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE648"}
                         title={"Environmental Impact Assessment"}
                         L={"3"} T={"0"} P={"0"}
@@ -1468,7 +1432,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"MA604"}
                         title={"Probability and Statistics"}
                         L={"3"} T={"0"} P={"0"}
@@ -1476,7 +1440,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE649"}
                         title={"Ground Improvement Techniques"}
                         L={"3"} T={"0"} P={"0"}
@@ -1548,7 +1512,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE762"}
                         title={"River Training and flood control"}
                         L={"3"} T={"0"} P={"0"}
@@ -1556,7 +1520,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CExxx"}
                         title={"Elective IV"}
                         L={"3"} T={"0"} P={"0"}
@@ -1564,7 +1528,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CECCC"}
                         title={"Elective V"}
                         L={"3"} T={"0"} P={"0"}
@@ -1572,7 +1536,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE6XX"}
                         title={"Elective VI"}
                         L={"3"} T={"0"} P={"0"}
@@ -1580,7 +1544,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE6xx"}
                         title={"Elective VII/Open Elective"}
                         L={"3"} T={"0"} P={"0"}
@@ -1588,7 +1552,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE645"}
                         title={"Advanced Civil Engineering Lab-II"}
                         L={"3"} T={"0"} P={"6"}
@@ -1596,7 +1560,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={"2"}
                         code={"CE690"}
                         title={`"Sem_elect"inar`}
                         L={"0"} T={"0"} P={"3"}
@@ -1638,7 +1602,7 @@ export default function Page(){
                         dep={"CEPG"}
                         sem={"4"}
                         code={"CE693"}
-                        title={`"sem_elect"inar and Comprehensive Viva -II`}
+                        title={`seminar and Comprehensive Viva -II`}
                         L={"0"} T={"0"} P={"3"}
                         cred={"2"}
                     />
@@ -1668,7 +1632,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE661"}
                         title={"Advanced Hydraulics"}
                         L={"3"} T={"0"} P={"0"}
@@ -1676,7 +1640,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE663"}
                         title={"Advanced Groundwater Engineering"}
                         L={"3"} T={"0"} P={"0"}
@@ -1684,7 +1648,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE668"}
                         title={"Reservoir Operation and Planning"}
                         L={"3"} T={"0"} P={"0"}
@@ -1692,7 +1656,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE669"}
                         title={"River Pollution and control"}
                         L={"3"} T={"0"} P={"0"}
@@ -1700,7 +1664,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE670"}
                         title={"Remote Sensing and GIS for Water Resources"}
                         L={"3"} T={"0"} P={"0"}
@@ -1708,7 +1672,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE671"}
                         title={"Hydro Power Engineering"}
                         L={"3"} T={"0"} P={"0"}
@@ -1716,7 +1680,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE672"}
                         title={"Irrigation Water Management "}
                         L={"3"} T={"0"} P={"0"}
@@ -1724,7 +1688,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE675"}
                         title={"Flood and Drought Management"}
                         L={"3"} T={"0"} P={"0"}
@@ -1732,7 +1696,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE676"}
                         title={"Design of Hydraulic Structures"}
                         L={"3"} T={"0"} P={"0"}
@@ -1740,7 +1704,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE764"}
                         title={"Environmental Impact Assessment of River Valley Projects"}
                         L={"3"} T={"0"} P={"0"}
@@ -1748,7 +1712,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE765"}
                         title={"Climate Change Implications on River Flows"}
                         L={"3"} T={"0"} P={"0"}
@@ -1756,7 +1720,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE766"}
                         title={"Computational Hydraulics"}
                         L={"3"} T={"0"} P={"0"}
@@ -1764,7 +1728,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={"1"}
+                        sem={""}
                         code={"CE767"}
                         title={"River Ecology and Environmental Flows"}
                         L={"3"} T={"0"} P={"0"}
@@ -1772,7 +1736,7 @@ export default function Page(){
                     />
                     <SyallbusComp
                         dep={"CEPG"}
-                        sem={""}
+                        sem={"1"}
                         code={"CE701"}
                         title={"Environmental Chemistry and Microbiology"}
                         L={"3"} T={"0"} P={"0"}
@@ -2022,314 +1986,311 @@ export default function Page(){
                         L="3" T="0" P="0"
                         cred="3" />
                     <SyallbusComp
-                     dep="CEPG" 
-                     sem="1" 
-                     code="" 
-                     title="Total semester Credit"
-                      L="12" T="0" P="6" 
-                      cred="16" />
+                        dep="CEPG"
+                        sem="1"
+                        code="CE731"
+                        title="Advanced Foundation Engineering"
+                        L="3" T="0" P="0"
+                        cred="3" />
                     <SyallbusComp
-                     dep="CEPG" 
-                     sem="2"
-                      code="CE733"
-                       title="Rock Mechanics and Tunnel Engineering"
-                     L="3" T="0" P="0" 
-                     cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="2" 
-                    code="CE6xx" 
-                    title="Elective IV" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG"
-                    sem="2" 
-                    code="CE6xx" 
-                    title="Elective V" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="2" 
-                    code="CE6xx" 
-                    title="Elective VI"
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="2" 
-                    code="CE6xx" 
-                    title="Elective VII/Open Elective" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="2" 
-                    code="CE686"
-                    title="Advanced Civil Engineering Lab II" 
-                    L="0" T="0" P="6" 
-                    cred="4" />
+                        dep="CEPG"
+                        sem="1"
+                        code="CE732"
+                        title="Geotechnical Investigations and Ground Improvement Techniques"
+                        L="3" T="0" P="0"
+                        cred="3" />
                     <SyallbusComp
-                     dep="CEPG" 
-                    sem="2" 
-                    code="CE690" 
-                    title="Seminar" 
-                    L="0" T="0" P="3" 
-                    cred="2" />
+                        dep="CEPG"
+                        sem="1"
+                        code="CE6xx"
+                        title="Elective I"
+                        L="3" T="0" P="0"
+                        cred="3" />
                     <SyallbusComp
-                     dep="CEPG" 
-                    sem="2" code="" 
-                    title="Total semester Credit" 
-                    L="12" T="0" P="9"
-                    cred="18" />
+                        dep="CEPG"
+                        sem="1"
+                        code="CE6xx"
+                        title="Elective II"
+                        L="3" T="0" P="0"
+                        cred="3" />
+
+                    <SyallbusComp
+                        dep="CEPG"
+                        sem="1"
+                        code="CE6xx"
+                        title="Elective III/Open Elective"
+                        L="3" T="0" P="0"
+                        cred="3" />
+                    <SyallbusComp
+                        dep="CEPG"
+                        sem="1"
+                        code="CE681"
+                        title="Advanced Civil Engineering Lab -I"
+                        L="0" T="0" P="6"
+                        cred="4" />
+                    <SyallbusComp
+                        dep="CEPG"
+                        sem="1"
+                        code=""
+                        title="Total Semsester Credit"
+                        L="12" T="0" P="6"
+                        cred="16" />
+
+                    <SyallbusComp
+                        dep="CEPG"
+                        sem="2"
+                        code="CE733"
+                        title="Rock Mechanics and Tunnel Engineering"
+                        L="3" T="0" P="0"
+                        cred="3" />
+                    <SyallbusComp
+                        dep="CEPG"
+                        sem="2"
+                        code="CE6xx"
+                        title="Elective IV"
+                        L="3" T="0" P="0"
+                        cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="2"
+                         code="CE6xx"
+                          title="Elective V"
+                           L="3" T="0" P="0" 
+                           cred="3" />
+                    <SyallbusComp
+                        dep="CEPG"
+                         sem="2"
+                          code="CE6xx"
+                           title="Elective VI"
+                            L="3" T="0" P="0" 
+                            cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="2" 
+                        code="CE6xx"
+                         title="Elective VII/Open Elective" 
+                         L="3" T="0" P="0" 
+                         cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="2" 
+                        code="CE686"
+                         title="Advanced Civil Engineering Lab II"
+                          L="0" T="0" P="6" 
+                          cred="4" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="2" 
+                        code="CE690"
+                         title="Seminar" 
+                         L="0" T="0" P="3" 
+                         cred="2" />
+                    <SyallbusComp
+                        dep="CEPG"
+                         sem="2" 
+                         code="" 
+                         title="Total semester Credit" 
+                         L="12" T="0" P="9" 
+                         cred="18" />
 
                     {/* Semester 3 */}
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="3" 
-                    code="CE691" 
-                    title="Seminar and Comprehensive Viva I" 
-                    L="0" T="0" P="3" 
-                    cred="2" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="3" 
-                    code="CE692" 
-                    title="Dissertation (to be continued in 4th sem)" 
-                    L="0" T="0" P="12" 
-                    cred="8" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="3" 
-                    code=""
-                    title="Total semester Credit" 
-                    L="0" T="0" P="15" 
-                    cred="10" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="3" 
+                        code="CE691" 
+                        title="Seminar and Comprehensive Viva I" 
+                        L="0" T="0" P="3" 
+                        cred="2" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="3" 
+                        code="CE692" 
+                        title="Dissertation (to be continued in 4th sem)"
+                         L="0" T="0" P="12" 
+                         cred="8" />
+                    <SyallbusComp
+                        dep="CEPG"
+                         sem="3"
+                          code="" 
+                          title="Total semester Credit" 
+                          L="0" T="0" P="15"
+                           cred="10" />
 
                     {/* Semester 4 */}
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="4" 
-                    code="CE693" 
-                    title="Seminar and Comprehensive Viva II" 
-                    L="0" T="0" P="3" 
-                    cred="2" />
                     <SyallbusComp
-                     dep="CEPG" 
-                    sem="4" 
-                    code="CE694" 
-                    title="Dissertation"
-                    L="0" T="0" P="15" 
-                    cred="10" />
+                        dep="CEPG" 
+                        sem="4" 
+                        code="CE693"
+                         title="Seminar and Comprehensive Viva II" 
+                         L="0" T="0" P="3" 
+                         cred="2" />
                     <SyallbusComp
-                     dep="CEPG" 
-                    sem="4" 
-                    code="" 
-                    title="Total semester Credit" 
-                    L="0" T="0" P="18" 
-                    cred="12" />
+                        dep="CEPG" 
+                        sem="4" 
+                        code="CE694"
+                         title="Dissertation"
+                          L="0" T="0" P="15" 
+                          cred="10" />
                     <SyallbusComp
-                     dep="CEPG" 
-                    sem="" 
-                    code="" 
-                    title="Cumulative Credit" 
-                    L="" T="" P="" 
-                    cred="62" />
+                        dep="CEPG" 
+                        sem="4" 
+                        code="" 
+                        title="Total semester Credit"
+                         L="0" T="0" P="18" 
+                         cred="12" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="" 
+                        code="" 
+                        title="Cumulative Credit" 
+                        L="" T="" P="" 
+                        cred="62" />
 
                     {/* Electives */}
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE617" title="Optimization Techniques in Civil Engineering" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE734" title="Soil Stabilization" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE735" title="Earth Pressure and Retaining Structures" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE737" title="Earth and Rock-fill Dams" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE738" title="Soil Structure Interaction" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE739" title="Geo-environmental Engineering" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE740" title="Soil Dynamics and Geotechnical Earthquake Engineering" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE741" title="Reinforced Earth and Geotextiles" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE742" title="Continuum Mechanics" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="CE743" title="Slope Stability and Earthen Dams" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="" code="MA604" title="Probability and Statistics" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE617" title="Optimization Techniques in Civil Engineering" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE734" title="Soil Stabilization" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE735" title="Earth Pressure and Retaining Structures" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE737" title="Earth and Rock-fill Dams" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE738" title="Soil Structure Interaction" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE739" title="Geo-environmental Engineering" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE740" title="Soil Dynamics and Geotechnical Earthquake Engineering" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE741" title="Reinforced Earth and Geotextiles" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE742" title="Continuum Mechanics" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE743" title="Slope Stability and Earthen Dams" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="MA604" title="Probability and Statistics" L="3" T="0" P="0" cred="3" />
 
                     {/* Water Resources Engineering Semester 1 */}
-                    <SyallbusComp 
-                    dep="CEPG" sem="1" code="CE661" title="Advanced Hydraulics" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="1" code="CE662" title="Advanced Hydrology" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="1" code="CE6xx" title="Elective I" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="1" code="CE6xx" title="Elective II" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="1" code="CE6xx" title="Elective III/Open Elective" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="1" code="CE681" title="Advanced Civil Engineering Lab I" L="0" T="0" P="6" cred="4" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="1" code="" title="Total semester Credit" L="15" T="0" P="6" cred="19" />
+                    <SyallbusComp
+                        dep="CEPG" sem="1" code="CE661" title="Advanced Hydraulics" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="1" code="CE662" title="Advanced Hydrology" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="1" code="CE6xx" title="Elective I" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="1" code="CE6xx" title="Elective II" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="1" code="CE6xx" title="Elective III/Open Elective" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="1" code="CE681" title="Advanced Civil Engineering Lab I" L="0" T="0" P="6" cred="4" />
+                    <SyallbusComp
+                        dep="CEPG" sem="1" code="" title="Total semester Credit" L="15" T="0" P="6" cred="19" />
 
                     {/* Water Resources Engineering Semester 2 */}
-                    <SyallbusComp 
-                    dep="CEPG" sem="2" code="CE663" title="Advanced Ground Water Engineering" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="2" code="CE6xx" title="Elective IV" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="2" code="CE6xx" title="Elective V" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="2" code="CE6xx" title="Elective VI" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="2" code="CE6xx" title="Elective VII/Open Elective" L="3" T="0" P="0" cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="2" code="CE686" title="Advanced Civil Engineering Lab II" L="0" T="0" P="6" cred="4" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="2" code="CE690" title="Seminar" L="0" T="0" P="3" cred="2" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="2" code="" title="Total semester Credit" L="15" T="0" P="9" cred="21" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="3" code="CE691" title="Seminar and Comprehensive Viva I" L="0" T="0" P="3" cred="2" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="3" code="CE692" title="Dissertation (to be continued in 4th sem)" L="0" T="0" P="12" cred="8" />
+                    <SyallbusComp
+                        dep="CEPG" sem="2" code="CE663" title="Advanced Ground Water Engineering" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="2" code="CE6xx" title="Elective IV" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="2" code="CE6xx" title="Elective V" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="2" code="CE6xx" title="Elective VI" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="2" code="CE6xx" title="Elective VII/Open Elective" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="2" code="CE686" title="Advanced Civil Engineering Lab II" L="0" T="0" P="6" cred="4" />
+                    <SyallbusComp
+                        dep="CEPG" sem="2" code="CE690" title="Seminar" L="0" T="0" P="3" cred="2" />
+                    <SyallbusComp
+                        dep="CEPG" sem="2" code="" title="Total semester Credit" L="15" T="0" P="9" cred="21" />
+                    <SyallbusComp
+                        dep="CEPG" sem="3" code="CE691" title="Seminar and Comprehensive Viva I" L="0" T="0" P="3" cred="2" />
+                    <SyallbusComp
+                        dep="CEPG" sem="3" code="CE692" title="Dissertation (to be continued in 4th sem)" L="0" T="0" P="12" cred="8" />
 
-                    <SyallbusComp 
-                    dep="CEPG" sem="3" code="" title="Total semester Credit" L="0" T="0" P="15" cred="10" />
+                    <SyallbusComp
+                        dep="CEPG" sem="3" code="" title="Total semester Credit" L="0" T="0" P="15" cred="10" />
 
                     {/* Semester 4 */}
-                    <SyallbusComp 
-                    dep="CEPG" sem="4" code="CE693" title="Seminar and Comprehensive Viva II" L="0" T="0" P="3" cred="2" />
-                    <SyallbusComp 
-                    dep="CEPG" sem="4" code="CE694" title="Dissertation" L="0" T="0" P="15" cred="10" />
+                    <SyallbusComp
+                        dep="CEPG" sem="4" code="CE693" title="Seminar and Comprehensive Viva II" L="0" T="0" P="3" cred="2" />
+                    <SyallbusComp
+                        dep="CEPG" sem="4" code="CE694" title="Dissertation" L="0" T="0" P="15" cred="10" />
                     <SyallbusComp dep="CEPG" sem="4" code="" title="Total semester Credit" L="0" T="0" P="18" cred="12" />
                     <SyallbusComp dep="CEPG" sem="" code="" title="Cumulative Total Credit" L="" T="" P="" cred="62" />
 
                     {/* Electives */}
-                    <SyallbusComp 
-                    dep="CEPG" sem=""
-                    code="CE664" 
-                    title="Water Resources System's Planning and Economic Analysis" 
-                    L="3" T="0" P="0"
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG"
-                    sem="" 
-                    code="CE665" 
-                    title="Optimization Techniques" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem=""
-                    code="CE666" 
-                    title="Unsteady Flows"
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem=""
-                    code="CE667"
-                    title="River Engineering" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG"
-                    sem="" 
-                    code="CE668" 
-                    title="Reservoir Operation and Planning" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="" 
-                    code="CE669" 
-                    title="River Pollution and Control" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem=""
-                    code="CE670" 
-                    title="Remote Sensing and GIS for Water Resources" 
-                    L="3" T="0" P="0"
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG"
-                    sem="" 
-                    code="CE671" 
-                    title="Hydro Power Engineering" 
-                    L="3" T="0" P="0"
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem=""
-                    code="CE672" 
-                    title="Irrigation Water Management" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG"
-                    sem="" 
-                    code="CE673"
-                    title="Advanced Land Drainage" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG"
-                    sem="" 
-                    code="CE674"
-                    title="Hydrodynamics"
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="" 
-                    code="CE675" 
-                    title="Floods and Droughts" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG"
-                    sem="" 
-                    code="CE676" 
-                    title="Design of Hydraulic Structures" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="" 
-                    code="CE677" 
-                    title="Contaminant Transport in Porous Media"
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG"
-                    sem=""
-                    code="CE678" 
-                    title="Finite Element Analysis" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
-                    <SyallbusComp 
-                    dep="CEPG" 
-                    sem="" 
-                    code="MA604" 
-                    title="Probability and Statistics" 
-                    L="3" T="0" P="0" 
-                    cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE664" title="Water Resources System's Planning and Economic Analysis" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE665" title="Optimization Techniques" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE666" title="Unsteady Flows" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE667" title="River Engineering" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE668" title="Reservoir Operation and Planning" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE669" title="River Pollution and Control" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE670" title="Remote Sensing and GIS for Water Resources" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE671" title="Hydro Power Engineering" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE672" title="Irrigation Water Management" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" sem="" code="CE673" title="Advanced Land Drainage" L="3" T="0" P="0" cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="" 
+                        code="CE674" 
+                        title="Hydrodynamics" 
+                        L="3" T="0" P="0" 
+                        cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem=""
+                         code="CE675" 
+                         title="Floods and Droughts" 
+                         L="3" T="0" P="0" 
+                         cred="3" />
+                    <SyallbusComp
+                        dep="CEPG" 
+                        sem="" 
+                        code="CE676"
+                         title="Design of Hydraulic Structures" 
+                         L="3" T="0" P="0" 
+                         cred="3" />
+                    <SyallbusComp
+                        dep="CEPG"
+                         sem="" 
+                         code="CE677"
+                          title="Contaminant Transport in Porous Media"
+                           L="3" T="0" P="0" 
+                           cred="3" />
+                    <SyallbusComp
+                        dep="CEPG"
+                         sem="" 
+                         code="CE678"
+                          title="Finite Element Analysis"
+                           L="3" T="0" P="0" 
+                           cred="3" />
+                    <SyallbusComp
+                        dep="CEPG"
+                         sem="" 
+                         code="MA604"
+                          title="Probability and Statistics" 
+                          L="3" T="0" P="0" 
+                          cred="3" />
 
-                  
+                </div>
                 </div>
             </div>
             {/* PhD  */}
             <div className={`mb-10 ${(phd == false)?"hidden":""}`}>
                 <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">PhD PROGRAM :-</div>
-                <div className="border grid grid-cols-12">
+                <div className=" overflow-x-auto">
+                <div className="border grid grid-cols-12 min-w-[1100px]">
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
                     <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Sem / Electives</div>
                     <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Course Code</div>
@@ -2410,6 +2371,7 @@ export default function Page(){
                         L={"3"} T={"0"} P={"0"}
                         cred={"3"}
                     />
+                </div>
                 </div>
             </div>
             {/* Dual PROGRAM  */}
