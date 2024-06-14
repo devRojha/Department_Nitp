@@ -38,7 +38,7 @@ export default function labs(){
                 alt="labs"
                 width={300}
                 height={500}
-                className="mt-6 lg:mt-0 mr-6 pl-6 lg:pl-0"
+                className="mt-6 lg:mt-0 mr-6 ml-6 lg:pl-0 rounded-lg bg-rose-200"
                 />
             </div>
             <div className="mb-10 flex flex-col lg:flex-row">
@@ -61,7 +61,7 @@ export default function labs(){
                 alt="labs"
                 width={300}
                 height={500}
-                className="mt-6 lg:mt-0 mr-6 pl-6 lg:pl-0"
+                className="mt-6 lg:mt-0 mr-6 ml-6 lg:pl-0 rounded-lg bg-rose-200"
                 />
             </div>
             <div className="mb-10 flex flex-col lg:flex-row justify-between">
@@ -82,7 +82,7 @@ export default function labs(){
                 alt="labs"
                 width={300}
                 height={500}
-                className="mt-6 lg:mt-0 pl-6 lg:pl-0 lg:mr-6  "
+                className="mt-6 lg:mt-0 ml-6 lg:pl-0 lg:mr-6 rounded-lg bg-rose-200  "
                 />
             </div>
             <div className="mb-10 flex flex-col lg:flex-row">
@@ -105,7 +105,7 @@ export default function labs(){
                 alt="labs"
                 width={300}
                 height={500}
-                className="mt-6 lg:mt-0 mr-6 pl-6 lg:pl-0"
+                className="mt-6 lg:mt-0 mr-6 ml-6 lg:pl-0 rounded-lg bg-rose-200"
                 />
             </div>
             <div className="mb-10 flex flex-col lg:flex-row">
