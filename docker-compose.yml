@@ -1,0 +1,12 @@
+
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: departmentNitp
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/usr/src/app/app
+      - ./components:/usr/src/app/components
