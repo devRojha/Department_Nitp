@@ -146,7 +146,7 @@ export default function EE() {
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/EE/labs')} Title={"LABS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/EE/syllabus')} Title={"SYLLABUS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/EE/activities')} Title={"ACTIVITIES"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/EE/achivments')} Title={"ACHIVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/EE/achivments')} Title={"ACHIEVMENTS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/EE/research')} Title={"RESEARCH HIGHLIGHT"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/EE/usefullLinks')} Title={"USEFULL LINKS"}/>
                    </div>

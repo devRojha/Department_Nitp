@@ -141,13 +141,13 @@ export default function Chem() {
                    </div>
                    {/* Navigation Button  */}
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/syllabus')} Title={"SYLLABUS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/activities')} Title={"ACTIVITIES"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/faculty')} Title={"FACULTY"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/labs')} Title={"LABS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/mission')} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/achivments')} Title={"ACHIVMENTS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/timeTable')} Title={"TIME TABLE"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/syllabus')} Title={"SYLLABUS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/activities')} Title={"ACTIVITIES"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/faculty')} Title={"FACULTY"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/labs')} Title={"LABS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/mission')} Title={"MISSION AND VISSION"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/achivments')} Title={"ACHIVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/timeTable')} Title={"TIME TABLE"}/>
                    </div>
                </div>
            </div>
