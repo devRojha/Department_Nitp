@@ -146,7 +146,7 @@ export default function ECE() {
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/faculty')} Title={"FACULTY"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/labs')} Title={"LABS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/mission')} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/achivments')} Title={"ACHIVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/achivments')} Title={"ACHIEVMENTS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/ECE/timeTable')} Title={"TIME TABLE"}/>
                    </div>
                </div>
