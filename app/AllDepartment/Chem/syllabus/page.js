@@ -51,7 +51,7 @@ function SyallbusComp2({ code, title, L, T, P, cred, url,titleH }) {
         </>
     )
 }
-function page(){
+function Page(){
     const [msc , setMsc] = useState(true);
     const [phd , setPhd] = useState(false);
     return (
@@ -167,4 +167,4 @@ function page(){
 
     )
 }
-export default page
+export default Page

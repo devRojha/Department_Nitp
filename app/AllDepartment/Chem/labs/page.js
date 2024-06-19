@@ -1,6 +1,6 @@
 'use client'
-import Image from 'next/image'
-import {useState,useEffect} from 'react';
+import Image from "next/image"
+import {useState,useEffect} from "react";
 
 function Carousel({children:pics,
     autoSlideInterval=3000,
@@ -38,7 +38,7 @@ function Carousel({children:pics,
     )
 }
 
-function page(){
+function Page(){
     var labUrl = [
         "https://web.nitp.ac.in/dept/chem/labs/tl_04.jpg",
         "https://web.nitp.ac.in/dept/chem/labs/tl_03.jpg",
@@ -153,4 +153,4 @@ function page(){
 
     )
 }
-export default page
+export default Page
