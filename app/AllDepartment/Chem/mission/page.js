@@ -1,22 +1,50 @@
+function Comp({content}){
+    return(
+        <div className="flex flex-col mt-8 lg:ml-10">
+            <ul>
+                {content.map((points,i)=>{
+                    return(
+                        <li key={i} className="list-disc ml-4 md:text-lg
+                        pb-2">
+                           {points}
+                        </li>
+                    )
+                })}
+            </ul>
+        </div>
+    )
+}
 
-
-function page(){
+function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-5 h-screen">  
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
-                        MISSION AND VISSION
+                        VISION
                     </p>
+                    <Comp
+                    content={['To serve the country through this institution by pursuing excellence in scientific and technical education and research',
+                        'To make this department a center of excellence for cutting edge fundamental and applied research.',
+                    ]}
+                    />
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
-                        Computer Science and Engineering
+                <div className="mt-10">
+                    <p className="text-red-900 text-3xl font-bold">
+                        MISSION
                     </p>
+                    <Comp
+                    content={[
+                        'To develop and promote innovations in Education at all levels, and generate fundamental and applied knowledge by engaging in scientific research by adopting suitable steps.',
+                        'To promote academic growth by offering state-of-the-art education in undergraduate, postgraduate and doctoral programmes.',
+                        'To pursue quality research output by developing necessary and adequate research facilities and undertaking collaborative / sponsored research projects.',
+                        'Maintaining and enhancing the diversity of students, staff, faculty and curricula.',
+                    ]}
+                    />
                 </div>
             </div>
         </div>
 
     )
 }
-export default page
+export default Page
