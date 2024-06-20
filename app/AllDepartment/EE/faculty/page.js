@@ -1,6 +1,6 @@
 "use client"
 import FacultyCards from '@/components/facultyCards';
-export default function faculty() {
+export default function Faculty() {
     const faculty=[
         {
             id:1,

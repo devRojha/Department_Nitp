@@ -137,14 +137,17 @@ export default function ME() {
                    {/* About */}
                    <div className="px-6 max-sm:px-2">
                        <div className="mb-4 text-2xl max-sm:text-lg font-semibold text-red-950">About</div>
-                       <div className="text-justify max-sm:text-[12px]">The Department of Mechanical Engineering was established in 1952 with B. Tech program during the era of Bihar College of Engineering (BCE) which is well-known since 1924 as the sixth oldest Engineering College in India. In 1978, M. Tech Program was started with specializations in &quot;Thermal Turbo Machinery&quot; and &quot;Refrigeration, Air Conditioning and Heat Transfer&quot;. The Bihar College of Engineering was converted to National Institute of Technology Patna in 2004. <button onClick={()=>router.push('/AllDepartment/ME/about')} className="text-blue-600">more..</button></div>
+                       <div className="text-justify max-sm:text-[12px]">The Department of Physics was established in 1924 and since then has been functioning as an important part of the institute. As of now, the Department has eight faculty members and four support staffs at different levels.
+
+At present, there are 12 students enrolled in Integrated M. Sc. And 8 students enrolled in the Ph. D. program.
+
+The Department is mentored by Prof. K.L.Chopra ,Ex-Director,IIT Kharagpur.</div>
                    </div>
                    {/* Navigation Button  */}
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Phy/syllabus')} Title={"SYLLABUS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Phy/activities')} Title={"ACTIVITIES"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Phy/faculty')} Title={"FACULTY"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Phy/labs')} Title={"LABS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Phy/mission')} Title={"MISSION AND VISSION"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Phy/achievements')} Title={"ACHIEVMENTS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Phy/timeTable')} Title={"TIME TABLE"}/>
