@@ -137,16 +137,15 @@ export default function Archi() {
                    {/* About */}
                    <div className="px-6 max-sm:px-2">
                        <div className="mb-4 text-2xl max-sm:text-lg font-semibold text-red-950">About</div>
-                       <div className="text-justify max-sm:text-[12px]">The Department of Computer Science and Engineering offers courses leading to Bachelor of Technology in Computer Science and Engineering. The department has a very good infrastructure and faculty to provide excellent education. The curriculum is updated regularly to keep up with the growing demands and the changing trends of the software industry and research laboratories. The department provides a wide range of courses. The prominent among them includes Data Structures, Design and Analysis of Algorithms, System Programming, Computer Networks, Data Mining and Warehousing, Distributed and Parallel Computing, Mobile and Wireless Computing, Real-time Systems, Cryptography, Genetic Algorithm and Artificial Intelligence. Apart from these, students are also offered a wide variety of electives.</div>
+                       <div className="text-justify max-sm:text-[12px]">The Department of Architecture was established in the Bihar College of Engineering (BCE) Patna in the year 1979 under Patna University. It was the ¬ first time that architectural education had commenced in Bihar. When BCE Patna was rechristened as National Institute of Technology Patna on 28th January 2004, it came under the control of Ministry of Human Resource Development (MHRD), Government of India. The Department of Architecture and Planning offers programmes in Bachelor of Architecture (B.Arch.), Master of Urban and Regional Planning (MURP), Master of Architecture (Sustainable Architecture) and Ph.D. in Architecture and Planning.<button onClick={()=>router.push('/AllDepartment/Archi/about')} className="text-blue-600">more..</button></div>
                    </div>
                    {/* Navigation Button  */}
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Archi/syllabus')} Title={"SYLLABUS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Archi/activities')} Title={"ACTIVITIES"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Archi/research')} Title={"RESEARCH HIGHLIGHTS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Archi/faculty')} Title={"FACULTY"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Archi/labs')} Title={"LABS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Archi/mission')} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Archi/achivments')} Title={"ACHIEVMENTS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Archi/timeTable')} Title={"TIME TABLE"}/>
                    </div>
                </div>

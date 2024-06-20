@@ -2,21 +2,21 @@
 
 function Page(){
     return (
-        <div className="bg-orange-50 flex flex-col p-5 items-center">  
-            <div className="flex flex-col md:ml-10 w-1/2">
-                <div className=''>
-                    <p className="text-red-900 text-3xl font-bold text-center">
+        <div className="bg-orange-50 flex flex-col p-5 ">  
+            <div className="flex flex-col md:ml-10 lg:w-1/2">
+                <div className='text-justify'>
+                    <p className="text-red-900 text-3xl font-bold">
                         VISION
                     </p>
-                    <p className="mt-6 md:text-lg text-center">
+                    <p className="mt-6 md:text-lg">
                     The vision of the Department is to achieve excellence in undergraduate and postgraduate education and research through a synergic combination and thereby lead to development of new knowledge.
                     </p>
                 </div>
-                <div className="mt-10">
-                    <p className="text-red-900 text-3xl font-bold text-center">
+                <div className="mt-10 text-justify">
+                    <p className="text-red-900 text-3xl font-bold">
                         MISSION
                     </p>
-                    <p className="mt-6 md:text-lg text-center">
+                    <p className="mt-6 md:text-lg">
                     To train the students to be lifelong learners who will contribute to the creation of new knowledge, new technology, and innovation through excellence in research in emerging areas and disciplines.
                     <br/><br/>
                     To educate students to be future leaders in science, technology, industry, education and other professions and succeed in a globally competitive environment.

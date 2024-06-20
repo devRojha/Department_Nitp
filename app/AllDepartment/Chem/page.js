@@ -146,7 +146,7 @@ export default function Chem() {
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/faculty')} Title={"FACULTY"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/labs')} Title={"LABS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/mission')} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/achivments')} Title={"ACHIVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/achivments')} Title={"ACHIEVMENTS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/timeTable')} Title={"TIME TABLE"}/>
                    </div>
                </div>

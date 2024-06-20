@@ -30,7 +30,8 @@ const ActComp=({title,date,venue,speaker,img,head,sno})=>{
             width={500}
             height={500}
             alt="images"
-            className='mt-4 w-[430px] md:w-[500px] lg:w-[600px] lg:mt-0'
+            quality={100}
+            className='mt-4 w-[430px] md:w-[500px] lg:w-[600px] lg:mt-0 rounded-lg bg-red-200'
             />:<div></div>}
         </div>
     </div>

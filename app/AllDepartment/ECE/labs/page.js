@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-function page(){
+function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
@@ -11,7 +11,7 @@ function page(){
                 </div>
 
 
-            <div className="mb-10 ">
+            <div className="mb-10 mt-8">
                 <div className="text-red-900 font-bold text-2xl max-sm:text-lg mb-8">Laboratory Facilities Available in the Department:-</div>
                 <div className=" grid grid-cols-2 max-md:grid-cols-1">
                     <ol className="list-decimal list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
@@ -138,4 +138,4 @@ function page(){
 
     )
 }
-export default page
+export default Page

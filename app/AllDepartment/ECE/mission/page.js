@@ -4,18 +4,18 @@ function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-5 h-screen">  
             <div className="flex flex-col md:ml-10">
-                <div>
+                <div className='lg:w-3/4'>
                     <p className="text-red-900 text-3xl font-bold">
                         VISION
                     </p>
-                    <p className="mt-6 md:text-lg">
+                    <p className="mt-6 md:text-lg text-justify">
                         To provide globally competitive and high quality human resource by preparing students with broad-based / specialized technical education at UG, PG, and Ph.D. levels.
                         To increase research intensity and become a leading product based innovation centre by significantly contributing towards development of new technologies.
                         To contribute to the country and the society at large by strengthening the interaction between academia and industries for addressing the need of the mankind.
                     </p>
                 </div>
-                <div className="mt-10">
-                    <p className="text-red-900 text-3xl font-bold">
+                <div className="mt-10 lg:w-3/4">
+                    <p className="text-red-900 text-3xl font-bold text-justify">
                         MISSION
                     </p>
                     <p className="mt-6 md:text-lg">

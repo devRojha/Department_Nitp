@@ -114,7 +114,7 @@ function Page(){
                 {resLab.map((img,i)=>(
                     
                     <Image src={img} alt='image' width={500}
-                    height={500} key={i} className='object-fill w-full rounded-lg'
+                    height={500} key={i} className='object-fill w-full rounded-lg bg-red-200'
                     />
                     
                 ))}
