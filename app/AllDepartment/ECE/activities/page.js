@@ -40,7 +40,7 @@ function Compo({project, pi, sponsor, amount,year }){
         </>
     )
 }
-function page(){
+function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-5 h-screen">  
             <div className="flex flex-col md:ml-10">
@@ -91,4 +91,4 @@ function page(){
 
     )
 }
-export default page
+export default Page
