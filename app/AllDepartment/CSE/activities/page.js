@@ -41,7 +41,7 @@ function Compo({body, area, faculty, amount,year }){
     )
 }
 
-function page(){
+function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
@@ -84,7 +84,7 @@ function page(){
                     Projects
                 </div>
                 <div className="mb-10 overflow-x-auto lg:mr-10">
-                    <div className="grid grid-cols-8 border min-w-[700px]">
+                    <div className="grid grid-cols-8 border min-w-[850px]">
                     {/* heading  */}
                         <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
                             Funding Body
@@ -151,6 +151,6 @@ function page(){
 
     )
 }
-export default page
+export default Page
 
 
