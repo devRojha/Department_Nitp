@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-function page(){
+function Page(){
     var labUrl = [
         "https://web.nitp.ac.in/dept/arch/labs/DSC_0686.jpg",
         "https://web.nitp.ac.in/dept/arch/labs/DSC_0680.jpg",
@@ -38,6 +38,7 @@ function page(){
                         and infrastructure of the Institute which are as per Council of Architecture 
                         norms. Besides these Department has enough spaces, which are available for the 
                         meet the requirements of all the faculty members, staff, office and students.
+                        </p>
                         <br/><br/>
                         Architecture Department, NIT Patna has well-equipped laboratories for the academic and research requirements of UG and PG students.
                         <ol className="mt-4 list-decimal ml-4">
@@ -51,7 +52,7 @@ function page(){
                                 Computer Lab
                             </li>
                         </ol>
-                        </p>
+                        
 
                     </div>
                 </div>
@@ -67,4 +68,4 @@ function page(){
 
     )
 }
-export default page
+export default Page
