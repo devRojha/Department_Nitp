@@ -29,7 +29,7 @@ function Page(){
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
-                        ACHIEVEMENTS
+                        ACHIEVMENTS
                     </p>
                 </div>
                 <div className="mt-10">
@@ -60,6 +60,7 @@ function Page(){
                         </div>
                         {/* grid  */}
                         <Compo
+                        sno={'1.'}
                         project={'Development of Signal Processing algorithms for remote detection of humans trapped under Debris in disaster affected areas using RF sensing of cardiopulmonary motion'}
                         pi={'Dr. G. Pradhan (PI), Dr. B. Gupta (Co-PI), Dr. P. Kishore Kumar (Co-PI)'}
                         sponsor={'DeitY Under SMDP'}
@@ -68,48 +69,7 @@ function Page(){
                         />
                     </div>
                 </div>
-                <div className="mt-10">
-                    <p className="text-red-900 text-xl font-semibold">
-                    Patents:
-                    </p>
-                </div>
-                <ol className='list-decimal mt-4 ml-4'>
-                    <li>
-                        <p>
-                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, P. K. Sukul and A. Mondal.
-                       <span className='font-semibold'>“Superhydrophobic Photostable Dye Coated Magnetic Nano Materials for Separating Contaminated Oil”.</span>
-                       <span className='text-blue-800'> Indian Patent. 2017. Patent No: 332217 (Granted).</span>
-                       </p>
-                    </li>
-                    <li>
-                        <p>
-                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, Shibu Naskar, S. Mal, T. Das and P. Kumar. 
-                       <span className='font-semibold'>“An Improved Batch-flow photo-reactor”.</span>
-                       <span className='text-blue-800'> Indian Patent. 2022. Patent no: 412866 (Granted).</span>
-                       </p>
-                    </li>
-                    <li>
-                        <p>
-                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, P. K. Sukul and A. Mondal.
-                       <span className='font-semibold'>“Superhydrophobic Photostable Dye Coated Magnetic Nano Materials for Separating Contaminated Oil”.</span>
-                       <span className='text-blue-800'> Indian Patent. 2017. Patent No: 332217 (Granted).</span>
-                       </p>
-                    </li>
-                    <li>
-                        <p>
-                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, P. K. Sukul and A. Mondal.
-                       <span className='font-semibold'>“Superhydrophobic Photostable Dye Coated Magnetic Nano Materials for Separating Contaminated Oil”.</span>
-                       <span className='text-blue-800'> Indian Patent. 2017. Patent No: 332217 (Granted).</span>
-                       </p>
-                    </li>
-                    <li>
-                        <p>
-                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, P. K. Sukul and A. Mondal.
-                       <span className='font-semibold'>“Superhydrophobic Photostable Dye Coated Magnetic Nano Materials for Separating Contaminated Oil”.</span>
-                       <span className='text-blue-800'> Indian Patent. 2017. Patent No: 332217 (Granted).</span>
-                       </p>
-                    </li>
-                </ol>
+
             </div>
         </div>
 
