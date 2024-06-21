@@ -20,6 +20,7 @@ export default function Home() {
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/IMSc");}}department={"IMSc Math"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Math");}}department={"Mathmatics And Computing"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/ME");}}department={"Mechanical"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Phy");}}department={"Physics"}/>
           </div>                      
       </div>
   </div>
