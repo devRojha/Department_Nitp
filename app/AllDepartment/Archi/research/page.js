@@ -18,13 +18,13 @@ function Page(){
                     </p>
                     <p className="mt-6 md:text-lg">
                     To generate intellectual capital by engaging in cutting-edge research and to promote academic growth by offering state-of-the-art undergraduate, postgraduate and doctoral programmes.
-                    <br/><br/>
+                    <br/>
                     To develop the department as regional center of knowledge and information in the field of Architecture and Planning.
-                    <br/><br/>
+                    <br/>
                     To identify, based on an informed perception of local, regional national and global needs, areas of specialization upon which the department can concentrate.
-                    <br/><br/>
+                    <br/>
                     To undertake joint initiatives which offer opportunities for long-term interaction with academia, industry, government and society.
-                    <br/><br/>
+                    <br/>
                     To develop human potential to its fullest extent so that intellectually capable and imaginatively gifted leaders can emerge in a range of ethical professions.
                     </p>
                 </div>
