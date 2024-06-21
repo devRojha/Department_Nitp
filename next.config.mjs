@@ -7,6 +7,9 @@ const nextConfig = {
             },
             {
                 hostname:'web.nitp.ac.in'
+            },
+            {
+                hostname:'drive.google.com'
             }
         ]
     }
