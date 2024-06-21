@@ -146,7 +146,7 @@ export default function CSE() {
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/faculty')} Title={"FACULTY"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/labs')} Title={"LABS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/mission')} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/achivments')} Title={"ACHIVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/achivments')} Title={"ACHIEVMENTS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/CSE/timeTable')} Title={"TIME TABLE"}/>
                    </div>
                </div>
