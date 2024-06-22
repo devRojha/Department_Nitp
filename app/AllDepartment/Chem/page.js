@@ -104,14 +104,14 @@ export default function Chem() {
                {/* HOD */}
                <div className="h-[500px] max-sm:h-[400px] flex justify-end py-10 col-span-3">
                    <div className="bg-amber-50 rounded-lg shadow-lg shadow-slate-600 w-full py-8 px-8 grid grid-cols-2">
-                       <Image src={"https://lh3.googleusercontent.com/d/1f2bFo1KIY1xF6MOmTAjM3gNYZcUySBaG=w320?authuser=0"} width={700} height={1000} alt="Loading.." className="col-span-1  border rounded-lg bg-rose-200 h-full" />
+                       <Image src={"https://drive.google.com/thumbnail?authuser=0&sz=w320&id=1JDx-0LS5pxsMcYpcyAFBbq3If3Kfubcg"} width={700} height={1000} alt="Loading.." className="col-span-1  border rounded-lg bg-rose-200 h-full overflow-hidden" />
                        <div className="col-span-1 flex justify-center">
                            <div className="flex flex-col max-sm:space-y-3 max-sm:justify-normal justify-between ml-4">
                                <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-green-800 text-center">Head of Department</div>
-                               <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-red-900 text-center">Prof. Maheshwari Prashad Shingh</div>
+                               <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-red-900 text-center">Dr. Subrata Das</div>
                                <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-slate-600 text-center">Professor</div>
-                               <div className="text-[15px] max-sm:text-[8px] max-md:text-[10px] text-black text-center">Email: head.cs@nitp.ac.in</div>
-                               <div className="text-[10px] max-sm:text-[8px] max-md:text-sm text-black text-center">Extn: +91-612-(2371715/ 2715/ 2371929/ 2370419/ 2370843/ 2371930) 201</div>
+                               <div className="text-[15px] max-sm:text-[8px] max-md:text-[10px] text-black text-center">Email: head.ch@nitp.ac.in</div>
+                               <div className="text-[10px] max-sm:text-[8px] max-md:text-sm text-black text-center"></div>
                            </div>
                        </div>
                    </div>
@@ -137,7 +137,7 @@ export default function Chem() {
                    {/* About */}
                    <div className="px-6 max-sm:px-2">
                        <div className="mb-4 text-2xl max-sm:text-lg font-semibold text-red-950">About</div>
-                       <div className="text-justify max-sm:text-[12px]">The Department of Computer Science and Engineering offers courses leading to Bachelor of Technology in Computer Science and Engineering. The department has a very good infrastructure and faculty to provide excellent education. The curriculum is updated regularly to keep up with the growing demands and the changing trends of the software industry and research laboratories. The department provides a wide range of courses. The prominent among them includes Data Structures, Design and Analysis of Algorithms, System Programming, Computer Networks, Data Mining and Warehousing, Distributed and Parallel Computing, Mobile and Wireless Computing, Real-time Systems, Cryptography, Genetic Algorithm and Artificial Intelligence. Apart from these, students are also offered a wide variety of electives.</div>
+                       <div className="text-justify max-sm:text-[12px]">The Chemistry department was established in 1924, at the same time the institute was founded. The Department has expanded significantly since 2014 and offers several compulsory and elective courses to B.Tech. and B.Arch. students of the Institute in 1st, 2nd and 3rd years of the UG and UG-PG dual degree programs. The department has offered a UG-PG 5-year Integrated M.Sc. in Chemistry degree from 2015 where the curriculum offers students an excellent theoretical foundation in both traditional as well as contemporary areas of chemistry along with extensive hands on training in experiments. <button onClick={()=>router.push('/AllDepartment/Chem/about')} className="text-blue-600">more..</button></div>
                    </div>
                    {/* Navigation Button  */}
                    <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
@@ -146,8 +146,8 @@ export default function Chem() {
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/faculty')} Title={"FACULTY"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/labs')} Title={"LABS"}/>
                        <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/mission')} Title={"MISSION AND VISSION"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/achivments')} Title={"ACHIVMENTS"}/>
-                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/timeTable')} Title={"TIME TABLE"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/achivments')} Title={"ACHIEVMENTS"}/>
+                       <DepartmentNavigationButton onClick={()=>router.push('/AllDepartment/Chem/more')} Title={"MORE INFO"}/>
                    </div>
                </div>
            </div>
