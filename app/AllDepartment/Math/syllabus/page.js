@@ -78,12 +78,6 @@ export default function Page() {
           UG PROGRAM :-
         </div>
         <div className="border grid grid-cols-12">
-          <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
-            Dept.
-          </div>
-          <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
-            Sem / Electives
-          </div>
           <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
             Course Code
           </div>
@@ -102,6 +96,12 @@ export default function Page() {
           <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
             Credits
           </div>
+          <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            Dept.
+          </div>
+          <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            Type
+          </div>
           <SyllabusComp
             dep={'HSS'}
             sem={''}
@@ -111,6 +111,7 @@ export default function Page() {
             T={'1'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'HSS'}
@@ -121,6 +122,7 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -131,6 +133,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'PH'}
@@ -141,6 +144,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'PH'}
@@ -151,6 +155,7 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'CSE'}
@@ -161,6 +166,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'CSE'}
@@ -171,6 +177,7 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'CE'}
@@ -181,6 +188,7 @@ export default function Page() {
             T={'1'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'ME'}
@@ -191,6 +199,7 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'MA/SAC'}
@@ -201,9 +210,10 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
            <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total Credit'}
@@ -211,6 +221,7 @@ export default function Page() {
             T={'2'}
             P={'15'}
             cred={'20'}
+            type={'-'}
           />
 
           <SyllabusComp
@@ -222,6 +233,7 @@ export default function Page() {
             T={'1'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -232,6 +244,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'CH'}
@@ -242,6 +255,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'CH'}
@@ -252,6 +266,7 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'ME'}
@@ -262,6 +277,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'2'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'ME'}
@@ -272,6 +288,7 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -282,6 +299,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'PH'}
@@ -292,6 +310,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'PH'}
@@ -302,6 +321,7 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'MA/IC/SAC'}
@@ -312,9 +332,10 @@ export default function Page() {
             T={'0'}
             P={'3'}
             cred={'1'}
+            type={'Lab'}
           />
             <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total credit'}
@@ -322,6 +343,7 @@ export default function Page() {
             T={'1'}
             P={'12'}
             cred={'21'}
+            type={'-'}
           />
 
 
@@ -335,6 +357,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA3701.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -346,6 +369,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA3702.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -357,6 +381,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA3703.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'CSE'}
@@ -368,6 +393,7 @@ export default function Page() {
             P={'0'}
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/CS3701.docx'}
+            type={'Foundation'}
           />
           <SyllabusComp
             dep={'CSE'}
@@ -379,6 +405,7 @@ export default function Page() {
             P={'3'}
             cred={'1'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/CSL3701.docx'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'HSS'}
@@ -390,9 +417,10 @@ export default function Page() {
             P={'0'}
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/HS3701.docx'}
+            type={'Foundation'}
           />
            <SyllabusComp
-            dep={'MA'}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total credit'}
@@ -400,6 +428,7 @@ export default function Page() {
             T={'3'}
             P={'3'}
             cred={'19'}
+            type={'-'}
            
           />
           <SyllabusComp
@@ -412,6 +441,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA4701.docx'}
+            type={'Core'}
           />
 
           <SyllabusComp
@@ -424,6 +454,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA4702.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -435,6 +466,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA4703.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -446,6 +478,7 @@ export default function Page() {
             P={'0'}
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA4704.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -457,6 +490,7 @@ export default function Page() {
             P={'3'}
             cred={'1'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MAL4701.docx'}
+            type={'Lab'}
           />
           <SyllabusComp
             dep={'Other'}
@@ -468,9 +502,10 @@ export default function Page() {
             P={'0'}
             cred={'3'}
             url={''}
+            type={'OE'}
           />
              <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total Credit'}
@@ -479,6 +514,7 @@ export default function Page() {
             P={'3'}
             cred={'19'}
             url={''}
+            type={'='}
           />
 
 
@@ -492,6 +528,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MAL4701.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -503,6 +540,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA5702.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -514,6 +552,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA5703.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -525,6 +564,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA5704.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -536,6 +576,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA5705.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -547,10 +588,11 @@ export default function Page() {
             P={'3'}
             cred={'1'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA5705.docx'}
+            type={'Lab'}
           />
           
           <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total credit'}
@@ -559,6 +601,7 @@ export default function Page() {
             P={'3'}
             cred={'21'}
             url={''}
+            type={'-'}
           />
 
           <SyllabusComp
@@ -571,6 +614,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA6701.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -582,6 +626,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA6702.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -592,6 +637,7 @@ export default function Page() {
             T={'0'}
             P={'6'}
             cred={'2'}
+            type={'Seminar'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -602,6 +648,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Dept. Elective'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -612,6 +659,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Dept. Elective'}
           />
           <SyllabusComp
             dep={'Other'}
@@ -622,9 +670,10 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'OE'}
           />
             <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total credit'}
@@ -632,6 +681,7 @@ export default function Page() {
             T={'2'}
             P={'6'}
             cred={'19'}
+            type={'-'}
           />
 
           <SyllabusComp
@@ -643,6 +693,7 @@ export default function Page() {
             T={'1'}
             P={'0'}
             cred={'4'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -654,6 +705,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA7702.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -665,6 +717,7 @@ export default function Page() {
             P={'3'}
             cred={'1'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MAL7701.docx'}
+            type={'Lab'}
             
           />
           <SyllabusComp
@@ -676,6 +729,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Dept. Elective'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -686,6 +740,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Dept. Elective'}
           />
           <SyllabusComp
             dep={'Other'}
@@ -696,9 +751,10 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'OE'}
           />
             <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total credit'}
@@ -706,6 +762,7 @@ export default function Page() {
             T={'2'}
             P={'3'}
             cred={'18'}
+            type={'-'}
           />
 
 
@@ -719,6 +776,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA8701.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -730,6 +788,7 @@ export default function Page() {
             P={'0'}
             cred={'4'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA8702.docx'}
+            type={'Core'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -740,6 +799,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Dept. Elective'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -750,6 +810,7 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'Dept. Elective'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -760,6 +821,7 @@ export default function Page() {
             T={'0'}
             P={'6'}
             cred={'4'}
+            type={'Project'}
           />
           <SyllabusComp
             dep={'Other'}
@@ -770,9 +832,10 @@ export default function Page() {
             T={'0'}
             P={'0'}
             cred={'3'}
+            type={'OE'}
           />
     <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total credit'}
@@ -780,6 +843,7 @@ export default function Page() {
             T={'2'}
             P={'6'}
             cred={'21'}
+            type={'-'}
           />
 
           <SyllabusComp
@@ -791,6 +855,7 @@ export default function Page() {
             T={'3'}
             P={'0'}
             cred={'3'}
+            type={'Online'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -801,6 +866,7 @@ export default function Page() {
             T={'0'}
             P={'6'}
             cred={'2'}
+            type={'Seminar'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -811,9 +877,10 @@ export default function Page() {
             T={'0'}
             P={'48'}
             cred={'16'}
+            type={'Project'}
           />
     <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total credit'}
@@ -821,10 +888,11 @@ export default function Page() {
             T={'3'}
             P={'54'}
             cred={'21'}
+            type={'-'}
           />
 
           <SyllabusComp
-            dep={'Online'}
+            dep={'-'}
             sem={''}
             code={'****'}
             title={'Electives/Open Elective/Swayam/MOOC course'}
@@ -832,6 +900,7 @@ export default function Page() {
             T={'3'}
             P={'0'}
             cred={'3'}
+            type={'Online'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -842,6 +911,7 @@ export default function Page() {
             T={'0'}
             P={'6'}
             cred={'2'}
+            type={'Seminar'}
           />
           <SyllabusComp
             dep={'MA'}
@@ -852,9 +922,10 @@ export default function Page() {
             T={'0'}
             P={'48'}
             cred={'16'}
+            type={'Project'}
           />
              <SyllabusComp
-            dep={''}
+            dep={'-'}
             sem={''}
             code={''}
             title={'Total credit'}
@@ -862,14 +933,37 @@ export default function Page() {
             T={'3'}
             P={'54'}
             cred={'21'}
+            type={'-'}
           />
            </div>
 
           <div className="text-red-900 w-[170px]  font-bold text-3xl max-sm:text-2xl mb-8 mt-2">
             Electives -
           </div>
-          <div className="border grid grid-cols-12">
-          <SyllabusComp
+          <div className="border grid grid-cols-10">
+          <div className="col-span-2 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            Course Code
+          </div>
+          <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            Subject
+          </div>
+          <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            L
+          </div>
+          <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            T
+          </div>
+          <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            P
+          </div>
+          <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            Credits
+          </div>
+          {/* <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
+            Dept.
+          </div> */}
+         
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*711'}
@@ -880,7 +974,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_711.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*712'}
@@ -891,7 +985,7 @@ export default function Page() {
             cred={'3'}
             url={''}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*713'}
@@ -902,7 +996,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_713.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*714'}
@@ -913,7 +1007,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_714.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*715'}
@@ -924,7 +1018,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_715.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*716'}
@@ -935,7 +1029,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_716.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*717'}
@@ -946,7 +1040,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_717.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*718'}
@@ -957,7 +1051,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_718.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*719'}
@@ -968,7 +1062,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_718.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*720'}
@@ -979,7 +1073,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_720.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*721'}
@@ -990,7 +1084,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_721.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*722'}
@@ -1001,7 +1095,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_722.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*723'}
@@ -1012,7 +1106,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_723.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*724'}
@@ -1023,7 +1117,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_724.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*725'}
@@ -1034,7 +1128,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_725.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*726'}
@@ -1045,7 +1139,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_726.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*727'}
@@ -1056,7 +1150,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_727.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*728'}
@@ -1067,7 +1161,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_728.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*729'}
@@ -1078,7 +1172,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_729.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*730'}
@@ -1089,7 +1183,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_730.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*731'}
@@ -1100,7 +1194,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_731.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*732'}
@@ -1111,7 +1205,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_732.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*733'}
@@ -1122,7 +1216,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_733.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*734'}
@@ -1133,7 +1227,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_734.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*735'}
@@ -1144,7 +1238,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_735.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*736'}
@@ -1155,7 +1249,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_736.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'MA'}
             sem={''}
             code={'MA*737'}
@@ -1166,7 +1260,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/MA_737.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'OE'}
             sem={''}
             code={'OE0701'}
@@ -1177,7 +1271,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/OE0701.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'OE'}
             sem={''}
             code={'OE0702'}
@@ -1188,7 +1282,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/OE0702.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'OE'}
             sem={''}
             code={'OE0703'}
@@ -1199,7 +1293,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/OE0703.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'OE'}
             sem={''}
             code={'OE0704'}
@@ -1210,7 +1304,7 @@ export default function Page() {
             cred={'3'}
              url={'https://web.nitp.ac.in/dept/math/syllabus/OE0704.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'OE'}
             sem={''}
             code={'OE0705'}
@@ -1221,7 +1315,7 @@ export default function Page() {
             cred={'3'}
             url={'https://web.nitp.ac.in/dept/math/syllabus/OE0705.docx'}
           />
-          <SyllabusComp
+          <SyllabusCompe
             dep={'OE'}
             sem={''}
             code={'OE0706'}
@@ -1347,15 +1441,9 @@ export default function Page() {
   )
 }
 
-function SyllabusComp({ dep, sem, code, title, L, T, P, cred, url }) {
+function SyllabusComp({ dep, sem, code, title, L, T, P, cred, url ,type}) {
   return (
     <>
-      <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
-        {dep}
-      </div>
-      <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
-        {sem}
-      </div>
       <div className="col-span-2 border border-black flex flex-col justify-center pl-4 py-2">
         {code}
       </div>
@@ -1377,6 +1465,44 @@ function SyllabusComp({ dep, sem, code, title, L, T, P, cred, url }) {
       <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
         {cred}
       </div>
+      <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
+        {dep}
+      </div>
+      <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
+        {type}
+      </div>
+    </>
+  )
+}
+
+function SyllabusCompe({  code, title, L, T, P, cred, url }) {
+  return (
+    <>
+      <div className="col-span-2 border border-black flex flex-col justify-center pl-4 py-2">
+        {code}
+      </div>
+      <a
+        href={url}
+        className="col-span-4 border border-black flex flex-col justify-center pl-4 py-2 cursor-pointer"
+      >
+        {title}
+      </a>
+      <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
+        {L}
+      </div>
+      <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
+        {T}
+      </div>
+      <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
+        {P}
+      </div>
+      <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
+        {cred}
+      </div>
+      {/* <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">
+        {dep}
+      </div> */}
+     
     </>
   )
 }
