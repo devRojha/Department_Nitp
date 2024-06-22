@@ -945,7 +945,7 @@ export default function Page() {
             Course Code
           </div>
           <div className="col-span-4 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
-            Course Title
+            Subject
           </div>
           <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">
             L
