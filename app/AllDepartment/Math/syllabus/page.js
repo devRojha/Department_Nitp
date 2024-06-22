@@ -32,7 +32,7 @@ export default function Page() {
           className={`border border-black rounded ${ug ? 'text-white bg-red-900' : 'text-red-900'
             } px-2`}
         >
-          UG Course
+          IMsc. Courses
         </button>
         {/* <button
           onClick={() => {
@@ -57,7 +57,7 @@ export default function Page() {
           className={`border border-black rounded ${phd ? 'text-white bg-red-900' : 'text-red-900'
             } px-2`}
         >
-          PhD Course
+          PhD Courses
         </button>
         <button
           onClick={() => {
@@ -69,7 +69,7 @@ export default function Page() {
           className={`border border-black rounded ${dual ? 'text-white bg-red-900' : 'text-red-900'
             } px-2`}
         >
-          Dual Degree
+          Dual Degree(B.tech+M.tech)
         </button>
       </div>
       {/* UG PROGRAM */}
