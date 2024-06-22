@@ -32,7 +32,7 @@ export default function Page() {
           className={`border border-black rounded ${ug ? 'text-white bg-red-900' : 'text-red-900'
             } px-2`}
         >
-          IMsc. Courses
+          IMSc. Courses
         </button>
         {/* <button
           onClick={() => {
