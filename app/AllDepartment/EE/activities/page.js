@@ -1,3 +1,4 @@
+import BackDepartment from "../../../../components/BackDepartment";
 
 
 export default function activities(){
@@ -11,9 +12,11 @@ export default function activities(){
                 </div>
                 <div className="mt-2">
                     <p className="text-gray-500 text-xl font-semibold">
-                        Computer Science and Engineering
+                        Electrical and Engineering
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/EE"}/>
+
             </div>
         </div>
 

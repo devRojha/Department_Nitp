@@ -1,5 +1,6 @@
 "use client"
 import FacultyCards from '@/components/facultyCards';
+import BackDepartment from '../../../../components/BackDepartment';
 export default function faculty() {
     const faculty=[
         {
@@ -79,6 +80,7 @@ export default function faculty() {
                     ELECTRICAL ENGINEERING
                 </p>
             </div>
+            <BackDepartment navigate={"/AllDepartment/EE"}/>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5
         justify-items-center mt-16 ml-5 mr-5 gap-10 ">

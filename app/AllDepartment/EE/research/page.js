@@ -1,3 +1,4 @@
+import BackDepartment from "../../../../components/BackDepartment";
 
 
 export default function research(){
@@ -14,6 +15,7 @@ export default function research(){
                         ELECTRICAL ENGINEERING
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/EE"}/>
             </div>
         </div>
 

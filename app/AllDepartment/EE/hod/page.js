@@ -1,4 +1,5 @@
 import Image from "next/image"
+import BackDepartment from "../../../../components/BackDepartment"
 
 function Page(){
     return (
@@ -14,6 +15,7 @@ function Page(){
                         ELECTRICAL ENGINEERING
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/EE"}/>
             </div>
             {/* section 1 */}
             <div className="w-full grid grid-cols-5 border shadow-lg shadow-slate-500 h-[60%]">
