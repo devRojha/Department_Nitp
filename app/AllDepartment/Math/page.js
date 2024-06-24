@@ -108,8 +108,9 @@ export default function Math() {
             height={1000}
           />
         </div>
+
         {/* HOD */}
-        <div className="h-[500px] max-sm:h-[400px] flex justify-end py-10 col-span-3">
+        {/* <div className="h-[500px] max-sm:h-[400px] flex justify-end py-10 col-span-3">
           <div className="bg-amber-50 rounded-lg shadow-lg shadow-slate-600 w-full py-8 px-8 grid grid-cols-2">
             <Image
               src="https://lh3.googleusercontent.com/d/1-TK7XcNCqXlnNON5BWASENxjYXsw_ouB=w320?authuser=0"
@@ -140,74 +141,80 @@ export default function Math() {
               </div>
             </div>
           </div>
+        </div> */}
+
+        {/* Notice  */}
+        <div className="h-[500px] py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
+          <div className="bg-white overflow-hidden rounded-lg shadow-lg shadow-slate-600 px-2 ">
+            <div className="flex justify-between text-lg font-semibold text-slate-500">
+              <div>Important Notice</div>
+              <button className="hover:text-blue-500">View All</button>
+            </div>
+            <div className="overflow-hidden space-y-2">
+              {Notices.map((notice, id) => {
+                return (
+                  <DepartmentNotify
+                    key={id}
+                    title={notice.notice}
+                    fun={notice.fun}
+                  />
+                )
+              })}
+            </div>
+          </div>
         </div>
       </div>
       {/* Section 2 */}
-      <div className="grid grid-cols-6 max-md:grid-cols-1">
-        {/* Notice  */}
-        <div className="bg-white px-2 py-4 h-[600px] rounded-lg shadow-lg shadow-slate-600 col-span-2 max-lg:col-span-3 flex flex-col max-md:mb-10">
-          <div className="mb-6 flex justify-between text-lg font-semibold text-slate-500">
-            <div>Important Notice</div>
-            <button className="hover:text-blue-500">View All</button>
+      <div className="grid grid-cols-2 max-md:grid-cols-1">
+        {/* About */}
+        <div className="px-6 max-sm:px-2 ">
+          <div className="mb-4 text-2xl max-sm:text-lg font-semibold text-red-950">
+            About
           </div>
-          <div className="overflow-hidden space-y-2">
-            {Notices.map((notice, id) => {
-              return (
-                <DepartmentNotify
-                  key={id}
-                  title={notice.notice}
-                  fun={notice.fun}
-                />
-              )
-            })}
+          <div className="text-justify max-sm:text-[12px]">
+            The Department of Mathematics was established in 1924 and department
+            offer several courses that support other engineering departments.
+            Recently a new program Integrated M. Sc. in Mathematics is started
+            and running successfully from the academic year 2015-2016. Current
+            faculty strength of the department is nine and they are experienced
+            in teaching and research in several branches of Mathematics.
+            Department of Mathematics is one of the backbone of the Institution
+            as it is an essential department for engineering courses up to Ph.D
+            level.
           </div>
         </div>
-        <div className="col-span-4 max-lg:col-span-3 flex flex-col justify-between ml-2">
-          {/* About */}
-          <div className="px-6 max-sm:px-2 mb-2">
-            {' '}
-            <div className="mb-4 text-2xl max-sm:text-lg font-semibold text-red-950">
-              {' '}
-              About
-            </div>
-            <div className="text-justify max-sm:text-[12px]">
-              The Department of Mathematics was established in 1924 and
-              department offer several courses that support other engineering
-              departments. Recently a new program Integrated M. Sc. in
-              Mathematics is started and running successfully from the academic
-              year 2015-2016. Current faculty strength of the department is nine
-              and they are experienced in teaching and research in several
-              branches of Mathematics. Department of Mathematics is one of the
-              backbone of the Institution as it is an essential department for
-              engineering courses up to Ph.D level.
-            </div>
-          </div>
-          {/* Navigation Button */}
-          <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-3">
-            {' '}
-            <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/Math/mission')}
-              Title={'MISSION AND VISSION'}
-            />
-            <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/Math/faculty')}
-              Title={'FACULTY'}
-            />
-            <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/Math/syllabus')}
-              Title={'SYLLABUS'}
-            />
-            <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/Math/activities')}
-              Title={'ACTIVITIES'}
-            />
-            <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/Math/research')}
-              Title={'RESEARCH HIGHLIGHTS'}
-            />
-          </div>
+        {/* Navigation Button  */}
+        <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/hod')}
+            Title={'HOD Info'}
+          />
+
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/mission')}
+            Title={'MISSION AND VISSION'}
+          />
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/faculty')}
+            Title={'FACULTY'}
+          />
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/syllabus')}
+            Title={'SYLLABUS'}
+          />
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/activities')}
+            Title={'ACTIVITIES'}
+          />
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/research')}
+            Title={'RESEARCH HIGHLIGHTS'}
+          />
         </div>
       </div>
     </div>
   )
 }
+
+
+
