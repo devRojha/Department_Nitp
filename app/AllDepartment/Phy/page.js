@@ -144,8 +144,7 @@ export default function ME() {
               now, the Department has eight faculty members and four support
               staffs at different levels. At present, there are 12 students
               enrolled in Integrated M. Sc. And 8 students enrolled in the Ph.
-              D. program. The Department is mentored by Prof. K.L.Chopra
-              ,Ex-Director,IIT Kharagpur.
+              D. program.The Department is mentored by Prof. K.L.Chopra, Ex-Director, IIT Kharagpur.
             </div>
           </div>
           {/* Navigation Button  */}
@@ -172,7 +171,7 @@ export default function ME() {
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/Phy/achievements')}
-              Title={'ACHIEVMENTS'}
+              Title={'ACHIEVEMENTS'}
             />
           </div>
         </div>

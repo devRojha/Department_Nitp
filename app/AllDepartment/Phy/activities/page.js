@@ -6,19 +6,19 @@ function Compo({project, pi, sponsor, amount,year,sno }){
                 {sno}
             </div>
             <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
-                {pi}
-            </div>
-            <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
                 {project}
             </div>
             <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
-                {year}
-            </div>
-            <div className="col-span-1 border border-black pl-4 py-2 flex flex-col justify-center">
-                {amount}
+                {pi}
             </div>
             <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
                 {sponsor}
+            </div>
+            <div className="col-span-1 border border-black pl-4 py-2 flex flex-col justify-center">
+                {year}
+            </div>
+            <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
+                {amount}
             </div>
         </>
     )
@@ -29,7 +29,7 @@ function Page(){
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
-                        ACHIEVMENTS
+                        ACTIVITIES
                     </p>
                 </div>
                 <div className="mt-10">
@@ -44,19 +44,19 @@ function Page(){
                             Sr. No.
                         </div>
                         <div className=" col-span-2 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
-                            Name of the PI
+                            Name of the Project
                         </div>
                         <div className="  col-span-2 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
-                            Title of the Project
+                            Name of the faculty
                         </div>
                         <div className="  col-span-2 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
-                        Project No./ Time Period
+                        Major funding agency
                         </div>
-                        <div className=" col-span-1 border border-black pl-2 py-2 flex flex-col justify-start text-red-900 font-semibold">
-                            Sanctioned Amount(in lakh)
+                        <div className="col-span-1 border border-black pl-2 py-2 flex flex-col justify-center text-red-900 font-semibold pr-2">
+                            Completed / Ongoing
                         </div>
                         <div className=" col-span-2 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
-                            Funding Agency
+                            Grant Sanctioned(INR in Lakhs)
                         </div>
                         {/* grid  */}
                         <Compo
