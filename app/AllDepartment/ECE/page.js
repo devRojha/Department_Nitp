@@ -183,7 +183,7 @@ export default function ECE() {
           />
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/ECE/achivments')}
-            Title={'ACHIEVMENTS'}
+            Title={'ACHIEVEMENTS'}
           />
         </div>
       </div>
