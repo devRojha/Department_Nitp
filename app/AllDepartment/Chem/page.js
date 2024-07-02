@@ -187,7 +187,7 @@ export default function Chem() {
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/Chem/achivments')}
-              Title={'ACHIEVMENTS'}
+              Title={'ACHIEVEMENTS'}
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/Chem/more')}

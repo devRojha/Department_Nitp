@@ -5858,7 +5858,7 @@ export default function Page() {
 function SyllabusComp({ dep, sem, code, title, L, T, P, cred, url }) {
     return (
         <>
-            <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{dep}</div>
+            <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2 overflow-auto">{dep}</div>
             <div className="col-span-1 border border-black flex flex-col justify-center pl-4 py-2">{sem}</div>
             <div className="col-span-2 border border-black flex flex-col justify-center pl-4 py-2">{code}</div>
             <a href={url} className="col-span-4 border border-black flex flex-col justify-center pl-4 py-2 cursor-pointer">{title}</a>
