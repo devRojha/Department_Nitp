@@ -183,7 +183,7 @@ export default function CSE() {
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CSE/achivments')}
-              Title={'ACHIEVMENTS'}
+              Title={'ACHIEVEMENTS'}
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CSE/timeTable')}

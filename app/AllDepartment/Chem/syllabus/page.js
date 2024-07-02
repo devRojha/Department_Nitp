@@ -76,7 +76,7 @@ function Page() {
                 ]}
             />
             <div className="mt-6">
-                <div className="mb-10 flex space-x-1 max-sm:text-[10px]">
+                <div className="mb-10 flex space-x-1 max-sm:text-[13px]">
                     <button onClick={() => {
                         setMsc(true);
                         setPhd(false);
