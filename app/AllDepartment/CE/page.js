@@ -110,41 +110,6 @@ export default function CE() {
             />
           </div>
 
-          {/* HOD */}
-          {/* <div className="h-[500px] max-sm:h-[400px] flex justify-end py-10 col-span-3">
-            <div className="bg-amber-50 rounded-lg shadow-lg shadow-slate-600 w-full py-8 px-8 grid grid-cols-2 overflow-hidden">
-              <Image
-                src={
-                  'https://lh3.googleusercontent.com/d/1aLZr0n_58Cx0lpVxSUjY6BfJbqiVduG6=w320?authuser=0'
-                }
-                width={700}
-                height={1000}
-                alt="Loading.."
-                className="col-span-1  border rounded-lg bg-rose-200 h-full"
-              />
-              <div className="col-span-1 flex justify-center">
-                <div className="flex flex-col max-sm:space-y-3 max-sm:justify-normal justify-between ml-4">
-                  <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-green-800 text-center">
-                    Head of Department
-                  </div>
-                  <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-red-900 text-center">
-                    Prof. Anshuman Shingh
-                  </div>
-                  <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-slate-600 text-center">
-                    Professor
-                  </div>
-                  <div className="text-[15px] max-sm:text-[8px] max-md:text-[10px] text-black text-center">
-                    Email: asingh@nitp.ac.in
-                  </div>
-                  <div className="text-[10px] max-sm:text-[8px] max-md:text-sm text-black text-center">
-                    Extn: +91-612-(2371715/ 2715/ 2371929/ 2370419/ 2370843/
-                    2371930) 401
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           {/* Notice  */}
           <div className="h-[500px] py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
             <div className="bg-white overflow-hidden rounded-lg shadow-lg shadow-slate-600 px-2 ">
