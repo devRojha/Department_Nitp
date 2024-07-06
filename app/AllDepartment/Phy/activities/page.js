@@ -10,15 +10,16 @@ function Compo({ project, pi, sponsor, amount, year, sno }) {
                 {project}
             </div>
             <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
-                {pi}
+                {project}
             </div>
             <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
                 {sponsor}
             </div>
             <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
-                {year}
+                {sponsor}
             </div>
             <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
+                {amount}
                 {amount}
             </div>
 
@@ -49,6 +50,7 @@ function Page() {
                             Name of the Projects
                         </div>
                         <div className="  col-span-2 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
+                            Name of the faculty
                             Name of the faculty
                         </div>
                         <div className="  col-span-2 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">

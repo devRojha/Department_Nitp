@@ -110,37 +110,6 @@ export default function Chem() {
             />
           </div>
 
-          {/* HOD */}
-          {/* <div className="h-[500px] max-sm:h-[400px] flex justify-end py-10 col-span-3">
-            <div className="bg-amber-50 rounded-lg shadow-lg shadow-slate-600 w-full py-8 px-8 grid grid-cols-2">
-              <Image
-                src={
-                  'https://drive.google.com/thumbnail?authuser=0&sz=w320&id=1JDx-0LS5pxsMcYpcyAFBbq3If3Kfubcg'
-                }
-                width={700}
-                height={1000}
-                alt="Loading.."
-                className="col-span-1  border rounded-lg bg-rose-200 h-full overflow-hidden"
-              />
-              <div className="col-span-1 flex justify-center">
-                <div className="flex flex-col max-sm:space-y-3 max-sm:justify-normal justify-between ml-4">
-                  <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-green-800 text-center">
-                    Head of Department
-                  </div>
-                  <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-red-900 text-center">
-                    Dr. Subrata Das
-                  </div>
-                  <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-slate-600 text-center">
-                    Professor
-                  </div>
-                  <div className="text-[15px] max-sm:text-[8px] max-md:text-[10px] text-black text-center">
-                    Email: head.ch@nitp.ac.in
-                  </div>
-                  <div className="text-[10px] max-sm:text-[8px] max-md:text-sm text-black text-center"></div>
-                </div>
-              </div>
-            </div>
-          </div> */}
 
           {/* Notice  */}
           <div className="h-[500px] py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
@@ -218,7 +187,7 @@ export default function Chem() {
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/Chem/achivments')}
-              Title={'ACHIEVMENTS'}
+              Title={'ACHIEVEMENTS'}
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/Chem/more')}
