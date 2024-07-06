@@ -60,11 +60,84 @@ function Page(){
                         </div>
                         {/* grid  */}
                         <Compo
-                        project={'Development of Signal Processing algorithms for remote detection of humans trapped under Debris in disaster affected areas using RF sensing of cardiopulmonary motion'}
-                        pi={'Dr. G. Pradhan (PI), Dr. B. Gupta (Co-PI), Dr. P. Kishore Kumar (Co-PI)'}
-                        sponsor={'DeitY Under SMDP'}
-                        amount={'98.4'}
-                        year={'On going'}
+                        sno={'1'}
+                        project={'Radical Mediated Glycal Functionalization towards Synthesis of C2-Modified Sugars.'}
+                        pi={'Dr. Rima Thakur'}
+                        sponsor={'SERB-DST'}
+                        amount={'45.21 Lakhs'}
+                        year={'SPG/2021/004607 July 2022 - July 2025'}
+                        />
+                         <Compo
+                         sno={'2'}
+                        project={'Tunable loading of oligonucleotide with gold and magnetic silica sphere derived gold nanostructured materials as sensing probe for detection of Target DNA.'}
+                        pi={'Dr. Niki Sweta Jha'}
+                        sponsor={'RSC Research fund'}
+                        amount={'3.92 Lakhs'}
+                        year={'R21-1196462483August 2021 – August 2023'}
+                        />
+                          <Compo
+                          sno={'3'}
+                        project={'Analysis of Stopper Size for Smaller Crown Ethers in MIM.'}
+                        pi={'Dr. Suvankar Dasgupta'}
+                        sponsor={'RSC Research fund'}
+                        amount={'3.92 Lakhs'}
+                        year={'R21-1196462483August 2021 – August 2023'}
+                        />
+                          <Compo
+                          sno={'4'}
+                        project={'Bio-sensing application of Graphene (GR) analogous systems: Estimating device potential.'}
+                        pi={'Dr. Subrata Das'}
+                        sponsor={'BRNS-DAE'}
+                        amount={'32.00 Lakhs'}
+                        year={'54/14/15/2020-BRNS/35054 September 2020 – September 2023'}
+                        />
+                          <Compo
+                          sno={'5'}
+                        project={'Metallosupramolecular complexes with bioactive pyrimidine derivatives: Materials for advanced applications.'}
+                        pi={'Dr. Subrata Das'}
+                        sponsor={'	SERB-DST'}
+                        amount={'43.00 Lakhs'}
+                        year={'EEQ/2019/000294 December 2019 – December 2022'}
+                        />
+                          <Compo
+                          sno={'6'}
+                        project={'Host-Guest Chemistry for Stimuli-Responsive Systems.'}
+                        pi={'Dr. Suvankar Dasgupta'}
+                        sponsor={'	SERB-DST'}
+                        amount={'36.21 Lakhs'}
+                        year={'ECR/2016/001724 Feb 2017 – June 2020'}
+                        />
+                          <Compo
+                          sno={'7'}
+                        project={'Surface-Immobilized Growth of Anisotropic Noble Metal Nanoparticles: Spectroscopic Investigation and Application.'}
+                        pi={'Dr. Aniruddha Paul'}
+                        sponsor={'	SERB-DST'}
+                        amount={'45.16 Lakhs'}
+                        year={'ECR/2016/001597 Feb 2017 – Feb 2020'}
+                        />
+                          <Compo
+                          sno={'8'}
+                        project={'Stereoselective Strategies Towards b-glycosylation: En route Synthesis of Bioactive Compounds.'}
+                        pi={'Dr. Rima Thakur'}
+                        sponsor={'SERB-DST'}
+                        amount={'37.62 Lakhs'}
+                        year={'ECR/2016/000623 Nov 2016 – Nov 2019'}
+                        />
+                            <Compo
+                            sno={'9'}
+                        project={'Exploration of bifunctional thiourea-amine orgnocatalysts in asymmetric multicomponent'}
+                        pi={'	Dr. Tasneem Parvin'}
+                        sponsor={'SERB-DST'}
+                        amount={'51.95 Lakhs'}
+                        year={'EMR/2016/000960 Sept 2016 – Sept 2019'}
+                        />
+                            <Compo
+                            sno={'10'}
+                        project={'Nitroso-Diels-Alder (NDA) reaction for the synthesis of some heterocyclic compounds.'}
+                        pi={'Dr. Subrata Das'}
+                        sponsor={'SERB-DST'}
+                        amount={'13.00 Lakhs'}
+                        year={'SB/FT/CS-133/2012 April 2013 – March 2017'}
                         />
                     </div>
                 </div>
