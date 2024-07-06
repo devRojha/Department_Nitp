@@ -63,7 +63,7 @@ function Page(){
                 venue={'Computer Center'}
                 speaker={'Prof. Partha Hazra, Professor, Department of Chemistry, IISER Pune'}
                 title={'Triplet Exciton Harvesting in Novel Organic Luminogens for New Generation OLED Applications'}
-                img={'	https://web.nitp.ac.in/dept/chem/activities/ac_02.jpg'}
+                img={'https://web.nitp.ac.in/dept/chem/activities/ac_02.jpg'}
                 />
                 <ActComp
                 sno={3}
@@ -90,7 +90,7 @@ function Page(){
                 venue={'Computer Center'}
                 speaker={'Prof. Vinod K. Tiwari, Professor, Department of Chemistry, Banaras Hindu University, Varanasi'}
                 title={'Synthetic Chemists and Our Society'}
-                img={'	https://web.nitp.ac.in/dept/chem/activities/ac_04.jpg'}
+                img={'https://web.nitp.ac.in/dept/chem/activities/ac_04.jpg'}
                 />
                 <ActComp
                 sno={6}
