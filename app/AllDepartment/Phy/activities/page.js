@@ -7,21 +7,21 @@ function Compo({ project, pi, sponsor, amount, year, sno }) {
                 {sno}
             </div>
 
-            <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
+            <div className="col-span-2 border border-black px-2 py-2 flex flex-col justify-center">
                 {project}
             </div>
-            <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
-                {project}
+            <div className="col-span-2 border border-black px-2 py-2 flex flex-col justify-center">
+                {pi}
             </div>
-            <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
+            <div className="col-span-2 border border-black px-2 py-2 flex flex-col justify-center">
                 {sponsor}
             </div>
-            <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
-                {sponsor}
+            <div className="col-span-2 border border-black px-2 py-2 flex flex-col justify-center">
+                {year}
             </div>
-            <div className="col-span-2 border border-black pl-4 py-2 flex flex-col justify-center">
+            <div className="col-span-2 border border-black px-2 py-2 flex flex-col justify-center">
                 {amount}
-                {amount}
+
             </div>
 
         </>
