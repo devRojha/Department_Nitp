@@ -19,7 +19,7 @@ function Comp({content}){
 
 function Page(){
     return (
-        <div className="bg-orange-50 flex flex-col p-5 h-screen">  
+        <div className="bg-orange-50 flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
                 <div>
                 <BackDepartment navigate={'/AllDepartment/Chem'}/>
