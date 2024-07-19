@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 function Compo({ project, pi, sponsor, amount, year, sno }) {
     return (
@@ -28,6 +29,7 @@ function Page() {
                         Activities
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/ME"}/>
                 <div className="mt-10">
                     <p className="text-black text-xl font-semibold">
                         List of Short - Term Courses / Faculty Development Program / Workshop / Gian Program:
