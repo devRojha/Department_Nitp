@@ -1,4 +1,5 @@
 "use client"
+import BackDepartment from '@/components/BackDepartment';
 import FacultyCards from '@/components/facultyCards';
 function page() {
     const faculty=[
@@ -79,6 +80,7 @@ function page() {
                     Computer Science and Engineering
                 </p>
             </div>
+            <BackDepartment navigate={"/AllDepartment/IMSc"}/>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5
         justify-items-center mt-16 ml-5 mr-5 gap-10 ">

@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 function Compo({ Research, Topic, sno }) {
     return (
@@ -49,6 +50,7 @@ function Page() {
                         Research Highlights
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/ME"}/>
                 <div className="mt-10">
                     <p className="text-grey-800 text-xl font-semibold">
                         Research area of Mechanical Engineering Department

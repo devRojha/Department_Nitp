@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment";
 
 
 export default function achivments(){
@@ -14,6 +15,7 @@ export default function achivments(){
                         MECHANICAL ENGINEERING
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/CE"}/>
             </div>
             {/* Achivment */}
             

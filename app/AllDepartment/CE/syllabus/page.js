@@ -1,5 +1,6 @@
 "use client"
 
+import BackDepartment from "@/components/BackDepartment";
 import { useState } from "react"
 
 
@@ -22,6 +23,7 @@ export default function Page() {
                     </p>
                 </div>
             </div>
+            <BackDepartment navigate={"/AllDepartment/CE"}/>
             <div className="mb-10 flex space-x-1">
                 <button onClick={() => {
                     setUg(true);

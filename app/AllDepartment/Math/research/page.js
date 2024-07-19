@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 
 function page(){
@@ -9,6 +10,7 @@ function page(){
               Research Highlights
             </p>
           </div>
+          <BackDepartment navigate={"/AllDepartment/Math"}/>
         </div>
       </div>
     )
