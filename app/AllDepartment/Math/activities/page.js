@@ -1,3 +1,5 @@
+import BackDepartment from "@/components/BackDepartment"
+
 function ActComp({ title, content }) {
   return (
     <div className="flex flex-col mt-8 lg:ml-10">
@@ -69,6 +71,7 @@ function page() {
         <div>
           <p className="text-red-900 text-4xl font-bold">ACTIVITIES</p>
         </div>
+        <BackDepartment navigate={"/AllDepartment/Math"}/>
       </div>
       <ActComp
         title={'Seminars and Workshops Organized by the Department'}

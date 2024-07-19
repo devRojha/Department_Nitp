@@ -1,4 +1,5 @@
 
+import BackDepartment from "@/components/BackDepartment"
 import Image from "next/image"
 
 export default function activities(){
@@ -15,6 +16,7 @@ export default function activities(){
                         CIVIL ENGINEERING
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/CE"}/>
             </div>
             <ACTcomponent title={"Earthquake Safety Clinic and Centre (EqSC):"} content={"In the collaboration of NITP and BSDMA for their joint efforts, the EqSC was inaugurated on 20th January 2015 by the Chairperson of BSDMA and Chief Minister of Bihar. EqSC at NIT Patna recognizes the importance of research and development in the areas of disaster risk reduction (DRR), as well as, involvement of engineeringfaculty & students in dissemination of DRR knowledge to the grass-root stakeholders. It embraces the need for awareness in vulnerable groups, creation of qualified man power in all fields related to DRR and meet societal expectations of disaster resilience. Currently, the center is doing a project on Rapid Visual Screening (RVS) of 400 school buildings in Seismic Zone V under National School Safety Program (NSSP) sponsored by NDMA, Govt. of India."} image={""}/>
             <ACTcomponent title={"Centre for Water Resources Studies (CWRS):"} content={"The CWRS was set up at erstwhile Bihar College of Engineering under Patna University in response to perceived needs of the people of this region. The CWRS complex has a total floor area of 2000 m2 (Approximately).CWRS is involved in carrying out the research activity for Water Resources. A number of projects and research works have been undertaken and completed through CWRS. The centre has presently a very prestigious Chair named as DrRajendra Prasad Chair for Water Resources. TheChair has been established by Ministry of Water Resources, for the study of Impact of Climate Change on Water Resources. The main objective of the Chair is to carry out studies on water resources with special emphasis on assessment of effect of climate change and adaptation strategies in respect of planning, design and management of water resources systems of particularly Ganga Basin."} image={""}/>

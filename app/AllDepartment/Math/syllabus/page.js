@@ -1,5 +1,6 @@
 'use client'
 
+import BackDepartment from '@/components/BackDepartment'
 import { useState } from 'react'
 
 export default function Page() {
@@ -15,6 +16,7 @@ export default function Page() {
             SYLLABUS
           </p>
         </div>
+        <BackDepartment navigate={"/AllDepartment/Math"}/>
         <div className="mt-2">
           <p className="text-gray-500 text-xl font-semibold">
             Mathematics

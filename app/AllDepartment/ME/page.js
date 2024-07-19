@@ -1,4 +1,5 @@
 "use client"
+import BackDepartment from "@/components/BackDepartment";
 import { DepartmentNavigationButton } from "@/components/DepartmentNavigationButton"
 import DepartmentNotify from "@/components/DepartmentNotify";
 import Image from "next/image"
@@ -97,6 +98,7 @@ export default function ME() {
         <div className="text-3xl max-sm:text-2xl max-sm:ml-2 font-bold text-red-900 mb-10">
           MECHANICAL ENGINEERING
         </div>
+        <BackDepartment navigate={"/"}/>
         {/* Section one */}
         <div className="grid grid-cols-6 max-md:grid-cols-1">
           {/* Department Picture */}

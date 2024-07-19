@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 
 function page(){
@@ -9,6 +10,7 @@ function page(){
                         ACHIVMENTS
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/IMSc"}/>
                 <div className="mt-2">
                     <p className="text-gray-500 text-xl font-semibold">
                         Computer Science and Engineering
