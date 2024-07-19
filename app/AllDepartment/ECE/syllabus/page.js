@@ -1,5 +1,6 @@
 "use client"
 
+import BackDepartment from '@/components/BackDepartment';
 import { useState } from 'react';
 
 function SyllabusComp({ dept, sem, code, title, L, T, P, cred, url }) {
@@ -50,6 +51,9 @@ function Page() {
                     <p className="text-gray-500 text-xl font-semibold">
                         Electronics and Communications Engineering
                     </p>
+                </div>
+                <div>
+                    <BackDepartment navigate={'/AllDepartment/ECE'}/>
                 </div>
                 <div>
                     <ActComp

@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 import Image from "next/image"
 
 const ActComp=({title,date,venue,speaker,img,head,sno})=>{
@@ -5,7 +6,7 @@ const ActComp=({title,date,venue,speaker,img,head,sno})=>{
     <div className='flex flex-col mt-10'>
         <div>
             <p className='text-xl lg:text-2xl font-semibold'>
-                {sno}.{head}
+                {sno}. {head}
             </p>
         </div>
         <div className='flex flex-col lg:flex-row mt-5 ml-4 lg:justify-between'>
@@ -46,6 +47,9 @@ function Page(){
                     <p className="text-red-900 text-3xl font-bold">
                         ACTIVITIES
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/Chem'}/>
                 </div>
                 <ActComp
                 sno={1}

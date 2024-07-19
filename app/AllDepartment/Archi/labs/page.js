@@ -1,3 +1,4 @@
+import BackDepartment from '@/components/BackDepartment';
 import Image from 'next/image';
 
 function Page(){
@@ -24,6 +25,9 @@ function Page(){
                     <p className="text-red-900 text-3xl font-bold">
                         LABS
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/Archi'}/>
                 </div>
             </div>
             <div className="mb-10 flex flex-col lg:flex-row justify-between mt-6">
