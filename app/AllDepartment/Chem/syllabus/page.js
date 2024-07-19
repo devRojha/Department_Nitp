@@ -159,7 +159,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -220,7 +220,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -290,7 +290,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -361,7 +361,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -432,7 +432,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -512,7 +512,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -601,7 +601,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -681,7 +681,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -707,7 +707,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -724,7 +724,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"20"}
                                 url={""}
                             />
                             <SyllabusComp
@@ -732,7 +732,7 @@ function Page() {
                                 code={"-"}
                                 title={"-"}
                                 L={"-"} T={"-"} P={"-"}
-                                cred={"-"}
+                                cred={"200"}
                                 url={""}
                             />
 

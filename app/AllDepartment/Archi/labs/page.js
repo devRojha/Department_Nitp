@@ -1,5 +1,32 @@
+"use client"
 import BackDepartment from '@/components/BackDepartment';
 import Image from 'next/image';
+import {useState,useEffect} from "react";
+
+function Carousel({children:pics,
+    autoSlideInterval=3000,
+    autoSlide=true,}){
+    const [curr,setCurr]=useState(0)
+    const prev=()=>{
+        setCurr((curr)=>(curr===0?pics.length-1:curr-1))
+    }
+    const next=()=>{
+        setCurr((curr)=>(curr===pics.length-1?0:curr+1))
+    }
+    useEffect(()=>{
+        if(!autoSlide) return 
+        const slideInterval=setInterval(next,autoSlideInterval)
+        return ()=>clearInterval(slideInterval)
+    },[])
+    return(
+        <div className=' relative overflow-hidden'>
+            <div className='flex transition-transform ease-out duration-1000'
+            style={{transform:`translateX(-${curr*100}%)`}}>
+                {pics}
+            </div>
+        </div>
+    )
+}
 
 function Page(){
     var labUrl = [
@@ -9,15 +36,6 @@ function Page(){
         "https://web.nitp.ac.in/dept/arch/labs/DSC_0666.jpg",
         "https://web.nitp.ac.in/dept/arch/labs/DSC_0663.jpg",
     ]
-    var image = labUrl[0];
-    var idx = 0;
-    setInterval(()=>{
-        image = labUrl[idx]
-        idx++
-        if(idx >= 6){
-            idx = 0;
-        }
-    },2000)
     return (
         <div className="bg-orange-50 flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
@@ -60,13 +78,17 @@ function Page(){
 
                     </div>
                 </div>
-                <Image
-                src={"https://web.nitp.ac.in/dept/cse/labs/DSC_0002.jpg"}
-                alt="labs"
-                width={400}
-                height={300}
-                className="mt-6 lg:mt-0 ml-6 lg:pl-0 lg:mr-6 rounded-lg bg-rose-200  "
-                />
+                <div className='w-[300px] sm:w-[400px] lg:w-[500px] m-auto mt-8'>
+                <Carousel autoSlide={true}>
+                {labUrl.map((img,i)=>(
+                    
+                    <Image src={img} alt='image' width={500}
+                    height={500} key={i} className='object-fill w-full rounded-lg bg-red-200'
+                    />
+                    
+                ))}
+                </Carousel>
+                </div>
             </div>
         </div>
 
