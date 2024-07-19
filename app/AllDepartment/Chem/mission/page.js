@@ -1,3 +1,5 @@
+import BackDepartment from "@/components/BackDepartment"
+
 function Comp({content}){
     return(
         <div className="flex flex-col mt-8 lg:ml-10">
@@ -19,6 +21,9 @@ function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-5 h-screen">  
             <div className="flex flex-col md:ml-10">
+                <div>
+                <BackDepartment navigate={'/AllDepartment/Chem'}/>
+                </div>
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
                         VISION

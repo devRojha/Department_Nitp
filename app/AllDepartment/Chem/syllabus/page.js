@@ -1,5 +1,6 @@
 "use client"
 
+import BackDepartment from "@/components/BackDepartment";
 import { useState } from "react";
 
 function ActComp({ title, content }) {
@@ -61,6 +62,9 @@ function Page() {
                     <p className="text-red-900 text-3xl font-bold">
                         SYLLABUS
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/Chem'}/>
                 </div>
 
             </div>

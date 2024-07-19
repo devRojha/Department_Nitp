@@ -1,5 +1,6 @@
 "use client"
 
+import BackDepartment from "@/components/BackDepartment";
 import { useState } from "react"
 export default function Page() {
     const [ug, setUg] = useState(true);
@@ -21,6 +22,9 @@ export default function Page() {
                     <p className="text-gray-500 text-xl font-semibold">
                         COMPUTER SCIENCE ENGINEERING
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/CSE'}/>
                 </div>
             </div>
             <div className="mb-10 flex space-x-1 overflow-x-auto ">

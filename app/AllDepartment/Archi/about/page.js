@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 
 function Page(){
@@ -13,6 +14,9 @@ function Page(){
                     <p className="text-gray-500 text-xl font-semibold">
                         Architecture & Planning
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/Archi'}/>
                 </div>
             </div>
             {/* section 1 */}

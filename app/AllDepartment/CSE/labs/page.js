@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 import Image from "next/image"
 
 export default function labs(){
@@ -13,6 +14,9 @@ export default function labs(){
                     <p className="text-gray-500 text-xl font-semibold">
                         COMPUTER SCIENCE ENGINEERING
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/CSE'}/>
                 </div>
             </div>
             {/* Lab list */}
