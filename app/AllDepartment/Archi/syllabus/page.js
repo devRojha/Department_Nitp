@@ -64,7 +64,7 @@ function Page() {
                     />
                 </div>
                 <div className="mt-6">
-                    <div className="mb-10 flex space-x-1 max-sm:text-[10px]">
+                    <div className="mb-10 flex space-x-1 max-sm:text-[14px]">
                         <button onClick={() => {
                             setUg(true);
                             setPg(false);
