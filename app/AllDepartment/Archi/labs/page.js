@@ -48,12 +48,12 @@ function Page(){
                 <BackDepartment navigate={'/AllDepartment/Archi'}/>
                 </div>
             </div>
-            <div className="mb-10 flex flex-col lg:flex-row justify-between mt-6">
-                <div className="flex flex-col">
+            <div className="mb-10 flex flex-col lg:flex-row mt-6">
+                <div className="flex flex-col lg:w-3/4">
                     <p className="text-red-900 font-bold text-2xl max-sm:text-1xl mb-4">
                         Departmental Laboratories
                     </p>
-                    <div className="lg:w-2/3">
+                    <div className="lg:w-3/4">
                         <p className="text-justify font-semibold pl-6">
                         The Department has 4 lecture room, 8 Studios and 5 laboratories. 
                         Apart from these there are a number of common class rooms, laboratories 
@@ -78,7 +78,7 @@ function Page(){
 
                     </div>
                 </div>
-                <div className='w-[300px] sm:w-[400px] lg:w-[500px] m-auto mt-8'>
+                <div className='w-[300px] sm:w-[400px] lg:w-1/3 xl:w-1/4 m-auto mt-8 xl:mr-20'>
                 <Carousel autoSlide={true}>
                 {labUrl.map((img,i)=>(
                     
