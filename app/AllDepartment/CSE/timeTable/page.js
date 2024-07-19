@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 
 function Page(){
@@ -13,6 +14,9 @@ function Page(){
                     <p className="text-gray-500 text-xl font-semibold">
                         Computer Science and Engineering
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/CSE'}/>
                 </div>
                 <div className='mt-14'>
                     <a href={'https://www.dropbox.com/scl/fo/kmdu6u1erwn18lwo0qe4p/h?rlkey=rl1xo6nzihg0j5yc9zvfidfr0&dl=0'} className='lg:text-lg text-gray-500 font-semibold border-b-2 border-black' target="_blank">

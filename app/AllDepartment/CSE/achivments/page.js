@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 function Comp({content}){
     return(
@@ -24,6 +25,9 @@ function Page(){
                     <p className="text-red-900 text-3xl font-bold">
                         ACHIEVEMENTS
                     </p>
+                    <div>
+                    <BackDepartment navigate={'/AllDepartment/CSE'}/>
+                    </div>
                     <Comp
                     content={['ISEA Project Phase – I (Completed)',
                     'ISEA Project Phase – II (Ongoing)',

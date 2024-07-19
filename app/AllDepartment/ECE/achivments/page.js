@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 function Compo({project, pi, year,sno }){
     return (
@@ -23,8 +24,11 @@ function Page(){
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
-                        ACHIEVMENTS
+                        ACHIEVEMENTS
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/ECE'}/>
                 </div>
                 <div className="mt-10">
                     <p className="text-gray-900 text-xl font-semibold">

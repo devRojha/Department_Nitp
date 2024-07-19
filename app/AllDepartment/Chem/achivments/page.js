@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 function Compo({project, pi, sponsor, amount,year,sno }){
     return (
@@ -31,6 +32,9 @@ function Page(){
                     <p className="text-red-900 text-3xl font-bold">
                         ACHIEVEMENTS
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/Chem'}/>
                 </div>
                 <div className="mt-10">
                     <p className="text-red-900 text-xl font-semibold">
