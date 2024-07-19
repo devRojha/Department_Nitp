@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 
 function page(){
@@ -14,6 +15,7 @@ function page(){
                         ELECTRICAL Engineering
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/CE"}/>
             </div>
             {/* LINKS */}
             <div className="mb-10">

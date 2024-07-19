@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 function Compo({ project, pi, sponsor, amount, year, sno }) {
     return (
@@ -65,6 +66,7 @@ function Page() {
                         Achievements
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/ME"}/>
                 <div className="mt-10">
                     <p className="text-grey-900 text-xl font-semibold">
                         Sponsored Project List:

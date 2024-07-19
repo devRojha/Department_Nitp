@@ -1,9 +1,11 @@
+import BackDepartment from "@/components/BackDepartment"
 
 
 function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-5 ">  
             <div className="flex flex-col md:ml-10 lg:w-1/2">
+                <BackDepartment navigate={"/AllDepartment/Phy"}/>
                 <div className='text-justify'>
                     <p className="text-red-900 text-3xl font-bold">
                         VISION

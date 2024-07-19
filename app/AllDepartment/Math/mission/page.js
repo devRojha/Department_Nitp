@@ -1,3 +1,5 @@
+import BackDepartment from "@/components/BackDepartment";
+
 export default function mission() {
   return (
     <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2">
@@ -27,6 +29,7 @@ export default function mission() {
         <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">
           MISSION :-
         </div>
+        <BackDepartment navigate={"/AllDepartment/Math"}/>
         <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm">
           <li>
             The Department of Mathematics will offer courses and programs of

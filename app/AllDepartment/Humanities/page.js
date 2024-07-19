@@ -89,16 +89,16 @@ const Notices = [
   },
 ]
 
-export default function Math() {
+export default function Humanities() {
   const router = useRouter()
   return (
     <div className="p-10 max-sm:px-0 border border-red-700 bg-orange-50">
       {/* heading */}
-      <div className="text-3xl max-sm:text-2xl max-sm:ml-2 font-bold text-red-900 mb-10">
-        MATHEMATICS
+      <div className="text-3xl max-sm:text-2xl max-sm:ml-2 font-bold text-red-900 mb-2">
+      Humanities & Social Sciences
       </div>
-      <BackDepartment navigate={"/"}/>
-      {/* Section one */}
+      <BackDepartment navigate={"/"} />
+      {/* Section 1 */}
       <div className="grid grid-cols-6 max-md:grid-cols-1">
         {/* Department Picture */}
         <div className="h-[500px] flex justify-start py-10 col-span-3 mr-4 max-sm:mr-0">
@@ -110,6 +110,22 @@ export default function Math() {
             height={1000}
           />
         </div>
+
+        {/* HOD */}
+        {/* <div className="h-[500px] max-sm:h-[400px] flex justify-end py-10 col-span-3">
+                   <div className="bg-amber-50 rounded-lg shadow-lg shadow-slate-600 w-full py-8 px-8 grid grid-cols-2">
+                       <Image src={"https://lh3.googleusercontent.com/d/1Q0TgCyX0bpbtiKhYiqtDBQ0N_7JzwiQI=w320?authuser=0"} width={700} height={1000} alt="Loading.." className="col-span-1  border rounded-lg bg-rose-200 h-full" />
+                       <div className="col-span-1 flex justify-center">
+                           <div className="flex flex-col max-sm:space-y-3 max-sm:justify-normal justify-between ml-4">
+                               <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-green-800 text-center">Head of Department</div>
+                               <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-red-900 text-center">Dr. Rajiv Kumar MANDAL</div>
+                               <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-slate-600 text-center">Professor</div>
+                               <div className="text-[15px] max-sm:text-[8px] max-md:text-[10px] text-black text-center">Email: head.cs@nitp.ac.in</div>
+                               <div className="text-[10px] max-sm:text-[8px] max-md:text-sm text-black text-center">Extn: +91-612-(2371715/ 2715/ 2371929/ 2370419/ 2370843/ 2371930) 201</div>
+                           </div>
+                       </div>
+                   </div>
+               </div> */}
 
         {/* Notice  */}
         <div className="h-[500px] py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
@@ -140,49 +156,55 @@ export default function Math() {
             About
           </div>
           <div className="text-justify max-sm:text-[12px]">
-            The Department of Mathematics was established in 1924 and department
-            offer several courses that support other engineering departments.
-            Recently a new program Integrated M. Sc. in Mathematics is started
-            and running successfully from the academic year 2015-2016. Current
-            faculty strength of the department is nine and they are experienced
-            in teaching and research in several branches of Mathematics.
-            Department of Mathematics is one of the backbone of the Institution
-            as it is an essential department for engineering courses up to Ph.D
-            level.
+          With an interdisciplinary perspective at the heart of its approach, the Department of Humanities and Social Sciences at NIT Patna provides intellectual and cultural foundations for the study of human relations with society interaction and teaching towards problem solving of the nation in contemporary contexts. The department, with its diverse expertise offers students in the B Tech programme courses aimed at developing essential skills in critical thinking and writing along with the knowledge of literature, society, economic value, and philosophies of the mind and body. The department also offers doctoral programmes in humanities and social sciences especially in English, Economics, Sociology and Human Resource Management besides elective courses for the undergraduate programmes of the institute.
+            {/* <button
+              onClick={() => router.push('/AllDepartment/EE/about')}
+              className="text-blue-600"
+            >
+              more...
+            </button> */}
           </div>
         </div>
         {/* Navigation Button  */}
         <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/hod')}
+            onClick={() => router.push('/AllDepartment/EE/hod')}
             Title={'HOD Info'}
           />
-
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/mission')}
+            onClick={() => router.push('/AllDepartment/Humanities/mission')}
             Title={'MISSION AND VISSION'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/faculty')}
+            onClick={() => router.push('/AllDepartment/EE/faculty')}
             Title={'FACULTY'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/syllabus')}
+            onClick={() => router.push('/AllDepartment/EE/labs')}
+            Title={'LABS'}
+          />
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/EE/syllabus')}
             Title={'SYLLABUS'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/activities')}
+            onClick={() => router.push('/AllDepartment/EE/activities')}
             Title={'ACTIVITIES'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/research')}
-            Title={'RESEARCH HIGHLIGHTS'}
+            onClick={() => router.push('/AllDepartment/EE/achivments')}
+            Title={'ACHIEVMENTS'}
+          />
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/EE/research')}
+            Title={'RESEARCH HIGHLIGHT'}
+          />
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/EE/usefullLinks')}
+            Title={'USEFULL LINKS'}
           />
         </div>
       </div>
     </div>
   )
 }
-
-
-

@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment";
 
 
 export default function mission(){
@@ -14,6 +15,7 @@ export default function mission(){
                         CIVIL ENGINEERING
                     </p>
                 </div>
+                <BackDepartment navigate={"/AllDepartment/CE"}/>
             </div>
             {/* vision */}
             <div className="mb-10">
