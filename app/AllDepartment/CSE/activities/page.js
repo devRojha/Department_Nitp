@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 
 function ActComp({title,content}){
     return(
@@ -49,6 +50,9 @@ function Page(){
                     <p className="text-red-900 text-4xl font-bold">
                         ACTIVITIES
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/CSE'}/>
                 </div>
             </div>
             <ActComp title={"Workshops / Seminars / Training / Course Conducted:"}

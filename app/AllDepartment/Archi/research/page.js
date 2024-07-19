@@ -1,3 +1,5 @@
+import BackDepartment from "@/components/BackDepartment"
+
 function Compo({name,research,sno }){
     return (
         <>
@@ -22,6 +24,9 @@ function Page(){
                     <p className="text-red-900 text-3xl font-bold ">
                         RESEARCH HIGHLIGHTS
                     </p>
+                    <div>
+                        <BackDepartment navigate={'/AllDepartment/Archi'}/>
+                    </div>
                     <p className="mt-6 md:text-lg text-justify lg:w-3/4">
                     The Doctoral program in the department of Architecture and Planning at National Institute of Technology Patna welcomes individuals with excellent academic record, strong motivation, and a penchant for innovative research. This prepares the students for careers as researchers as well as academicians
                     </p>
@@ -51,6 +56,7 @@ function Page(){
                         <div className="  col-span-3 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
                             Research Profile
                         </div>
+
                         {/* grid  */}
                         <Compo
                         sno={'1.'}

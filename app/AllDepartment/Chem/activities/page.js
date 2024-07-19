@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 import Image from "next/image"
 
 const ActComp=({title,date,venue,speaker,img,head,sno})=>{
@@ -5,7 +6,7 @@ const ActComp=({title,date,venue,speaker,img,head,sno})=>{
     <div className='flex flex-col mt-10'>
         <div>
             <p className='text-xl lg:text-2xl font-semibold'>
-                {sno}.{head}
+                {sno}. {head}
             </p>
         </div>
         <div className='flex flex-col lg:flex-row mt-5 ml-4 lg:justify-between'>
@@ -47,6 +48,9 @@ function Page(){
                         ACTIVITIES
                     </p>
                 </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/Chem'}/>
+                </div>
                 <ActComp
                 sno={1}
                 head={"Department Lecture Series 7"}
@@ -63,7 +67,7 @@ function Page(){
                 venue={'Computer Center'}
                 speaker={'Prof. Partha Hazra, Professor, Department of Chemistry, IISER Pune'}
                 title={'Triplet Exciton Harvesting in Novel Organic Luminogens for New Generation OLED Applications'}
-                img={'	https://web.nitp.ac.in/dept/chem/activities/ac_02.jpg'}
+                img={'https://web.nitp.ac.in/dept/chem/activities/ac_02.jpg'}
                 />
                 <ActComp
                 sno={3}
@@ -90,7 +94,7 @@ function Page(){
                 venue={'Computer Center'}
                 speaker={'Prof. Vinod K. Tiwari, Professor, Department of Chemistry, Banaras Hindu University, Varanasi'}
                 title={'Synthetic Chemists and Our Society'}
-                img={'	https://web.nitp.ac.in/dept/chem/activities/ac_04.jpg'}
+                img={'https://web.nitp.ac.in/dept/chem/activities/ac_04.jpg'}
                 />
                 <ActComp
                 sno={6}

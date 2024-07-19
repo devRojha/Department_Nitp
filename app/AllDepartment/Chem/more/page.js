@@ -1,3 +1,4 @@
+import BackDepartment from "@/components/BackDepartment"
 import Image from "next/image"
 
 const ActComp=({scholar,sp,title,curr,year,sno})=>{
@@ -32,6 +33,9 @@ function Page(){
                     <p className="text-red-900 text-3xl font-bold">
                         More Info
                     </p>
+                    <div>
+                    <BackDepartment navigate={'/AllDepartment/Chem'}/>
+                    </div>
                     <p className="text-red-900 text-xl mt-4 font-bold">
                         Ph.D. Alumini:
                     </p>

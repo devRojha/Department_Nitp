@@ -1,4 +1,5 @@
 'use client'
+import BackDepartment from "@/components/BackDepartment";
 import Image from "next/image"
 import {useState,useEffect} from "react";
 
@@ -71,6 +72,9 @@ function Page(){
                     <p className="text-red-900 text-3xl font-bold">
                         LABS
                     </p>
+                </div>
+                <div>
+                <BackDepartment navigate={'/AllDepartment/Chem'}/>
                 </div>
                 <div className="mt-14 mx-auto">
                     <p className="text-red-900 text-3xl lg:text-4xl font-semibold">

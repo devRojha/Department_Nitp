@@ -1,5 +1,6 @@
 "use client"
 
+import BackDepartment from "@/components/BackDepartment";
 import { useState } from "react";
 
 
@@ -50,6 +51,9 @@ function Page() {
                     <p className="text-gray-500 text-xl font-semibold">
                         Architecture
                     </p>
+                </div>
+                <div>
+                    <BackDepartment navigate={'/AllDepartment/Archi'}/>
                 </div>
                 <div>
                     <ActComp
