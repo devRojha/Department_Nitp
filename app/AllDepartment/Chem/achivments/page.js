@@ -167,23 +167,30 @@ function Page(){
                     </li>
                     <li>
                         <p>
-                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, P. K. Sukul and A. Mondal.
-                       <span className='font-semibold'>“Superhydrophobic Photostable Dye Coated Magnetic Nano Materials for Separating Contaminated Oil”.</span>
-                       <span className='text-blue-800'> Indian Patent. 2017. Patent No: 332217 (Granted).</span>
+                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, A. Sarkar and Abhimanyu.
+                       <span className='font-semibold'>“Method and system for reducing pollutants in exhaust emissions of internal combustion engine”.</span>
+                       <span className='text-blue-800'>Indian Patent. 2014. Patent App. No: 1455/MUM/2014. (Published). (Examination report submitted on July 2019)..</span>
                        </p>
                     </li>
                     <li>
                         <p>
-                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, P. K. Sukul and A. Mondal.
-                       <span className='font-semibold'>“Superhydrophobic Photostable Dye Coated Magnetic Nano Materials for Separating Contaminated Oil”.</span>
-                       <span className='text-blue-800'> Indian Patent. 2017. Patent No: 332217 (Granted).</span>
+                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, Parmanand Kumar, Raj Kumar, Susital Mal, Tushar Das and Shubham Raj.
+                       <span className='font-semibold'>“Violuric acid functionalized reduced graphene oxide as an adsorbent for the removal of toxic metal ions”.</span>
+                       <span className='text-blue-800'> Indian Patent. 2023. Indian Patent App. no: 202331006034. (Published). Examination report submitted.</span>
                        </p>
                     </li>
                     <li>
                         <p>
-                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, P. K. Sukul and A. Mondal.
-                       <span className='font-semibold'>“Superhydrophobic Photostable Dye Coated Magnetic Nano Materials for Separating Contaminated Oil”.</span>
-                       <span className='text-blue-800'> Indian Patent. 2017. Patent No: 332217 (Granted).</span>
+                       <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, Tushar Das, Susital Mal, Prakash Kumar, Debabrata Mandal.
+                       <span className='font-semibold'>“Graphene quantum dots as nanozymes for neuronal stress suppression”. </span>
+                       <span className='text-blue-800'> 2023. Indian Patent App. no: 202331025091. (Published).</span>
+                       </p>
+                    </li>
+                        <li>
+                        <p>
+                       <span className='font-semibold text-red-800 text-lg'>Tasneem Parvin</span>, Darakshan, Ujjain Chaurasia and Aatka Mehar,
+                       <span className='font-semibold'>“Indole linked benzo indoledione derivatives and one-pot synthesis method thereof.” </span>
+                       <span className='text-blue-800'>Indian Patent, 2023, Application No. 202331043395. (Published).</span>
                        </p>
                     </li>
                 </ol>
