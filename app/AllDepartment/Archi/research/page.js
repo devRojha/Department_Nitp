@@ -59,10 +59,49 @@ function Page(){
 
                         {/* grid  */}
                         <Compo
-                        sno={'1.'}
-                        name={'Prof. Fulena Rajak'}
-                        research={'	Architecrture and Conservation'}
-                        />
+     sno={'1.'} 
+    name={'Prof. Fulena Rajak'} 
+    research={'Architecture and Conservation'} />
+<Compo
+ sno={'2.'}
+ name={'Prof. Manoj Kumar'}
+ research={'Urban and Rural Planning, Regional Planning, Energy Efficient Architecture'} />
+<Compo
+ sno={'3.'}
+ name={'Dr. Bijay Kumar Das'}
+  research={'Thermal Comfort, Temple Architecture, Climate Change'} />
+<Compo 
+sno={'4.'} 
+name={'Dr. Kamini Sinha'}
+ research={'Heritage and Urban Conservation, Architectural Pedagogy, Sustainable & Vernacular Architecture'} />
+<Compo
+ sno={'5.'}
+  name={'Dr. Shailendra K. Mandal'} 
+ research={'Climate Change, Hydroclimatic risks, Urban Resilience, Water Security and Sustainability'} />
+<Compo 
+sno={'6.'} 
+name={'Dr. Ajay Kumar'}
+ research={'Urban Planning (Transportation, Sustainable Development, Housing, Urban Core, Urban Street, Quality of Life, Infrastructure Planning etc.) Architecture (Sustainable built environment) Housing (Residential Satisfaction, Neighbourhood Development)'} />
+<Compo
+ sno={'7.'}
+  name={'Dr. Anjai Sharma'}
+  research={'Disasters and Heritage Vulnerability, Smart Sustainable Urban Planning, Architecture'} />
+<Compo
+ sno={'8.'}
+  name={'Dr. Mazharul Haque'}
+  research={'Architecture, Sustainable Architecture & Healthcare Architecture'} />
+<Compo
+ sno={'9.'}
+  name={'Dr. Ravish Kumar'} 
+ research={'Temple Architecture, Construction Project Management and Sustainable Architecture'} />
+<Compo
+ sno={'10.'}
+  name={'Dr. Md. Danish'} 
+ research={'Heritage, Sustainability, Transport Planning'} />
+<Compo
+ sno={'11.'}
+  name={'Dr. Kranti Kumar Maurya'} 
+ research={'Urban and Rural Planning, Governance, Smart Cities'} />
                     </div>
                 </div>
                 </div>
