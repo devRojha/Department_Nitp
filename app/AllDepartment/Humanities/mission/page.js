@@ -1,7 +1,7 @@
 import BackDepartment from "@/components/BackDepartment";
 
 
-export default function mission(){
+export default function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2">  
             <div className="flex flex-col  mb-16">

@@ -1,7 +1,7 @@
 import BackDepartment from "../../../../components/BackDepartment"
 
 
-function page(){
+function Page(){
     return (
         <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2 h-screen">  
             <div className="flex flex-col  mb-16">
@@ -25,4 +25,4 @@ function page(){
         </div>
     )
 }
-export default page
+export default Page
