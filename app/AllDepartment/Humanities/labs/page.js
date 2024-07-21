@@ -4,7 +4,7 @@ import BackDepartment from "../../../../components/BackDepartment"
 import { useEffect, useState } from "react"
 
 
-function page(){
+function Page(){
 
     const [img, setImg] = useState(0);
     useEffect(()=>{
@@ -46,4 +46,4 @@ function page(){
         </div>
     )
 }
-export default page
+export default Page

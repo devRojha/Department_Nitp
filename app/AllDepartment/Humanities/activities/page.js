@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 
-export default function mission(){
+export default function Page(){
     const [img, setImg] = useState(0);
     useEffect(()=>{
         const interval = setInterval(()=>{
