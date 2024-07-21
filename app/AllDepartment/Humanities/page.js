@@ -8,84 +8,44 @@ import { useRouter } from 'next/navigation'
 const Notices = [
   {
     id: 1,
-    notice: 'this is notice1',
-    fun: '',
+    notice: 'Master Time-Table July-Dec.2023',
+    link: 'https://drive.google.com/file/d/15MN9uSLnkBhyibh4BjxZ7nDun97LrO5v/a',
   },
   {
     id: 2,
-    notice: 'this is notice2',
-    fun: '',
+    notice: 'Communicative English Lab Viva-Vove Schedule (UG & DD.1st Semester) July-Dec 2022',
+    link: 'https://drive.google.com/file/d/1a9GhlTCxBzWOpvHqLfLjyAWk4_Bw30d2/view',
   },
   {
     id: 3,
-    notice: 'this is notice3',
-    fun: '',
+    notice: 'UG_6th & M.SC 8th Sem OPEN Elective Time-Table_HSS Dept (Jan-June 2023)',
+    link: 'https://drive.google.com/file/d/1BzW9dupGBPKRVQ6iWvISY8kUgb7U0WLQ/view',
   },
   {
     id: 4,
-    notice: 'this is notice4',
-    fun: '',
+    notice: 'MTech-PhD Time Table_HSS Dept ( JAN -JUNE 2023)',
+    link: 'https://drive.google.com/file/d/1lgdJlHUIJKrPqxgC2sTS0lJ3m6RqpCXD/view',
   },
   {
     id: 5,
-    notice: 'this is notice5',
-    fun: '',
+    notice: 'Schedule of Comprehensive Viva of Saraswati Keshri, Roll no 215HS008',
+    link: 'https://drive.google.com/file/d/1bSsERrTDGUKNJqOk9an116lEEqTDyH0d/view',
   },
   {
     id: 6,
-    notice: 'this is notice6',
-    fun: '',
+    notice: 'Schedule of Comprehensive Viva of Sneha Das, Roll no 215HS002',
+    link: 'https://drive.google.com/file/d/1UNVjS2cHEJeEtBNyxGULjO-EDiDa-bCe/view',
   },
 
   {
     id: 7,
-    notice: 'this is notice7',
-    fun: '',
+    notice: 'Schedule of Open Viva-Voce Examination of Maryam Sabreen, Roll no. 165HS01',
+    link: 'https://drive.google.com/file/d/1AObYsaKVMew-ZnqWSZ1y4qYbxz1TTOd6/view',
   },
   {
     id: 8,
-    notice: 'this is notice8',
-    fun: '',
-  },
-  {
-    id: 9,
-    notice: 'this is notice9',
-    fun: '',
-  },
-  {
-    id: 10,
-    notice: 'this is notice10',
-    fun: '',
-  },
-  {
-    id: 11,
-    notice: 'this is notice11',
-    fun: '',
-  },
-  {
-    id: 12,
-    notice: 'this is notice12',
-    fun: '',
-  },
-  {
-    id: 13,
-    notice: 'this is notice13',
-    fun: '',
-  },
-  {
-    id: 14,
-    notice: 'this is notice14',
-    fun: '',
-  },
-  {
-    id: 15,
-    notice: 'this is notice15',
-    fun: '',
-  },
-  {
-    id: 16,
-    notice: 'this is notice16',
-    fun: '',
+    notice: 'Schedule of End Sem Viva-Voce Examination for UG (AR, CSE, ECE) 2nd Semester.',
+    link: 'https://drive.google.com/file/d/1KfJqDtLwCvyRgz0SI-tV1mxW44EyUc7y/view',
   },
 ]
 
@@ -111,36 +71,20 @@ export default function Humanities() {
           />
         </div>
 
-        {/* HOD */}
-        {/* <div className="h-[500px] max-sm:h-[400px] flex justify-end py-10 col-span-3">
-                   <div className="bg-amber-50 rounded-lg shadow-lg shadow-slate-600 w-full py-8 px-8 grid grid-cols-2">
-                       <Image src={"https://lh3.googleusercontent.com/d/1Q0TgCyX0bpbtiKhYiqtDBQ0N_7JzwiQI=w320?authuser=0"} width={700} height={1000} alt="Loading.." className="col-span-1  border rounded-lg bg-rose-200 h-full" />
-                       <div className="col-span-1 flex justify-center">
-                           <div className="flex flex-col max-sm:space-y-3 max-sm:justify-normal justify-between ml-4">
-                               <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-green-800 text-center">Head of Department</div>
-                               <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-red-900 text-center">Dr. Rajiv Kumar MANDAL</div>
-                               <div className="text-1xl max-sm:text-sm max-md:text-md font-semibold text-slate-600 text-center">Professor</div>
-                               <div className="text-[15px] max-sm:text-[8px] max-md:text-[10px] text-black text-center">Email: head.cs@nitp.ac.in</div>
-                               <div className="text-[10px] max-sm:text-[8px] max-md:text-sm text-black text-center">Extn: +91-612-(2371715/ 2715/ 2371929/ 2370419/ 2370843/ 2371930) 201</div>
-                           </div>
-                       </div>
-                   </div>
-               </div> */}
-
         {/* Notice  */}
-        <div className="h-[500px] py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
-          <div className="bg-white overflow-hidden rounded-lg shadow-lg shadow-slate-600 px-2 ">
-            <div className="flex justify-between text-lg font-semibold text-slate-500">
+        <div className=" py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
+          <div className="bg-white rounded-lg shadow-lg shadow-slate-600 px-4 h-[420px] overflow-y-auto">
+            <div className="flex justify-between mb-4 text-lg font-semibold text-slate-500">
               <div>Important Notice</div>
               <button className="hover:text-blue-500">View All</button>
             </div>
-            <div className="overflow-hidden space-y-2">
+            <div className="overflow-hidden space-y-4">
               {Notices.map((notice, id) => {
                 return (
                   <DepartmentNotify
                     key={id}
                     title={notice.notice}
-                    fun={notice.fun}
+                    link={notice.link? notice.link : ""}
                   />
                 )
               })}
@@ -180,28 +124,24 @@ export default function Humanities() {
             Title={'FACULTY'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/EE/labs')}
+            onClick={() => router.push('/AllDepartment/Humanities/labs')}
             Title={'LABS'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/EE/syllabus')}
+            onClick={() => router.push('/AllDepartment/Humanities/syllabus')}
             Title={'SYLLABUS'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/EE/activities')}
+            onClick={() => router.push('/AllDepartment/Humanities/activities')}
             Title={'ACTIVITIES'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/EE/achivments')}
-            Title={'ACHIEVMENTS'}
-          />
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/EE/research')}
+            onClick={() => router.push('/AllDepartment/Humanities/research')}
             Title={'RESEARCH HIGHLIGHT'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/EE/usefullLinks')}
-            Title={'USEFULL LINKS'}
+            onClick={() => router.push('/AllDepartment/Humanities/time-table')}
+            Title={'Time Table'}
           />
         </div>
       </div>
