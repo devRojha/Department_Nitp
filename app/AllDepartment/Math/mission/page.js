@@ -3,7 +3,7 @@ import BackDepartment from "@/components/BackDepartment";
 export default function mission() {
   return (
     <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2">
-      <div className="flex flex-col  mb-16">
+      <div className="flex flex-col  mb-8">
         <div>
           <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
             MISSION AND VISION
@@ -12,13 +12,14 @@ export default function mission() {
         <div className="mt-2">
           <p className="text-gray-500 text-xl font-semibold">MATHEMATICS</p>
         </div>
+        <BackDepartment navigate={"/AllDepartment/Math"}/>
       </div>
       {/* vision */}
       <div className="mb-10">
         <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">
           VISION :-
         </div>
-        <div className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm">
+        <div className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm text-justify">
           The vision of the Department is to achieve excellence in undergraduate
           and postgraduate education and research through a synergic combination
           and thereby lead to development of new knowledge.
@@ -29,9 +30,8 @@ export default function mission() {
         <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">
           MISSION :-
         </div>
-        <BackDepartment navigate={"/AllDepartment/Math"}/>
-        <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm">
-          <li>
+        <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm text-justify">
+          <li className="">
             The Department of Mathematics will offer courses and programs of
             study that will ensure that the student learner will be able to
             contribute to today&apos;s society. The students will obtain

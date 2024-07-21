@@ -128,25 +128,25 @@ export default function EE() {
                </div> */}
 
         {/* Notice  */}
-        <div className="h-[500px] py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
-          <div className="bg-white overflow-hidden rounded-lg shadow-lg shadow-slate-600 px-2 ">
-            <div className="flex justify-between text-lg font-semibold text-slate-500">
-              <div>Important Notice</div>
-              <button className="hover:text-blue-500">View All</button>
-            </div>
-            <div className="overflow-hidden space-y-2">
-              {Notices.map((notice, id) => {
-                return (
-                  <DepartmentNotify
-                    key={id}
-                    title={notice.notice}
-                    fun={notice.fun}
-                  />
-                )
-              })}
+        <div className=" py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
+            <div className="bg-white rounded-lg shadow-lg shadow-slate-600 px-4 h-[420px] overflow-y-auto">
+              <div className="flex justify-between mb-4 text-lg font-semibold text-slate-500">
+                <div>Important Notice</div>
+                <button className="hover:text-blue-500">View All</button>
+              </div>
+              <div className="overflow-hidden flex flex-col-reverse">
+                {Notices.map((notice, id) => {
+                  return (
+                    <DepartmentNotify
+                      key={id}
+                      title={notice.notice}
+                      link={notice.link? notice.link : ""}
+                   />
+                 )
+                })}
+              </div>
             </div>
           </div>
-        </div>
       </div>
       {/* Section 2 */}
       <div className="grid grid-cols-2 max-md:grid-cols-1">

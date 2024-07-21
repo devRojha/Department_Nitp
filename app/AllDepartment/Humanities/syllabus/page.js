@@ -24,7 +24,7 @@ export default function Page() {
                     </p>
                 </div>
             </div>
-            <BackDepartment navigate={"/AllDepartment/CE"}/>
+            <BackDepartment navigate={"/AllDepartment/Humanities"}/>
             <div className="mt-2 mb-10 flex space-x-1">
                 <button onClick={() => {
                     setUg(true);

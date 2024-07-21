@@ -78,7 +78,7 @@ export default function Humanities() {
               <div>Important Notice</div>
               <button className="hover:text-blue-500">View All</button>
             </div>
-            <div className="overflow-hidden space-y-4">
+            <div className="overflow-hidden flex flex-col-reverse">
               {Notices.map((notice, id) => {
                 return (
                   <DepartmentNotify

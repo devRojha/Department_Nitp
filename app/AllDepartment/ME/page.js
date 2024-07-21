@@ -8,86 +8,25 @@ import {useRouter} from 'next/navigation';
 const Notices = [
     {
         id:1,
-        notice:"this is notice1",
-        fun:""
+        notice:"Lab viva schedule of ME_UG_1st semester",
+        link:"https://drive.google.com/file/d/1mhVc_W1HORQAHEUcFoAwoqBFA2B96nLE/view"
     },
     {
         id:2,
-        notice:"this is notice2",
-        fun:""
+        notice:"Lab viva schedule of ME",
+        link:"https://drive.google.com/file/d/1a1bPf-cwduGqyPJBTCf8XjEW2_ODObZn/view"
     },
     {
         id:3,
-        notice:"this is notice3",
-        fun:""
+        notice:"Lab Viva-voce Schedule of B.Tech: 2nd Sem 2022 Batch Students.",
+        link:"https://drive.google.com/file/d/18o-IMapYIWkUDOdSZFCNPYA7G_0zUO0z/view"
     },
     {
         id:4,
-        notice:"this is notice4",
-        fun:""
+        notice:"Schedule of Practical Exam Viva - voce Jan_June-2024",
+        link:"https://drive.google.com/file/d/1pgfw_k7rSY0NUxqWd4tzX83y9N2lh3E7/view"
     },
-    {
-        id:5,
-        notice:"this is notice5",
-        fun:""
-    },
-    {
-        id:6,
-        notice:"this is notice6",
-        fun:""
-    },
-
-    {
-        id:7,
-        notice:"this is notice7",
-        fun:""
-    },
-    {
-        id:8,
-        notice:"this is notice8",
-        fun:""
-    },
-    {
-        id:9,
-        notice:"this is notice9",
-        fun:""
-    },
-    {
-        id:10,
-        notice:"this is notice10",
-        fun:""
-    },
-    {
-        id:11,
-        notice:"this is notice11",
-        fun:""
-    },
-    {
-        id:12,
-        notice:"this is notice12",
-        fun:""
-    },
-    {
-        id:13,
-        notice:"this is notice13",
-        fun:""
-    },
-    {
-        id:14,
-        notice:"this is notice14",
-        fun:""
-    },
-    {
-        id:15,
-        notice:"this is notice15",
-        fun:""
-    },
-    {
-        id:16,
-        notice:"this is notice16",
-        fun:""
-    },
-    
+ 
 ]
 
 export default function ME() {
@@ -113,21 +52,21 @@ export default function ME() {
           </div>
           
           {/* Notice  */}
-          <div className="h-[500px] py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
-            <div className="bg-white overflow-hidden rounded-lg shadow-lg shadow-slate-600 px-2 ">
-              <div className="flex justify-between text-lg font-semibold text-slate-500">
+          <div className=" py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
+            <div className="bg-white rounded-lg shadow-lg shadow-slate-600 px-4 h-[420px] overflow-y-auto">
+              <div className="flex justify-between mb-4 text-lg font-semibold text-slate-500">
                 <div>Important Notice</div>
                 <button className="hover:text-blue-500">View All</button>
               </div>
-              <div className="overflow-hidden space-y-2">
+              <div className="overflow-hidden flex flex-col-reverse">
                 {Notices.map((notice, id) => {
                   return (
                     <DepartmentNotify
                       key={id}
                       title={notice.notice}
-                      fun={notice.fun}
-                    />
-                  )
+                      link={notice.link? notice.link : ""}
+                   />
+                 )
                 })}
               </div>
             </div>
