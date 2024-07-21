@@ -20,7 +20,7 @@ export default function Humanities() {
     <div className="p-10 max-sm:px-0  bg-orange-50">
       {/* heading */}
       <div className="text-3xl max-sm:text-2xl max-sm:ml-2 font-bold text-red-900 mb-2">
-      Mechatronics & Automation
+      Chemical Engineering and Technology
       </div>
       <BackDepartment navigate={"/"} />
       {/* Section 1 */}
@@ -80,39 +80,39 @@ export default function Humanities() {
 
         {/* <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/hod')}
+            onClick={() => router.push('/AllDepartment/Chemical/hod')}
             Title={'HOD Info'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/mission')}
+            onClick={() => router.push('/AllDepartment/Chemical/mission')}
             Title={'MISSION AND VISSION'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/faculty')}
+            onClick={() => router.push('/AllDepartment/Chemical/faculty')}
             Title={'FACULTY'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/labs')}
+            onClick={() => router.push('/AllDepartment/Chemical/labs')}
             Title={'LABS'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/syllabus')}
+            onClick={() => router.push('/AllDepartment/Chemical/syllabus')}
             Title={'SYLLABUS'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/activities')}
+            onClick={() => router.push('/AllDepartment/Chemical/activities')}
             Title={'ACTIVITIES'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/achivments')}
+            onClick={() => router.push('/AllDepartment/Chemical/achivments')}
             Title={'ACHIEVMENTS'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/research')}
+            onClick={() => router.push('/AllDepartment/Chemical/research')}
             Title={'RESEARCH HIGHLIGHT'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/usefullLinks')}
+            onClick={() => router.push('/AllDepartment/Chemical/usefullLinks')}
             Title={'USEFULL LINKS'}
           />
         </div> */}

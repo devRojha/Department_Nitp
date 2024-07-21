@@ -10,18 +10,18 @@ export default function Page() {
   const [phd, setphd] = useState(false)
   return (
     <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2">
-      <div className="flex flex-col  mb-16">
+      <div className="flex flex-col  mb-8">
         <div>
           <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
             SYLLABUS
           </p>
         </div>
-        <BackDepartment navigate={"/AllDepartment/Math"}/>
         <div className="mt-2">
           <p className="text-gray-500 text-xl font-semibold">
             Mathematics
           </p>
         </div>
+        <BackDepartment navigate={"/AllDepartment/Math"}/>
       </div>
       <div className="mb-10 flex space-x-1">
         <button
@@ -1422,9 +1422,13 @@ export default function Page() {
           />
            */}
         {/* </div> */}
-       <ul>
-        <li>To be uploaded for PhD</li>
-       </ul>
+        <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
+          <li className="hover:text-blue-800">
+            <a className='' href="">
+            To be uploaded for PhD
+            </a>
+          </li>
+        </ul>
       </div>
       {/* Dual PROGRAM  */}
       <div className={`mb-10 ${dual == false ? 'hidden' : ''}`}>

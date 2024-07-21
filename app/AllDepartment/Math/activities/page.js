@@ -71,6 +71,11 @@ function page() {
         <div>
           <p className="text-red-900 text-4xl font-bold">ACTIVITIES</p>
         </div>
+        <div className="mt-2">
+          <p className="text-gray-500 text-xl font-semibold">
+            Mathematics
+          </p>
+        </div>
         <BackDepartment navigate={"/AllDepartment/Math"}/>
       </div>
       <ActComp

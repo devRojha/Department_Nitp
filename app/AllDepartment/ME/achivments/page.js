@@ -385,9 +385,9 @@ function Page() {
                     </div>
                 </div>
                     
-                <div className="ml-4">
-                    <h1 className="text-[28px] font-bold">Clubs Achievements :</h1>
-                    <ul className="list-disc text-[20px]">
+                <div className="">
+                    <h1 className="text-[28px] font-bold text-red-900 mb-4">Clubs Achievements :</h1>
+                    <ul className="list-disc text-[18px] ml-4">
                         <li>In HPVC INDIA 2014, we stood 6th overall from all the 41 colleges participating, ranging from IITs to BITSs and NITs and various other prestigious colleges.</li>
                         <li>5th position in ENDURANCE Event in HPVC - 2014.</li>
                         <li>5th position in DRAG Event in HPVC - 2014.</li>
