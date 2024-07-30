@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className="w-full h-20 pb-20 border">For App Bar</div>
-        <div>{children}</div>
+        <div className="bg-[url('/maindiv.png')] bg-repeat">{children}</div>
         <div className="w-full h-20 pb-20 border">Footer</div>
       </body>
     </html>

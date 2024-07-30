@@ -66,7 +66,7 @@ export default function research() {
                 </div>
                 <BackDepartment navigate={"/AllDepartment/EE"} />
             </div>
-            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400">
+            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                     <div className="text-[19px] text-justify">
                         The Electrical Engineering Department, NIT Patna is
                         a one of the nucleus of academic excellence, research
