@@ -1,5 +1,6 @@
 "use client"
 import { DepartmentNavigateButton } from "@/components/DepartmentNavigateButton"
+import Image from "next/image";
 import { useRouter } from "next/navigation"
 
 
@@ -11,19 +12,19 @@ export default function Home() {
         {/* heading */}
         <div className="font-bold text-3xl text-red-900 flex justify-center">DEPARTMENTS</div>
           <div className="mt-10 mx-0 max-sm:mx-2 grid grid-cols-3 max-md:grid-cols-2  max-sm:grid-cols-1">
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Archi");}}department={"Architecture & Planning"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Chem");}}department={"Chemistry"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Chemical");}}department={"Chemical Engineering and Technology"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/CE");}}department={"Civil"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/CSE");}}department={"Computer Science"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/EE");}}department={"Electrical"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/ECE");}}department={"Electronics And Comunication"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Archi");}}department={"Architecture & Planning"} icon={"/architecture_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Chem");}}department={"Chemistry"} icon={"/chemistry_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Chemical");}}department={"Chemical Engineering and Technology"} icon={"/chemistry_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/CE");}}department={"Civil"} icon={"/civil_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/CSE");}}department={"Computer Science"} icon={"/computer_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/EE");}}department={"Electrical"} icon={"/electric_icon.png"} />
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/ECE");}}department={"Electronics And Comunication"} icon={"/electronics_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Humanities");}}department={"Humanities & Social Sciences"} icon={"/electric_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Math");}}department={"Mathmatics And Computing"} icon={"/humanities_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/ME");}}department={"Mechanical"} icon={"/mechanical_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Mechatronics");}}department={"Mechatronics & Automation"} icon={"/mechatronics_icon.png"}/>
+            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Phy");}}department={"Physics"} icon={"/physics_icon.png"}/>
             {/* <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/IMSc");}}department={"IMSc Math"}/> */}
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Humanities");}}department={"Humanities & Social Sciences"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Math");}}department={"Mathmatics And Computing"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/ME");}}department={"Mechanical"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Mechatronics");}}department={"Mechatronics & Automation"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Phy");}}department={"Physics"}/>
           </div>                      
       </div>
   </div>
