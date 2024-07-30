@@ -1,13 +1,13 @@
 import BackDepartment from "@/components/BackDepartment"
 
 
-function Page(){
+function Page() {
     return (
-        <div className="bg-orange-50 flex flex-col p-5 h-screen">  
+        <div className=" flex flex-col p-5 h-screen">
             <div className="flex flex-col md:ml-10">
                 <div>
                     <div>
-                    <BackDepartment navigate={'/AllDepartment/ECE'}/>
+                        <BackDepartment navigate={'/AllDepartment/ECE'} />
                     </div>
                     <p className="text-red-900 text-3xl font-bold">
                         VISION
@@ -23,7 +23,7 @@ function Page(){
                         MISSION
                     </p>
                     <p className="mt-6 md:text-lg">
-                    To become a centre of excellence to impart up-to-date technical education, which will let our students to attain their maximum technical potential, managerial capability, be competitive in the job market and to emerge as a leading research hub.
+                        To become a centre of excellence to impart up-to-date technical education, which will let our students to attain their maximum technical potential, managerial capability, be competitive in the job market and to emerge as a leading research hub.
                     </p>
                 </div>
             </div>
