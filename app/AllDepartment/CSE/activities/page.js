@@ -3,13 +3,13 @@ import BackDepartment from "@/components/BackDepartment"
 function ActComp({title,content}){
     return(
         <div className="flex flex-col mt-8 lg:ml-10">
-            <p className="text-2xl font-semibold mb-4">
+            <p className="text-xl font-semibold mb-4">
                 {title}
             </p>
             <ul>
                 {content.map((points,i)=>{
                     return(
-                        <li key={i} className="list-disc ml-4 md:text-lg
+                        <li key={i} className="list-disc ml-4 md:text-base
                         pb-2">
                            {points}
                         </li>
@@ -47,12 +47,12 @@ function Page(){
         <div className=" flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-4xl font-bold">
+                    <p className="text-red-900 text-2xl font-bold">
                         ACTIVITIES
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                    <p className="text-gray-500 text-base font-semibold">
                         COMPUTER SCIENCE ENGINEERING
                     </p>
                 </div>
