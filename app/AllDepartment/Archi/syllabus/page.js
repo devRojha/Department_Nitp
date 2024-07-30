@@ -43,12 +43,12 @@ function Page() {
         <div className=" flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         SYLLABUS
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         Architecture
                     </p>
                 </div>
@@ -78,6 +78,7 @@ function Page() {
                     </div>
                     {/* UG PROGRAM */}
                     <div className={`mb-10 ${(ug == false) ? "hidden" : ""}`}>
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">UG Courses :-</div>
                         <div className=" overflow-x-auto mr-10">
                             <div className="border grid grid-cols-12 min-w-[1100px]">
                                 <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -906,7 +907,7 @@ function Page() {
                     </div>
                     {/* PG PROGRAM  */}
                     <div className={`mb-10 ${(pg == false) ? "hidden" : ""}`}>
-                        <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">PG PROGRAM :-</div>
+                        <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">PG PROGRAM :-</div>
                         <div className=" overflow-x-auto">
                             <div className="border grid grid-cols-12 min-w-[1100px]">
                                 <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>

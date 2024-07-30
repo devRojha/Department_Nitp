@@ -82,6 +82,12 @@ export default function CSE() {
               Algorithm and Artificial Intelligence. Apart from these, students
               are also offered a wide variety of electives.
             </div>
+            <button
+              onClick={() => router.push('/AllDepartment/CSE/about')}
+              className="text-blue-600"
+            >
+              more...
+            </button>
           </div>
           {/* Navigation Button  */}
           <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
