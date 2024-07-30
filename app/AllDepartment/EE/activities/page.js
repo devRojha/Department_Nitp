@@ -176,7 +176,7 @@ export default function activities() {
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                    <p className="text-gray-500 text-base font-semibold">
                         Electrical and Engineering
                     </p>
                 </div>
@@ -184,7 +184,7 @@ export default function activities() {
             </div>
             <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div>
-                    <h1 className="text-[23px] font-bold">Lsit of Research Projects Sanctioned / On-going:-</h1>
+                    <h1 className="font-semibold lg:text-2xl text-xl">List of Research Projects Sanctioned / On-going:-</h1>
                     <p>The list of sponsored Research projects carried out by the faculty members of
                         the department are provided in the following table:</p>
                 </div>

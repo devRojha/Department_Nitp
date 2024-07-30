@@ -6,12 +6,12 @@ export default function achivments(){
         <div className=" flex flex-col p-10 max-sm:p-2">  
             <div className="flex flex-col mb-6">
                 <div>
-                    <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
-                        ACHIEVMENTS
+                    <p className="text-red-900 text-xl lg:text-2xl  font-bold">
+                        ACHIEVEMENTS
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         ELECTRICAL ENGINEERING
                     </p>
                 </div>
@@ -20,8 +20,8 @@ export default function achivments(){
             <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 {/* Achivment */}
                 <div className="mb-10">
-                    <div className="text-red-900 font-bold text-2xl max-sm:text-LG mb-8">Notable achievements by students:</div>
-                    <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">Notable achievements by students:</div>
+                    <ul className="list-disc list-inside ml-5 space-y-4 lg:text-base text-sm">
                         <li>Abhash Kumar - secured All India Rank 1 in GATE EE 2020.</li>
                         <li>Sudhakar Kumar - secured All India Rank 9th Engineering Service Examination (ESE 2015).</li>
                         <li>Amratansh Gupta - secured All India Rank 88 in GATE 2020 and currently he is a Ph.D. researcher with Department of Electronics and Informatics of Vrije Universiteit Brussel.</li>
@@ -29,10 +29,10 @@ export default function achivments(){
                 </div>
                 {/* performance in gate */}
                 <div className="mb-10">
-                    <div className="text-red-900 font-bold text-2xl max-sm:text-LG mb-8">Consistent performance in GATE:</div>
-                    <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">Consistent performance in GATE:</div>
+                    <ul className="list-disc list-inside ml-5 space-y-4 lg:text-base text-sm">
                         <li>GATE 2024 Performers</li>
-                        <ul className="list-disc list-inside space-y-4 text-lg max-md:text-[15px] max-sm:text-sm ml-8">
+                        <ul className="list-disc list-inside space-y-4 lg:text-base text-sm ml-8">
                             <li>Mayank Jaiman (Roll No. Graduating Year: 2022) secured AIR 25 in the discipline of EE.</li>
                             <li>Manish Choudhary (Roll No.1802113 Graduating Year: 2022) AIR 519.</li>
                             <li>Jitendra Kumar (Roll No.1802102, Graduating Year: 2022) (Maruti Suzuki India Ltd.) AIR 600</li>
@@ -45,7 +45,7 @@ export default function achivments(){
                 </div>
                 {/* performancein work place  */}
                 <div className="mb-10">
-                    <div className="text-red-900 font-bold text-2xl max-sm:text-LG mb-8">Performers at their workplace:</div>
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">Performers at their workplace:</div>
                     <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
                         <li>Anjali (Roll No. 1902045; Graduating Year:2023) working as Pre-Sales Consultant at O9 Solutions Management Pvt Ltd received SPOT Award</li>
                         <li>Tanishq Singh (Roll No. 1802100 Graduating Year: 2022) Winner of Tata Crucible Hackathon 2022 East Region, Winner of IMS case study challenge 2022, Applause/Spot Awards in Deloitte for exceptional performance.</li>
@@ -60,14 +60,14 @@ export default function achivments(){
                 </div>
                 {/* Internship  */}
                 <div className="mb-10">
-                    <div className="text-red-900 font-bold text-2xl max-sm:text-LG mb-8">Students Selected for Industrial / Academic Internship:</div>
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">Students Selected for Industrial / Academic Internship:</div>
                     <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
                         
                     </ul>
                 </div>
                 {/* Publications */}
                 <div className="mb-10">
-                    <div className="text-red-900 font-bold text-2xl max-sm:text-LG mb-8">List of Publications by Students:</div>
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">List of Publications by Students:</div>
                     <ol className="list-decimal list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
                         <li>Kamakshi Prashadini Swain, Prakash Lakhara, Kapish Khetan, Siddhant Mishra, Mala De, “Efficient hybrid pricing for optimal DSM of home energy management system utilizing load precedence” International Transactions on Electrical Energy Systems, volume 31, No. 3, Jan. 2021.</li>
                         <li>Shweta Kumari, Pulakraj Aryan and G. Lloyds Raja, Design and simulation of a novel FOIMC-PD/P double-loop control structure for CSTRs and bioreactors, Int. J. Chem. React. Eng., 2021, doi.org/10.1515/ijcre-2021-0140.</li>
