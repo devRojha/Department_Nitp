@@ -22,9 +22,14 @@ function Page(){
         <div className=" flex flex-col p-5">  
             <div className="flex flex-col md:ml-10 h-screen">
                 <div className="mb-2">
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-2xl font-bold">
                         ACHIEVEMENTS
                     </p>
+                    <div className="mt-2">
+                    <p className="text-gray-500 text-base font-semibold">
+                        COMPUTER SCIENCE ENGINEERING
+                    </p>
+                    </div>
                     <div>
                     <BackDepartment navigate={'/AllDepartment/CSE'}/>
                     </div>

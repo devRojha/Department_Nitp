@@ -14,12 +14,12 @@ export default function Page() {
         <div className=" flex flex-col p-10 max-sm:p-2">
             <div className="flex flex-col mb-3">
                 <div>
-                    <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         SYLLABUS
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         COMPUTER SCIENCE ENGINEERING
                     </p>
                 </div>
@@ -96,7 +96,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className={`mb-10 ${(ug == false) ? "hidden" : ""}`}>
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">UG PROGRAM</div>
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">UG PROGRAM</div>
                     <div className=" overflow-x-auto">
                         <div className="border grid grid-cols-12 min-w-[1100px]">
                             <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -1283,7 +1283,7 @@ export default function Page() {
                 </div>
                 {/* dual degree data science */}
                 <div className={`mb-10 ${(dualData == false) ? "hidden" : ""}`}>
-                <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">  DUAL DEGREE PROGRAM(DATA):-</div>
+                <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">  DUAL DEGREE PROGRAM(DATA):-</div>
                     <div className=" overflow-x-auto">
                         <div className="border grid grid-cols-12 min-w-[1100px]">
                             <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -2295,7 +2295,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className={`mb-10 ${(ug2021 == false) ? "hidden" : ""}`}>
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">UG PROGRAM 2021 :-</div>
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">UG PROGRAM 2021 :-</div>
                     <div className=" overflow-x-auto">
                         <div className="border grid grid-cols-12 min-w-[1100px]">
                             <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -3080,7 +3080,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className={`mb-10 ${(ug2022 == false) ? "hidden" : ""}`}>
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">UG PROGRMA 2022:-</div>
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">UG PROGRAM 2022:-</div>
                     <div className=" overflow-x-auto">
                         <div className="border grid grid-cols-12 min-w-[1100px]">
                             <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -4230,7 +4230,7 @@ export default function Page() {
                 </div>
                 {/* PG PROGRAM  */}
                 <div className={`mb-10 ${(pg == false) ? "hidden" : ""}`}>
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">PG PROGRAM :-</div>
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">PG PROGRAM :-</div>
                     <div className=" overflow-x-auto">
                         <div className="border grid grid-cols-12 min-w-[1100px]">
                             <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -4756,7 +4756,7 @@ export default function Page() {
                 </div>
                 {/* PhD  */}
                 <div className={`mb-10 ${(phd == false) ? "hidden" : ""}`}>
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">PhD PROGRAM :-</div>
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">PhD PROGRAM :-</div>
                     <div className=" overflow-x-auto">
                         <div className="border grid grid-cols-12 min-w-[1100px]">
                             <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -4844,7 +4844,7 @@ export default function Page() {
                 </div>
                 {/* Dual PROGRAM  */}
                 <div className={`mb-10 ${(dualCyber == false) ? "hidden" : ""}`}>
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">DUAL DEGREE PROGRAM(CYBER):-</div>
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">DUAL DEGREE PROGRAM(CYBER):-</div>
                     <div className=" overflow-x-auto">
                         <div className="border grid grid-cols-12 min-w-[1100px]">
                             <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
