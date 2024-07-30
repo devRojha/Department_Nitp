@@ -19,11 +19,23 @@ function Comp({content}){
 
 function Page(){
     return (
-        <div className="bg-orange-50 flex flex-col p-5">  
+        <div className=" flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
                 <div>
+                    <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
+                        Mission And Vision
+                    </p>
+                </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-xl font-semibold">
+                        COMPUTER SCIENCE ENGINEERING
+                    </p>
+                </div>
+                <BackDepartment navigate={'/AllDepartment/CSE'}/>
+            </div>
+            <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
+                <div>
                     <div>
-                    <BackDepartment navigate={'/AllDepartment/CSE'}/>
                     </div>
                     <p className="text-red-900 text-3xl font-bold">
                         VISION
