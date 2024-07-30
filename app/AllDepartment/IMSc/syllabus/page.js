@@ -1,4 +1,3 @@
-import BackDepartment from "@/components/BackDepartment"
 
 
 function page(){

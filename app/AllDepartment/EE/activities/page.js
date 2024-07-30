@@ -2,7 +2,6 @@ import BackDepartment from "../../../../components/BackDepartment";
 function Compo({ sno, project, file, title, amount, investigator, status, sdate, edate, duration }) {
     return (
         <>
-
             <div className="col-span-1 border border-black pl-4 py-2 flex items-center">
                 {sno}
             </div>
@@ -169,8 +168,8 @@ function Electure({ title, sno, duration, person }) {
 export default function activities() {
 
     return (
-        <div className="bg-orange-50 flex flex-col p-10 ">
-            <div className="flex flex-col md:ml-10">
+        <div className=" flex flex-col p-10 ">
+            <div className="flex flex-col md:ml-10 mb-3">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
                         ACTIVITIES
@@ -182,6 +181,8 @@ export default function activities() {
                     </p>
                 </div>
                 <BackDepartment navigate={"/AllDepartment/EE"} />
+            </div>
+            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400">
                 <div>
                     <h1 className="text-[23px] font-bold">Lsit of Research Projects Sanctioned / On-going:-</h1>
                     <p>The list of sponsored Research projects carried out by the faculty members of
