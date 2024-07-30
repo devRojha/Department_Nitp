@@ -24,7 +24,6 @@ export default function Home() {
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/ME");}}department={"Mechanical"} icon={"/mechanical_icon.png"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Mechatronics");}}department={"Mechatronics & Automation"} icon={"/mechatronics_icon.png"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Phy");}}department={"Physics"} icon={"/physics_icon.png"}/>
-            {/* <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/IMSc");}}department={"IMSc Math"}/> */}
           </div>                      
       </div>
   </div>
