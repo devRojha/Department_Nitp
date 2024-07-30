@@ -21,8 +21,8 @@ export default function labs(){
     },2000)
 
     return (
-        <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2">  
-            <div className="flex flex-col  mb-16">
+        <div className=" flex flex-col p-10 max-sm:p-2">  
+            <div className="flex flex-col  mb-6">
                 <div>
                     <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
                         LABS
@@ -35,6 +35,7 @@ export default function labs(){
                 </div>
                 <BackDepartment navigate={"/AllDepartment/CE"}/>
             </div>
+            
             <div className="mb-10">
                 <div className="text-red-900 font-bold text-2xl max-sm:text-lg mb-4">Laboratory Details:-</div>
                 <p className="text-lg max-sm:text-sm mb-8">Civil Engineering Department, NIT Patna has state-of-the-art laboratories in the following specializations.These laboratories are well-equipped to cater the academic and research requirements of both UG and PG students.</p>
