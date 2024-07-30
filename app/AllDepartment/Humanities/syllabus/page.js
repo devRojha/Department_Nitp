@@ -11,7 +11,7 @@ export default function Page() {
     const [dual, setdual] = useState(false);
     const [phd, setphd] = useState(false);
     return (
-        <div className="bg-orange-50 flex flex-col p-10 max-sm:p-2">
+        <div className=" flex flex-col p-10 max-sm:p-2">
             <div className="flex flex-col mb-2">
                 <div>
                     <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
