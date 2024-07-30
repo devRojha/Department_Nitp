@@ -27,7 +27,7 @@ const ActComp=({scholar,sp,title,curr,year,sno})=>{
 
 function Page(){
     return (
-        <div className="bg-orange-50 flex flex-col p-5">  
+        <div className=" flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
@@ -36,6 +36,7 @@ function Page(){
                     <div>
                     <BackDepartment navigate={'/AllDepartment/Chem'}/>
                     </div>
+                    
                     <p className="text-red-900 text-xl mt-4 font-bold">
                         Ph.D. Alumini:
                     </p>
