@@ -40,7 +40,7 @@ function Page() {
     const [ug, setUg] = useState(true);
     const [pg, setPg] = useState(false);
     return (
-        <div className="bg-orange-50 flex flex-col p-5">
+        <div className=" flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
@@ -55,6 +55,8 @@ function Page() {
                 <div>
                     <BackDepartment navigate={'/AllDepartment/Archi'}/>
                 </div>
+            </div>
+            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div>
                     <ActComp
                         content={['B.Arch All Semester course structure',

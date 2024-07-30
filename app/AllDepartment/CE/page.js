@@ -93,7 +93,7 @@ const Notices = [
 export default function CE() {
     const router=useRouter();
     return (
-      <div className="p-10 max-sm:px-0 border border-red-700 bg-orange-50">
+      <div className="p-10 max-sm:px-0 border border-red-700 ">
         {/* heading */}
         <div className="text-3xl max-sm:text-2xl max-sm:ml-2 font-bold text-red-900 mb-10">
           CIVIL ENGINEERING
@@ -187,7 +187,7 @@ export default function CE() {
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CE/achivments')}
-              Title={'ACHIVMENTS'}
+              Title={'ACHIEVEMENTS'}
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CE/timeTable')}

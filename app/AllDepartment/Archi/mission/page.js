@@ -3,19 +3,29 @@ import BackDepartment from "@/components/BackDepartment"
 
 function Page(){
     return (
-        <div className="bg-orange-50 flex flex-col p-5">  
+        <div className="flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <div>
+                    <p className="text-red-900 text-3xl font-bold">
+                        Mission And Vision
+                    </p>
+                </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-xl font-semibold">
+                        Architecture
+                    </p>
+                </div>
+                <div>
                     <BackDepartment navigate={'/AllDepartment/Archi'}/>
-                    </div>
+                </div>
+            </div>
+            <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                     <p className="text-red-900 text-3xl font-bold">
                         VISION
                     </p>
                     <p className="mt-6 md:text-lg">
                     To become a center of excellence to inspire, innovate and transform the knowledge to create a sustainable built environment for improved quality of life on the earth.
                     </p>
-                </div>
                 <div className="mt-10">
                     <p className="text-red-900 text-3xl font-bold">
                         MISSION
