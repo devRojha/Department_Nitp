@@ -59,7 +59,7 @@ function Compon({ app, pi, title, filldate, Patent, grant, sno }) {
 }
 function Page() {
     return (
-        <div className="bg-orange-50 flex flex-col p-5">
+        <div className="flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
