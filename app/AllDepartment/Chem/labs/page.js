@@ -73,6 +73,11 @@ function Page() {
                         LABS
                     </p>
                 </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-base font-semibold">
+                        CHEMISTRY
+                    </p>
+                </div>
                 <div>
                     <BackDepartment navigate={'/AllDepartment/Chem'} />
                 </div>

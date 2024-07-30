@@ -28,15 +28,21 @@ const ActComp=({scholar,sp,title,curr,year,sno})=>{
 function Page(){
     return (
         <div className=" flex flex-col p-5">  
-            <div className="flex flex-col md:ml-10">
+            <div className="flex flex-col  mb-6">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
-                        More Info
+                    <p className="text-red-900 text-2xl  font-bold">
+                        More Information
                     </p>
-                    <div>
-                    <BackDepartment navigate={'/AllDepartment/Chem'}/>
-                    </div>
-                    
+                </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-base font-semibold">
+                        CHEMISTRY
+                    </p>
+                </div>
+                <BackDepartment navigate={"/AllDepartment/Chem"}/>
+            </div>
+            <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
+                <div>
                     <p className="text-red-900 text-xl mt-4 font-bold">
                         Ph.D. Alumini:
                     </p>

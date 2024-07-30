@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const ActComp = ({ title, date, venue, speaker, img, head, sno }) => {
     return (
-        <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
+        <div>
             <div className='flex flex-col mt-10'>
                 <div>
                     <p className='text-xl lg:text-2xl font-semibold'>
@@ -50,9 +50,16 @@ function Page() {
                         ACTIVITIES
                     </p>
                 </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-base font-semibold">
+                        CHEMISTRY
+                    </p>
+                </div>
                 <div>
                     <BackDepartment navigate={'/AllDepartment/Chem'} />
                 </div>
+            </div>
+            <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <ActComp
                     sno={1}
                     head={"Department Lecture Series 7"}
