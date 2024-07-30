@@ -10,6 +10,11 @@ function Page() {
                         LABS
                     </p>
                 </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-xl font-semibold">
+                        Electronics and Communications Engineering
+                    </p>
+                </div>
                 <div>
                     <BackDepartment navigate={'/AllDepartment/ECE'} />
                 </div>

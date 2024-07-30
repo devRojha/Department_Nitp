@@ -52,9 +52,9 @@ function Page() {
                         Electronics and Communications Engineering
                     </p>
                 </div>
-                <div>
-                    <BackDepartment navigate={'/AllDepartment/ECE'}/>
+                <BackDepartment navigate={'/AllDepartment/ECE'}/>
                 </div>
+            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div>
                     <ActComp
                         content={['Course structure for of Minor courses floated by ECE Dept. for B.Tech. (CSE, EE, CE, ME)',
