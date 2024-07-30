@@ -23,13 +23,20 @@ function Compo({ project, pi, sponsor, amount, year, sno }) {
 function Page() {
     return (
         <div className=" flex flex-col p-5">
-            <div className="flex flex-col md:ml-10">
+            <div className="flex flex-col md:ml-10 mb-3">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
                         Activities
                     </p>
                 </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-xl font-semibold">
+                        MECHANICAL ENGINEERING
+                    </p>
+                </div>
                 <BackDepartment navigate={"/AllDepartment/ME"}/>
+            </div>
+            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div className="mt-10">
                     <p className="text-black text-xl font-semibold">
                         List of Short - Term Courses / Faculty Development Program / Workshop / Gian Program:

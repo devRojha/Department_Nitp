@@ -66,7 +66,14 @@ function Page() {
                         Achievements
                     </p>
                 </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-xl font-semibold">
+                        MECHANICAL ENGINEERING
+                    </p>
+                </div>
                 <BackDepartment navigate={"/AllDepartment/ME"}/>
+            </div>
+            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div className="mt-10">
                     <p className="text-grey-900 text-xl font-semibold">
                         Sponsored Project List:
