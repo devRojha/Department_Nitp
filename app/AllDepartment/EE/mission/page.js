@@ -6,12 +6,12 @@ export default function mission(){
         <div className=" flex flex-col p-10 max-sm:p-2">  
             <div className="flex flex-col  mb-16">
                 <div>
-                    <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
+                    <p className="text-red-900 text-2xl  font-bold">
                         MISSION AND VISION
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                    <p className="text-gray-500 text-base font-semibold">
                         ELECTRICAL ENGINEERING
                     </p>
                 </div>
@@ -22,7 +22,7 @@ export default function mission(){
             <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 {/* vision */}
                 <div className="mb-10">
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">VISION :-</div>
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">VISION :-</div>
                     <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm">
                         <li>To offer quality education in electrical engineering to meet the requirements of industry, society and nation.</li>
                         <li>To provide contemporary technical knowhow by regular upgradation of curriculum as per the needs of industry and educative exposures like short term courses, conferences, etc.</li>
@@ -32,24 +32,24 @@ export default function mission(){
                 </div>
                 {/* mission */}
                 <div className="mb-10">
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">MISSION :-</div>
-                    <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">MISSION :-</div>
+                    <ul className="list-disc list-inside ml-5 space-y-4 text-sm lg:text-base">
                         <li>To achieve sustainable growth towards academic excellence in the field of Electrical Engineering.</li>
                     </ul>
                 </div>
                 {/* B.tech */}
                 <div className="">
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-2">B.Tech :-</div>
-                    <div className="text-red-900 text-2xl max-sm:text-sm mb-8">Programme Educational Objectives (PEO) for UG (B.Tech - EE)</div>
-                    <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-2">B.Tech :-</div>
+                    <div className="text-red-900 text-base lg:text-xl font-normal  mb-8">Programme Educational Objectives (PEO) for UG (B.Tech - EE)</div>
+                    <ul className="list-disc list-inside ml-5 space-y-4 lg:text-base text-sm mb-12">
                         <li>The programme is devoted to impart learning and understanding of different segments of Electrical Engineering.</li>
                         <li>The programme aims to provide students with the opportunity to apply advanced techniques and develop skills to explore new problems in Electrical Engineering. It aims to produce graduates, who are employable in Industries and/or can pursue higher studies.</li>
                         <li>The programme is expected to empower students to collaborate with different sectors of the field that shall lead to innovation for solving social, technical and business challenges in an optimized and environment friendly way.</li>
                         <li>The programme is designed to encourage students to pursue life-long learning and develop professional ethics, communication skills, leadership quality, and team work capability through continuing education toward self-improvement.</li>
                     </ul>
-                    <div className="text-red-900 text-2xl max-sm:text-sm mt-8">PROGRAM OUTCOME (POs) for UG (B.Tech - EE)</div>
-                    <div className="text-lg max-sm:text-sm mt-2 font-semibold mb-6">Engineering Graduates will be able to:</div>
-                    <ol className="list-decimal ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <div className="text-red-900 text-base lg:text-xl font-normal  mt-8">PROGRAM OUTCOME (POs) for UG (B.Tech - EE)</div>
+                    <div className="lg:text-base text-base mt-2 font-semibold mb-8">Engineering Graduates will be able to:</div>
+                    <ol className="list-decimal ml-5 px-3 space-y-4 lg:text-base text-sm mb-12">
                         <li>Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.</li>
                         <li>Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.</li>
                         <li>Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.</li>
@@ -63,9 +63,9 @@ export default function mission(){
                         <li>Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one&apos;s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.</li>
                         <li>Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.</li>
                     </ol>
-                    <div className="text-red-900 text-2xl max-sm:text-sm mt-8">Programme Specific Outcomes (PSO) for UG (B.Tech - EE)</div>
-                    <div className="text-lg max-sm:text-sm mt-2 font-semibold mb-6">Engineering Graduates will be able to:</div>
-                    <ol className="list-decimal ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <div className="text-red-900 text-base lg:text-xl font-normal mt-8">Programme Specific Outcomes (PSO) for UG (B.Tech - EE)</div>
+                    <div className="lg:text-base text-sm mt-2 font-semibold mb-8">Engineering Graduates will be able to:</div>
+                    <ol className="list-decimal ml-5 px-3 space-y-4 lg:text-base text-sm">
                         <li>Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.</li>
                         <li>Selection, design and prototype Power electronic systems and electrical machine drives for applications related to industrial, traction, electrical vehicle and renewable energy.</li>
                         <li>Design and development of Instrumentation, Control and Automation systems for industries and intelligent systems.</li>
