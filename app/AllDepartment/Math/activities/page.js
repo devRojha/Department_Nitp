@@ -66,7 +66,7 @@ function CompoInvited({ sl, faculty, institute }) {
 
 function page() {
   return (
-    <div className="bg-orange-50 flex flex-col p-5">
+    <div className=" flex flex-col p-5">
       <div className="flex flex-col md:ml-10">
         <div>
           <p className="text-red-900 text-4xl font-bold">ACTIVITIES</p>
