@@ -40,7 +40,7 @@ function Page() {
     const [dual, setdual] = useState(false);
     const [phd, setphd] = useState(false);
     return (
-        <div className="bg-orange-50 flex flex-col p-5">
+        <div className=" flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
