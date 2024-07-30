@@ -3,9 +3,21 @@ import BackDepartment from "@/components/BackDepartment"
 
 function Page(){
     return (
-        <div className="bg-orange-50 flex flex-col p-5 ">  
+        <div className=" flex flex-col p-5 ">  
             <div className="flex flex-col md:ml-10 lg:w-1/2">
+                <div>
+                    <p className="text-red-900 text-3xl font-bold">
+                        Mission And Vision
+                    </p>
+                </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-xl font-semibold">
+                        Physics
+                    </p>
+                </div>
                 <BackDepartment navigate={"/AllDepartment/Phy"}/>
+            </div>
+                <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div className='text-justify'>
                     <p className="text-red-900 text-3xl font-bold">
                         VISION
