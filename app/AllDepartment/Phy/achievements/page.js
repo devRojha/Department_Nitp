@@ -2,7 +2,7 @@ import BackDepartment from "@/components/BackDepartment"
 
 function ActComp({title,content}){
     return(
-        <div className="flex flex-col mt-8 lg:ml-10">
+        <div className="flex flex-col mt-2 lg:ml-10">
             <p className="text-2xl font-semibold mb-4">
                 {title}
             </p>
@@ -23,19 +23,25 @@ function ActComp({title,content}){
 
 function Page(){
     return (
-        <div className="bg-orange-50 flex flex-col p-5 h-screen">  
+        <div className=" flex flex-col p-5 h-screen">  
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-4xl font-bold">
                         ACHIEVEMENTS
                     </p>
-                    <BackDepartment navigate={"/AllDepartment/Phy"}/>
+                </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-xl font-semibold">
+                        Physics
+                    </p>
+                <BackDepartment navigate={"/AllDepartment/Phy"}/>
                 </div>
             </div>
-            <ActComp
-            content={['Dr. Alok Kumar Pan has been awarded RAMANUJAN FELLOWSHIP from DST-SERB in 2015.'
-            ]}/>
-
+            <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md h-screen">
+                <ActComp
+                content={['Dr. Alok Kumar Pan has been awarded RAMANUJAN FELLOWSHIP from DST-SERB in 2015.'
+                ]}/>
+            </div>
         </div>
 
     )

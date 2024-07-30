@@ -78,6 +78,7 @@ function page() {
         </div>
         <BackDepartment navigate={"/AllDepartment/Math"}/>
       </div>
+      <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
       <ActComp
         title={'Seminars and Workshops Organized by the Department'}
         content={[
@@ -190,6 +191,7 @@ function page() {
             />
           </div>
         </div>
+      </div>
       </div>
     </div>
   )
