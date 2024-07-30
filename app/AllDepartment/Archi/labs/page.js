@@ -37,57 +37,66 @@ function Page(){
         "https://web.nitp.ac.in/dept/arch/labs/DSC_0663.jpg",
     ]
     return (
-        <div className="bg-orange-50 flex flex-col p-5">  
+        <div className=" flex flex-col p-5">  
+            <div className="flex flex-col md:ml-10">
             <div className="flex flex-col md:ml-10">
                 <div>
                     <p className="text-red-900 text-3xl font-bold">
-                        LABS
+                        Labs
+                    </p>
+                </div>
+                <div className="mt-2">
+                    <p className="text-gray-500 text-xl font-semibold">
+                        Architecture
                     </p>
                 </div>
                 <div>
-                <BackDepartment navigate={'/AllDepartment/Archi'}/>
+                    <BackDepartment navigate={'/AllDepartment/Archi'}/>
                 </div>
             </div>
-            <div className="mb-10 flex flex-col lg:flex-row mt-6">
-                <div className="flex flex-col lg:w-3/4">
-                    <p className="text-red-900 font-bold text-2xl max-sm:text-1xl mb-4">
-                        Departmental Laboratories
-                    </p>
-                    <div className="lg:w-3/4">
-                        <p className="text-justify font-semibold pl-6">
-                        The Department has 4 lecture room, 8 Studios and 5 laboratories. 
-                        Apart from these there are a number of common class rooms, laboratories 
-                        and infrastructure of the Institute which are as per Council of Architecture 
-                        norms. Besides these Department has enough spaces, which are available for the 
-                        meet the requirements of all the faculty members, staff, office and students.
+            </div>
+            <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md h-screen">
+                <div className="mb-10 flex flex-col lg:flex-row mt-6">
+                    <div className="flex flex-col lg:w-3/4">
+                        <p className="text-red-900 font-bold text-2xl max-sm:text-1xl mb-4">
+                            Departmental Laboratories
                         </p>
-                        <br/><br/>
-                        Architecture Department, NIT Patna has well-equipped laboratories for the academic and research requirements of UG and PG students.
-                        <ol className="mt-4 list-decimal ml-4">
-                            <li>
-                                Building Material Lab
-                            </li>
-                            <li>
-                                Climatology Lab
-                            </li>
-                            <li>
-                                Computer Lab
-                            </li>
-                        </ol>
-                        
+                        <div className="lg:w-3/4">
+                            <p className="text-justify font-semibold pl-6">
+                            The Department has 4 lecture room, 8 Studios and 5 laboratories. 
+                            Apart from these there are a number of common class rooms, laboratories 
+                            and infrastructure of the Institute which are as per Council of Architecture 
+                            norms. Besides these Department has enough spaces, which are available for the 
+                            meet the requirements of all the faculty members, staff, office and students.
+                            </p>
+                            <br/><br/>
+                            Architecture Department, NIT Patna has well-equipped laboratories for the academic and research requirements of UG and PG students.
+                            <ol className="mt-4 list-decimal ml-4">
+                                <li>
+                                    Building Material Lab
+                                </li>
+                                <li>
+                                    Climatology Lab
+                                </li>
+                                <li>
+                                    Computer Lab
+                                </li>
+                            </ol>
+                            
 
+                        </div>
                     </div>
-                </div>
-                <div className='w-[300px] sm:w-[400px] lg:w-1/3 xl:w-1/4 m-auto mt-8 xl:mr-20'>
-                <Carousel autoSlide={true}>
-                {labUrl.map((img,i)=>(
-                    
-                    <Image src={img} alt='image' width={500}
-                    height={500} key={i} className='object-fill w-full rounded-lg bg-red-200'
-                    />
-                    
-                ))}
-                </Carousel>
+                    <div className='w-[300px] sm:w-[400px] lg:w-1/3 xl:w-1/4 m-auto mt-8 xl:mr-20'>
+                    <Carousel autoSlide={true}>
+                    {labUrl.map((img,i)=>(
+                        
+                        <Image src={img} alt='image' width={500}
+                        height={500} key={i} className='object-fill w-full rounded-lg bg-red-200'
+                        />
+                        
+                    ))}
+                    </Carousel>
+                    </div>
                 </div>
             </div>
         </div>
