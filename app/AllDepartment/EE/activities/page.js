@@ -182,7 +182,7 @@ export default function activities() {
                 </div>
                 <BackDepartment navigate={"/AllDepartment/EE"} />
             </div>
-            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400">
+            <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div>
                     <h1 className="text-[23px] font-bold">Lsit of Research Projects Sanctioned / On-going:-</h1>
                     <p>The list of sponsored Research projects carried out by the faculty members of
