@@ -10,7 +10,7 @@ export default function Page() {
   const [phd, setphd] = useState(false)
   return (
     <div className=" flex flex-col p-10 max-sm:p-2">
-      <div className="flex flex-col  mb-8">
+      <div className="flex flex-col ">
         <div>
           <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
             SYLLABUS
@@ -21,8 +21,9 @@ export default function Page() {
             Mathematics
           </p>
         </div>
-        <BackDepartment navigate={"/AllDepartment/Math"}/>
       </div>
+      <BackDepartment navigate={"/AllDepartment/Math"}/>
+    <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
       <div className="mb-10 flex space-x-1">
         <button
           onClick={() => {
@@ -1442,6 +1443,7 @@ export default function Page() {
             </a>
           </li>
         </ul>
+      </div>
       </div>
     </div>
   )
