@@ -14,17 +14,17 @@ const ActComp = ({ title, date, venue, speaker, img, head, sno }) => {
                     <div>
                         <div className='flex'>
                             <p className='mr-4'>
-                                <span className='text-lg font-semibold'>Date:</span> {date}
+                                <span className='text-lg font-medium'>Date:</span> {date}
                             </p>
                             <p>
-                                <span className='text-lg font-semibold'>Venue:</span> {venue}
+                                <span className='text-lg font-medium'>Venue:</span> {venue}
                             </p>
                         </div>
                         <p>
-                            <span className='text-lg font-semibold'>Speaker:</span> {speaker}
+                            <span className='text-lg font-medium'>Speaker:</span> {speaker}
                         </p>
                         <p>
-                            <span className='text-lg font-semibold'>Title:</span> {title}
+                            <span className='text-lg font-medium'>Title:</span> {title}
                         </p>
                     </div>
                     {img ? <Image
@@ -46,12 +46,12 @@ function Page() {
         <div className="flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         ACTIVITIES
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-base font-semibold">
+                <div className="mt-1 lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         CHEMISTRY
                     </p>
                 </div>

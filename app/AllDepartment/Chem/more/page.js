@@ -6,20 +6,20 @@ const ActComp=({scholar,sp,title,curr,year,sno})=>{
     <div className='flex flex-col mt-10'>
         <div className='flex flex-col lg:flex-row'>
             <div>
-                <span className='text-lg font-semibold'>{sno}. Scholar:</span> {scholar}
+                <span className='text-sm lg:text-base font-semibold'>{sno}. Scholar:</span> {scholar}
             </div>
             <div className='ml-4 lg:ml-12'>
-                <span className='text-lg font-semibold'>Supervisor:</span> {sp}
+                <span className='text-sm lg:text-base font-semibold'>Supervisor:</span> {sp}
             </div>
             <div className='ml-4 lg:ml-12'>
-                <span className='text-lg font-semibold'>Year:</span> {year}
+                <span className='text-sm lg:text-base font-semibold'>Year:</span> {year}
             </div>
         </div>
         <div className='ml-4 lg:mt-3'>
-            <span className='text-lg font-semibold'>Thesis Title:</span> {title}
+            <span className='text-sm lg:text-base font-semibold'>Thesis Title:</span> {title}
         </div>
         <div className={curr?`ml-4 lg:mt-3`:`hidden`}>
-            <span className='text-lg font-semibold'>Current Status:</span> {curr}
+            <span className='text-sm lg:text-base font-semibold'>Current Status:</span> {curr}
         </div>
     </div>
     )
@@ -30,12 +30,12 @@ function Page(){
         <div className=" flex flex-col p-5">  
             <div className="flex flex-col  mb-6">
                 <div>
-                    <p className="text-red-900 text-2xl  font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl  font-bold">
                         More Information
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-base font-semibold">
+                <div className="mt-1 lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         CHEMISTRY
                     </p>
                 </div>
@@ -43,10 +43,10 @@ function Page(){
             </div>
             <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div>
-                    <p className="text-red-900 text-xl mt-4 font-bold">
+                    <p className="text-red-900 font-semibold lg:text-xl text-lg">
                         Ph.D. Alumini:
                     </p>
-                    <p className="text-red-900 text-xl mt-4 font-bold">
+                    <p className="text-red-900 font-semibold lg:text-xl text-lg">
                         Ph.D. Thesis Awarded:
                     </p>
                 </div>
@@ -68,7 +68,7 @@ function Page(){
 
                 <div className='mt-10'>
 
-                    <p className="text-red-900 text-xl font-bold">
+                    <p className="text-red-900 font-semibold lg:text-xl text-lg">
                     Thesis Submitted:
                     </p>
                 </div>
