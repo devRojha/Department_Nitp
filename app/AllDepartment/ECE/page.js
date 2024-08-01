@@ -7,11 +7,11 @@ import { useRouter } from 'next/navigation'
 
 const Notices = [
   {
-      id:1,
-      notice:"No any notice for now",
-      link:""
+    id: 1,
+    notice: "No any notice for now",
+    link: ""
   },
-  
+
 ]
 
 export default function ECE() {
@@ -23,7 +23,7 @@ export default function ECE() {
         ELECTRONICS AND COMMUNICATION ENGINEERING
       </div>
       <div>
-      <BackDepartment navigate={'/'}/>
+        <BackDepartment navigate={'/'} />
       </div>
 
       {/* Section one */}
@@ -42,24 +42,24 @@ export default function ECE() {
 
         {/* Notice  */}
         <div className=" py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
-            <div className="bg-white rounded-lg shadow-lg shadow-slate-600 px-4 h-[420px] overflow-y-auto">
-              <div className="flex justify-between mb-4 text-lg font-semibold text-slate-500">
-                <div>Important Notice</div>
-                <button className="hover:text-blue-500">View All</button>
-              </div>
-              <div className="overflow-hidden flex flex-col-reverse">
-                {Notices.map((notice, id) => {
-                  return (
-                    <DepartmentNotify
-                      key={id}
-                      title={notice.notice}
-                      link={notice.link? notice.link : ""}
-                   />
-                 )
-                })}
-              </div>
+          <div className="bg-white rounded-lg shadow-lg shadow-slate-600 px-4 h-[420px] overflow-y-auto">
+            <div className="flex justify-between mb-4 text-lg font-semibold text-slate-500">
+              <div>Important Notice</div>
+              <button className="hover:text-blue-500">View All</button>
+            </div>
+            <div className="overflow-hidden flex flex-col-reverse">
+              {Notices.map((notice, id) => {
+                return (
+                  <DepartmentNotify
+                    key={id}
+                    title={notice.notice}
+                    link={notice.link ? notice.link : ""}
+                  />
+                )
+              })}
             </div>
           </div>
+        </div>
       </div>
       {/* Section 2 */}
       <div className="grid grid-cols-2 max-md:grid-cols-1">
@@ -87,33 +87,45 @@ export default function ECE() {
         {/* Navigation Button  */}
         <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/ECE/hod')}
-            Title={'HOD Info'}
+            onClick={() => router.push('/AllDepartment/ECE/mission')}
+            Title={'MISSION AND VISSION'}
           />
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/ECE/syllabus')}
-            Title={'SYLLABUS'}
-          />
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/ECE/activities')}
-            Title={'ACTIVITIES'}
-          />
+
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/ECE/faculty')}
             Title={'FACULTY'}
           />
+
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/ECE/syllabus')}
+            Title={'SYLLABUS'}
+          />
+
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/ECE/hod')}
+            Title={'TIME TABLE'}
+          />
+
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/ECE/labs')}
             Title={'LABS'}
           />
+
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/ECE/mission')}
-            Title={'MISSION AND VISSION'}
+            onClick={() => router.push('/AllDepartment/ECE/activities')}
+            Title={'ACTIVITIES'}
           />
+
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/ECE/achivments')}
             Title={'ACHIEVEMENTS'}
           />
+
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/ECE/hod')}
+            Title={'HOD Info'}
+          />
+
         </div>
       </div>
     </div>

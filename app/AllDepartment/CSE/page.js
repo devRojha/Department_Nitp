@@ -128,13 +128,14 @@ export default function CSE() {
                 Title={'TIME TABLE'}
               />
             <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/CSE/activities')}
-              Title={'ACTIVITIES'}
-            />
-            <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CSE/labs')}
               Title={'LABS'}
             />
+            <DepartmentNavigationButton
+              onClick={() => router.push('/AllDepartment/CSE/activities')}
+              Title={'ACTIVITIES'}
+            />
+            
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CSE/achivments')}
               Title={'ACHIEVEMENTS'}
