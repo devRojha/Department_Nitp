@@ -78,11 +78,7 @@ export default function Math() {
         </div>
         {/* Navigation Button  */}
         <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/hod')}
-            Title={'HOD Info'}
-          />
-
+          
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Math/mission')}
             Title={'MISSION AND VISSION'}
@@ -96,6 +92,16 @@ export default function Math() {
             Title={'SYLLABUS'}
           />
           <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/hod')}
+            Title={'TIME TABLE'}
+          />
+
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/hod')}
+            Title={'LABS'}
+          />
+
+          <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Math/activities')}
             Title={'ACTIVITIES'}
           />
@@ -103,6 +109,12 @@ export default function Math() {
             onClick={() => router.push('/AllDepartment/Math/research')}
             Title={'RESEARCH HIGHLIGHTS'}
           />
+
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Math/hod')}
+            Title={'HOD Info'}
+          />
+
         </div>
       </div>
     </div>
