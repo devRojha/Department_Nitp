@@ -24,17 +24,6 @@ function Carousel({ children: pics,
                 style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {pics}
             </div>
-            <div className='absolute bottom-3 right-0 left-0 '>
-                <div className='flex items-center justify-center gap-2'>
-                    {pics.map((_, i) => (
-                        <div className={`transition-all w-3 h-3
-                        bg-black rounded-full ${curr === i ? "p-2" : "bg-opacity-50"}`} key={i}>
-
-                        </div>
-                    ))}
-                </div>
-
-            </div>
         </div>
     )
 }
@@ -69,12 +58,12 @@ function Page() {
         <div className=" flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         LABS
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-base font-semibold">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         CHEMISTRY
                     </p>
                 </div>
@@ -83,7 +72,7 @@ function Page() {
                 </div>
                 <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                     <div className="mt-14 mx-auto">
-                        <p className="text-red-900 text-3xl lg:text-4xl font-semibold">
+                        <p className="text-red-900 font-semibold lg:text-2xl text-xl">
                             Teaching Lab
                         </p>
                     </div>
@@ -99,7 +88,7 @@ function Page() {
                         </Carousel>
                     </div>
                     <div className="mt-14 mx-auto">
-                        <p className="text-red-900 text-3xl lg:text-4xl font-semibold">
+                        <p className="text-red-900 font-semibold lg:text-2xl text-xl">
                             Instrument Lab
                         </p>
                     </div>
@@ -115,7 +104,7 @@ function Page() {
                         </Carousel>
                     </div>
                     <div className="mt-14 mx-auto">
-                        <p className="text-red-900 text-3xl lg:text-4xl font-semibold">
+                        <p className="text-red-900 font-semibold lg:text-2xl text-xl">
                             Research Lab
                         </p>
                     </div>
@@ -131,11 +120,11 @@ function Page() {
                         </Carousel>
                     </div>
                     <div className="mt-20">
-                        <p className="text-red-900 text-3xl lg:text-4xl font-semibold">
+                        <p className="text-red-900 font-semibold lg:text-2xl text-xl">
                             Individual Faculty Research Lab:-
                         </p>
                     </div>
-                    <ol className="mt-10 font-semibold list-decimal ml-4 md:ml-10">
+                    <ol className="mt-10 font-medium text-sm lg:text-base list-decimal ml-4 md:ml-10">
                         <li>
                             Applied Chemistry Lab (Dr. Subrata Das)
                         </li>
