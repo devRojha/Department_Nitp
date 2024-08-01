@@ -5,22 +5,22 @@ export default function mission() {
     <div className=" flex flex-col p-10 max-sm:p-2">
       <div className="flex flex-col  mb-6">
         <div>
-          <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
+          <p className="text-red-900 text-xl lg:text-2xl font-bold">
             MISSION AND VISION
           </p>
         </div>
-        <div className="mt-2">
-          <p className="text-gray-500 text-xl font-semibold">MATHEMATICS</p>
+        <div className="lg:mt-2">
+          <p className="text-gray-500 text-sm lg:text-base font-semibold">MATHEMATICS</p>
         </div>
         <BackDepartment navigate={"/AllDepartment/Math"} />
       </div>
       <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
         {/* vision */}
         <div className="mb-10">
-          <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">
+          <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">
             VISION :-
           </div>
-          <div className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm text-justify">
+          <div className="list-disc list-inside ml-5 space-y-4 lg:text-base text-sm text-justify">
             The vision of the Department is to achieve excellence in undergraduate
             and postgraduate education and research through a synergic combination
             and thereby lead to development of new knowledge.
@@ -28,10 +28,10 @@ export default function mission() {
         </div>
         {/* mission */}
         <div className="mb-10">
-          <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">
+          <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">
             MISSION :-
           </div>
-          <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm text-justify">
+          <ul className="list-disc list-inside ml-5 space-y-4 lg:text-base text-sm text-justify">
             <li className="">
               The Department of Mathematics will offer courses and programs of
               study that will ensure that the student learner will be able to

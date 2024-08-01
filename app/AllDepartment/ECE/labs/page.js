@@ -6,12 +6,12 @@ function Page() {
         <div className=" flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         LABS
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                <div className="mt-1 lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         Electronics and Communications Engineering
                     </p>
                 </div>
@@ -21,9 +21,9 @@ function Page() {
 
                 <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                     <div className="mb-10 ">
-                        <div className="text-red-900 font-bold text-2xl max-sm:text-lg mb-8">Laboratory Facilities Available in the Department:-</div>
+                        <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">Laboratory Facilities Available in the Department:-</div>
                         <div className=" grid grid-cols-2 max-md:grid-cols-1">
-                            <ol className="list-decimal list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
+                            <ol className="list-decimal list-inside ml-5 space-y-4 text-sm lg:text-base">
                                 <li>Electronic Devices and Circuit Lab</li>
                                 <li>Digital Electronics Lab.</li>
                                 <li>Semiconductor Device Lab</li>
@@ -57,9 +57,9 @@ function Page() {
                         </div>
                     </div>
                     <div className="mb-10 mt-10">
-                        <div className="text-red-900 font-bold text-2xl max-sm:text-lg mb-8">Important Software:</div>
+                        <div className="text-red-900 font-semibold text-xl lg:text-2xl  mb-8">Important Software:</div>
                         <div className=" grid grid-cols-2 max-md:grid-cols-1">
-                            <ol className="list-decimal list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
+                            <ol className="list-decimal list-inside ml-5 space-y-4 text-sm lg:text-base">
                                 <li>CST(full package)</li>
                                 <li>HFSS(full package)</li>
                                 <li>IE3D</li>
@@ -94,9 +94,9 @@ function Page() {
                         </div>
                     </div>
                     <div className="mb-10 mt-10">
-                        <div className="text-red-900 font-bold text-2xl max-sm:text-lg mb-8">Major Equipment:</div>
+                        <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">Major Equipment:</div>
                         <div className=" grid grid-cols-2 max-md:grid-cols-1">
-                            <ol className="list-decimal list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
+                            <ol className="list-decimal list-inside ml-5 space-y-4 text-sm lg:text-base">
                                 <li>Dell Blade Server</li>
                                 <li>HP Blade Server</li>
                                 <li>Agilent E8257D PSG Analog Signal Generator (250 kHz to 40 GHz)</li>

@@ -23,8 +23,13 @@ function Page(){
         <div className=" flex flex-col p-5">  
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         ACHIEVEMENTS
+                    </p>
+                </div>
+                <div className="lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
+                        Electronics And Communication Enginnering
                     </p>
                 </div>
                 <div>
@@ -33,7 +38,7 @@ function Page(){
             </div>
                 <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                     <div className="mt-10">
-                        <p className="text-gray-900 text-xl font-semibold">
+                        <p className="text-gray-900 text-xl lg:text-2xl font-semibold">
                         List of Short-Term Courses / Faculty Development Program / Workshop / Gian Program:
                         </p>
                     </div>
