@@ -120,10 +120,7 @@ export default function EE() {
             onClick={() => router.push('/AllDepartment/EE/usefullLinks')}
             Title={'USEFULL LINKS'}
           />
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/EE/hod')}
-            Title={'HOD Info'}
-          />
+          
         </div>
       </div>
     </div>

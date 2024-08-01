@@ -118,11 +118,6 @@ export default function CE() {
             Title={'ACHIEVEMENTS'}
           />
 
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/CE/hod')}
-            Title={'HOD Info'}
-          />
-
         </div>
       </div>
     </div>

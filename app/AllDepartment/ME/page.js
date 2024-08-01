@@ -142,11 +142,6 @@ export default function ME() {
             onClick={() => router.push('/AllDepartment/ME/staff')}
             Title={'STAFF'}
           />
-
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/ME/hod')}
-            Title={'HOD Info'}
-          />
         </div>
       </div>
     </div>
