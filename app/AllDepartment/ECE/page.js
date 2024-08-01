@@ -82,6 +82,12 @@ export default function ECE() {
             Real-time Systems, Cryptography, Genetic Algorithm and Artificial
             Intelligence. Apart from these, students are also offered a wide
             variety of electives.
+            <button
+                onClick={() => router.push('/AllDepartment/ECE/about')}
+                className="text-blue-600"
+              >
+                more..
+            </button>
           </div>
         </div>
         {/* Navigation Button  */}
