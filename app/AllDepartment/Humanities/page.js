@@ -111,26 +111,32 @@ export default function Humanities() {
         </div>
         {/* Navigation Button  */}
         <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/EE/hod')}
-            Title={'HOD Info'}
-          />
+          
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Humanities/mission')}
             Title={'MISSION AND VISSION'}
           />
+
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/EE/faculty')}
             Title={'FACULTY'}
           />
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Humanities/labs')}
-            Title={'LABS'}
-          />
+
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Humanities/syllabus')}
             Title={'SYLLABUS'}
           />
+
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Humanities/time-table')}
+            Title={'Time Table'}
+          />
+
+          <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Humanities/labs')}
+            Title={'LABS'}
+          />
+
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Humanities/activities')}
             Title={'ACTIVITIES'}
@@ -139,9 +145,11 @@ export default function Humanities() {
             onClick={() => router.push('/AllDepartment/Humanities/research')}
             Title={'RESEARCH HIGHLIGHT'}
           />
+          
+
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Humanities/time-table')}
-            Title={'Time Table'}
+            onClick={() => router.push('/AllDepartment/EE/hod')}
+            Title={'HOD Info'}
           />
         </div>
       </div>

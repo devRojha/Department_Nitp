@@ -28,7 +28,7 @@ export default function labs(){
                             Computing Lab-1:
                         </p>
                         <div className="lg:w-2/3">
-                            <p className="text-justify font-medium pl-6">
+                            <p className="text-justify pl-6">
                             Operating System lab uses the Linux OS (Fedora 16.0) to implement the operating
                             system management process, memory function, UNIX and
                             shell programming related to OS system call functions. This lab also deals
@@ -52,7 +52,7 @@ export default function labs(){
                             Computing Lab-2:
                         </p>
                         <div className="lg:w-2/3">
-                            <p className="text-justify font-medium pl-6">
+                            <p className="text-justify  pl-6">
                                 Simulation lab uses the IBM Rational Rose software and other
                                 software to design software modules. This lab also deals some
                                 courses like Object-Oriented Programming (OOP), Web Technology, 
@@ -75,7 +75,7 @@ export default function labs(){
                             Network System Lab:
                         </p>
                         <div className="lg:w-2/3">
-                            <p className="text-justify font-medium pl-6">
+                            <p className="text-justify  pl-6">
                                 The lab has well equipped system for research, which 
                                 include the Network Training Kit. The lab deals with Cyber 
                                 Security courses.
