@@ -23,7 +23,7 @@ export default function mission(){
                 {/* vision */}
                 <div className="mb-10">
                     <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">VISION :-</div>
-                    <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <ul className="list-disc list-inside ml-5 space-y-4 text-sm lg:text-base">
                         <li>To offer quality education in electrical engineering to meet the requirements of industry, society and nation.</li>
                         <li>To provide contemporary technical knowhow by regular upgradation of curriculum as per the needs of industry and educative exposures like short term courses, conferences, etc.</li>
                         <li>To establish state-of-the-art infrastructural facilities in the arena of academics and research.</li>
@@ -73,26 +73,26 @@ export default function mission(){
                 </div>
                 {/* M.tech */}
                 <div className="mt-10">
-                    <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-2">M.Tech :-</div>
-                    <div className="text-red-900 text-2xl max-sm:text-sm mb-6">PG (M. Tech. - Control System)</div>
-                    <div className="text-red-900 text-2xl max-sm:text-sm mb-8">Program Educational Objectives (PEO)</div>
-                    <ol className="list-decimal ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-2">M.Tech :-</div>
+                    <div className="text-red-900 text-base lg:text-xl mb-2">PG (M. Tech. - Control System)</div>
+                    <div className="text-red-900 lg:text-xl text-base mb-8">Program Educational Objectives (PEO)</div>
+                    <ol className="list-decimal ml-5 space-y-4 text-sm lg:text-base mb-12">
                         <li>To impart learning and understanding towards different segments of Control System Engineering so that Graduates of the program will have successful careers in Instrumentation, automation, and inter-disciplinary fields.</li>
                         <li>To empower graduates of the program to excel in research, and contribute to technological developments in control and instrumentation.</li>
                         <li>To prepare the graduates to effectively collaborate with different sectors of the field that shall lead to innovation for solving social, technical, and business challenges in an optimized and environment friendly manner.</li>
                         <li>To encourage students to pursue lifelong learning and professional development through continuing education and self-improvement.</li>
                     </ol>
-                    <div className="text-red-900 text-2xl max-sm:text-sm my-6">PG (M. Tech. - Power System)</div>
-                    <div className="text-red-900 text-2xl max-sm:text-sm mb-8">Program Educational Objectives (PEO)</div>
-                    <ol className="list-decimal ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <div className="text-red-900 text-base lg:text-xl my-6 mb-2">PG (M. Tech. - Power System)</div>
+                    <div className="text-red-900 tlg:text-xl text-base mb-8">Program Educational Objectives (PEO)</div>
+                    <ol className="list-decimal ml-5 space-y-4 lg:text-base text-sm">
                         <li>To impart learning and understanding towards different segments of the Power System; which at present, is one of the important pillars of the modern world, and aims to produce postgraduates in power systems, who are employable in Industries and/or can pursue higher studies.</li>
                         <li>To provide the students with the opportunity to learn and use the advanced techniques, skills, and modern scientific and engineering tools to explore new problems in the energy sector.</li>
                         <li>To empower students to effectively collaborate with different sectors of the field that shall lead to innovation for solving social, technical, and business challenges in an optimized and environment friendly manner.</li>
                         <li>To encourage students to pursue life-long learning and professional development through continuing education and self-improvement.</li>
                     </ol>
-                    <div className="text-red-900 text-2xl max-sm:text-sm mt-8">Program Outcomes (PO)</div>
-                    <div className="text-lg max-sm:text-sm mt-2 font-semibold mb-6">After the successful completion of the two years&apos; postgraduate program, students should be able to:</div>
-                    <ol className="list-decimal ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <div className="text-red-900 text-base lg:text-xl mt-12">Program Outcomes (PO)</div>
+                    <div className="text-sm mt-2 font-semibold mb-8">After the successful completion of the two years&apos; postgraduate program, students should be able to:</div>
+                    <ol className="list-decimal ml-5 space-y-4 text-sm lg:text-base">
                         <li>An ability to independently carry out research /investigation and development work to solve practical problems</li>
                         <li>An ability to write and present a substantial technical report/document</li>
                         <li>Students should be able to demonstrate a degree of mastery over the area as per the specialization of the program. The mastery should be at a level higher than the requirements in the appropriate bachelor program</li>
