@@ -62,12 +62,12 @@ function Page() {
         <div className="flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         Achievements
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                <div className="lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         MECHANICAL ENGINEERING
                     </p>
                 </div>
@@ -79,7 +79,7 @@ function Page() {
                         Sponsored Project List:
                     </p>
                 </div>
-                <div className="mb-10 overflow-x-auto lg:mr-10">
+                <div className="mb-10 overflow-x-auto lg:mr-10 mt-8">
                     <div className="grid grid-cols-11 border min-w-[1000px]">
                         {/* heading  */}
                         <div className=" col-span-1 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
@@ -393,8 +393,8 @@ function Page() {
                 </div>
                     
                 <div className="">
-                    <h1 className="text-[28px] font-bold text-red-900 mb-4">Clubs Achievements :</h1>
-                    <ul className="list-disc text-[18px] ml-4">
+                    <h1 className="font-semibold lg:text-2xl text-xl text-red-900 mb-4">Clubs Achievements :</h1>
+                    <ul className="list-disc lg:text-base text-sm space-y-3 ml-4">
                         <li>In HPVC INDIA 2014, we stood 6th overall from all the 41 colleges participating, ranging from IITs to BITSs and NITs and various other prestigious colleges.</li>
                         <li>5th position in ENDURANCE Event in HPVC - 2014.</li>
                         <li>5th position in DRAG Event in HPVC - 2014.</li>
