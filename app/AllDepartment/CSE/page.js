@@ -106,36 +106,36 @@ export default function CSE() {
           {/* Navigation Button  */}
           <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
             <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/CSE/hod')}
-              Title={'HOD Info'}
+              onClick={() => router.push('/AllDepartment/CSE/mission')}
+              Title={'MISSION AND VISSION'}
             />
+              <DepartmentNavigationButton
+                onClick={() => router.push('/AllDepartment/CSE/faculty')}
+                Title={'FACULTY'}
+              />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CSE/syllabus')}
               Title={'SYLLABUS'}
             />
+              <DepartmentNavigationButton
+                onClick={() => router.push('/AllDepartment/CSE/timeTable')}
+                Title={'TIME TABLE'}
+              />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CSE/activities')}
               Title={'ACTIVITIES'}
-            />
-            <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/CSE/faculty')}
-              Title={'FACULTY'}
             />
             <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CSE/labs')}
               Title={'LABS'}
             />
             <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/CSE/mission')}
-              Title={'MISSION AND VISSION'}
-            />
-            <DepartmentNavigationButton
               onClick={() => router.push('/AllDepartment/CSE/achivments')}
               Title={'ACHIEVEMENTS'}
             />
             <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/CSE/timeTable')}
-              Title={'TIME TABLE'}
+              onClick={() => router.push('/AllDepartment/CSE/hod')}
+              Title={'HOD Info'}
             />
           </div>
         </div>
