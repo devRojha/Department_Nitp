@@ -136,11 +136,11 @@ export default function ME() {
           />
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/ME/research')}
-            Title={'Research'}
+            Title={'RESEARCH'}
           />
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/ME/staff')}
-            Title={'Staff'}
+            Title={'STAFF'}
           />
 
           <DepartmentNavigationButton

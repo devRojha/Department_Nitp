@@ -24,12 +24,12 @@ export default function labs() {
         <div className=" flex flex-col p-10 max-sm:p-2">
             <div className="flex flex-col  mb-6">
                 <div>
-                    <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         LABS
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                <div className="mt-1 lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         MECHANICAL ENGINEERING
                     </p>
                 </div>
@@ -40,9 +40,9 @@ export default function labs() {
 
                 {/* Lab list */}
                 <div className="mb-10">
-                    <div className="text-red-900 font-bold text-2xl max-sm:text-lg mb-8">Laboratory Facilities Available in the Department:-</div>
+                    <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">Laboratory Facilities Available in the Department:-</div>
                     <div className=" grid grid-cols-2 max-md:grid-cols-1">
-                        <ol className="list-decimal list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">
+                        <ol className="list-decimal list-inside ml-5 space-y-4 lg:text-base text-sm">
                             <li>Strength of Materials Lab.</li>
                             <li>Internal Combustion Gas Turbine Lab.</li>
                             <li>Engine Testing Lab.</li>

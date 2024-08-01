@@ -12,12 +12,12 @@ export default function Page() {
     <div className=" flex flex-col p-10 max-sm:p-2">
       <div className="flex flex-col ">
         <div>
-          <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
+          <p className="text-red-900 text-xl lg:text-2xl font-bold">
             SYLLABUS
           </p>
         </div>
-        <div className="mt-2">
-          <p className="text-gray-500 text-xl font-semibold">
+        <div className="lg:mt-2">
+          <p className="text-gray-500 text-sm lg:text-base font-semibold">
             Mathematics
           </p>
         </div>
@@ -77,7 +77,7 @@ export default function Page() {
       </div>
       {/* UG PROGRAM */}
       <div className={`mb-10 ${ug == false ? 'hidden' : ''}`}>
-        <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">
+        <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">
           UG PROGRAM :-
         </div>
         <div className="border grid grid-cols-12">
@@ -940,7 +940,7 @@ export default function Page() {
           />
            </div>
 
-          <div className="text-red-900 w-[170px]  font-bold text-3xl max-sm:text-2xl mb-8 mt-2">
+          <div className="text-red-900 w-[170px]  font-semibold lg:text-2xl text-xl mb-8 mt-2">
             Electives -
           </div>
           <div className="border grid grid-cols-10">
@@ -1383,7 +1383,7 @@ export default function Page() {
       </div>
       {/* PhD  */}
       <div className={`mb-10 ${phd == false ? 'hidden' : ''}`}>
-        <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">
+        <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">
           PhD PROGRAM :-
         </div>
         {/* <div className="border grid grid-cols-12">
@@ -1433,7 +1433,7 @@ export default function Page() {
       </div>
       {/* Dual PROGRAM  */}
       <div className={`mb-10 ${dual == false ? 'hidden' : ''}`}>
-        <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">
+        <div className="text-red-900 font-semibold lg:text-2xl text-xl mb-8">
           DUAL DEGREE PROGRAM :-
         </div>
         <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-md:text-[15px] max-sm:text-sm">

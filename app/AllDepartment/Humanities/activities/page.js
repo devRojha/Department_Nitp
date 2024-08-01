@@ -16,12 +16,12 @@ export default function Page() {
         <div className=" flex flex-col p-10 max-sm:p-2">
             <div className="flex flex-col  mb-6">
                 <div>
-                    <p className="text-red-900 text-3xl max-sm:text-2xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         Activities
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                <div className="lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         Humanities & Social Sciences
                     </p>
                 </div>
@@ -44,7 +44,7 @@ export default function Page() {
                 </div>
                 {/* list */}
                 <div className="mb-10">
-                    <ul className="list-disc list-inside ml-5 space-y-4 text-lg max-sm:text-sm">
+                    <ul className="list-disc list-inside ml-5 space-y-4 text-sm lg:text-base">
                         <li>One Day National Seminar on “Women Health: Mental and Physical” on 15th September 2022.</li>
                         <li>One Day National Workshop on “National Education Policy 2020” on 2nd September 2022.</li>
                         <li>AICTE Training and Learning (ATAL) Academy sponsored Five Days online FDP on Capacity Building, 14-18 December 2020.</li>

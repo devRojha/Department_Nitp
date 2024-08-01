@@ -46,12 +46,12 @@ function Page() {
         <div className=" flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         Research Highlights
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                <div className="lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         MECHANICAL ENGINEERING
                     </p>
                 </div>
@@ -63,7 +63,7 @@ function Page() {
                         Research area of Mechanical Engineering Department
                     </p>
                 </div>
-                <div className="mb-10 overflow-x-auto lg:mr-10">
+                <div className="mb-10 overflow-x-auto lg:mr-10 mt-5">
                     <div className="grid grid-cols-8 border min-w-[1000px]">
                         {/* heading  */}
                         <div className=" col-span-1 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
@@ -101,12 +101,12 @@ function Page() {
 
                     </div>
                 </div>
-                <div className="mt-10">
+                <div className="mt-14">
                     <p className="text-grey-800 text-xl font-semibold">
                         Research area of Faculty wise for the Electrical Engineering Department:
                     </p>
                 </div>
-                <div className="mb-10 overflow-x-auto lg:mr-10">
+                <div className="mb-10 overflow-x-auto lg:mr-10 mt-5">
                     <div className="grid grid-cols-12 border min-w-[1000px]">
                         {/* heading  */}
                         <div className=" col-span-1 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
