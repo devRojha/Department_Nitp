@@ -140,10 +140,6 @@ export default function CSE() {
               onClick={() => router.push('/AllDepartment/CSE/achivments')}
               Title={'ACHIEVEMENTS'}
             />
-            <DepartmentNavigationButton
-              onClick={() => router.push('/AllDepartment/CSE/hod')}
-              Title={'HOD Info'}
-            />
           </div>
         </div>
       </div>

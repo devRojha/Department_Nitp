@@ -110,11 +110,6 @@ export default function Math() {
             Title={'RESEARCH HIGHLIGHTS'}
           />
 
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/hod')}
-            Title={'HOD Info'}
-          />
-
         </div>
       </div>
     </div>

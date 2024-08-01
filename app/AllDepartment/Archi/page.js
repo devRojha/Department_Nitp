@@ -118,12 +118,6 @@ export default function Archi() {
             onClick={() => router.push('/AllDepartment/Archi/research')}
             Title={'RESEARCH HIGHLIGHTS'}
           />
-
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Archi/hod')}
-            Title={'HOD Info'}
-          />
-
         </div>
       </div>
     </div>

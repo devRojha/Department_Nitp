@@ -109,14 +109,6 @@ const FacultyList = ({url,branch}) => {
     <>
       <div className="flex flex-col p-2">
         <div>
-          <p className="text-red-900 ml-10 text-3xl font-bold">Faculty</p>
-        </div>
-        <div className="mt-2">
-          <p className="text-gray-500 text-xl ml-10 font-semibold">
-            Computer Science and Engineering
-          </p>
-        </div>
-        <div>
           {renderFacultiesByDesignation(
             [
               "Professor & HOD",

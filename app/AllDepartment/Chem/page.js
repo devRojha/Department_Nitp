@@ -128,11 +128,6 @@ export default function Chem() {
             Title={'MORE INFO'}
           />
 
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Chem/hod')}
-            Title={'HOD Info'}
-          />
-
         </div>
       </div>
     </div>
