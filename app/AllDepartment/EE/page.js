@@ -110,7 +110,7 @@ export default function EE() {
           />
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/EE/achivments')}
-            Title={'ACHIEVMENTS'}
+            Title={'ACHIEVEMENTS'}
           />
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/EE/research')}

@@ -41,12 +41,12 @@ function Page(){
             <div className="flex flex-col md:ml-10">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-2xl lg:text-3xl font-bold">
                         Labs
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         Architecture
                     </p>
                 </div>
@@ -55,10 +55,10 @@ function Page(){
                 </div>
             </div>
             </div>
-            <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md h-screen">
+            <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
                 <div className="mb-10 flex flex-col lg:flex-row mt-6">
                     <div className="flex flex-col lg:w-3/4">
-                        <p className="text-red-900 font-bold text-2xl max-sm:text-1xl mb-4">
+                        <p className="text-red-900 font-semibold lg:text-2xl text-xl mb-4">
                             Departmental Laboratories
                         </p>
                         <div className="lg:w-3/4">
@@ -91,7 +91,7 @@ function Page(){
                     {labUrl.map((img,i)=>(
                         
                         <Image src={img} alt='image' width={500}
-                        height={500} key={i} className='object-fill w-full rounded-lg bg-red-200'
+                        height={500} key={i} className='object-fill w-full '
                         />
                         
                     ))}

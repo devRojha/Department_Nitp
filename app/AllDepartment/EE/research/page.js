@@ -55,19 +55,19 @@ export default function research() {
         <div className=" flex flex-col p-5 ">
             <div className="flex flex-col md:ml-10 mb-3">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl  font-bold">
                         RESEARCH AND HIGHLIGHT
                     </p>
                 </div>
                 <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         ELECTRICAL ENGINEERING
                     </p>
                 </div>
                 <BackDepartment navigate={"/AllDepartment/EE"} />
             </div>
             <div className="mx-4 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md">
-                    <div className="text-[19px] text-justify">
+                    <div className="lg:text-base text-sm text-justify">
                         The Electrical Engineering Department, NIT Patna is
                         a one of the nucleus of academic excellence, research
                         and technological innovation in its domain. With the
@@ -77,7 +77,7 @@ export default function research() {
                         Their collective expertise spans a diverse array of
                         specialties, reflecting the department&apos;s commitment to both breadth and depth in its academic offerings. One of the hallmarks of the department is its robust research ecosystem, characterized by eight broad research groups. These groups delve into areas of critical importance such as Power and Energy Systems, Electrical Machine & Drives, Control Theory & Practices, Power Electronics & its Application, Electric Vehicles & Energy Storage System, Instrumental & Signal Processing, Semi-Conductor Devices & Circuit System and Robotics & Automation. Through their pioneering research endeavours, faculty members have amassed an impressive track record, boasting more than 330 publications in SCI/SCIE indexed Journals and securing 23 patents to date. Beyond the realm of pure research, the department actively engages with industry partners through 12 externally sponsored projects, which serve as conduits for translating theoretical knowledge into practical applications. These projects, whether ongoing or completed, represent the department&apos;s commitment to bridging the gap between academia and industry, fostering innovation that resonates beyond the confines of the university campus. Moreover, the department&apos;s influence resonates worldwide as it mentored 33 Ph.D scholars who have attained their degrees, with many more in pipeline, embodying the forefront of future innovation in electrical engineering. Through rigorous academic training and personalized guidance, these scholars are equipped with the tools and knowledge necessary to address the pressing challenges of the 21st century. In essence, the Electrical Engineering Department, NIT Patna serves as a beacon of excellence, driving forward the frontiers of knowledge and innovation in the field of electrical engineering. Through its multifaceted approach to education, research, and industry collaboration, the department continues to make profound contributions to both academia and society at large.
                     </div>
-                    <div className="mt-6 mb-4 text-2xl font-semibold">Broadly research area of Electrical Engineering department are classified as below: -</div>
+                    <div className="mt-6 mb-4 font-semibold lg:text-2xl text-xl">Broadly research area of Electrical Engineering department are classified as below: -</div>
                     <div className="mb-10  lg:mr-2 overflow-x-auto">
                         <div className="grid grid-cols-9 border min-w-[1400px]">
                             {/* heading  */}
@@ -135,7 +135,7 @@ export default function research() {
                         </div>
                     </div>
                     <div>
-                        <h1 className="font-bold text-[23px]">Research area of Faculty wise for the Electrical Engineering Department: -</h1>
+                        <h1 className="font-semibold lg:text-2xl text-xl">Research area of Faculty wise for the Electrical Engineering Department: -</h1>
                     </div>
 
                     <div className="mb-10 mt-3 lg:mr-2 overflow-x-auto">
