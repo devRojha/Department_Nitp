@@ -23,7 +23,7 @@ function ActComp({ content }) {
             <ul>
                 {content.map((points, i) => {
                     return (
-                        <li key={i} className="list-disc ml-4 md:text-lg
+                        <li key={i} className="list-disc ml-4 text-sm lg:text-base
                         pb-2">
                             {points}
                         </li>
@@ -43,12 +43,12 @@ function Page() {
         <div className=" flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         SYLLABUS
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                <div className="mt-1 lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         Electronics and Communications Engineering
                     </p>
                 </div>
@@ -94,6 +94,7 @@ function Page() {
                     </div>
                     {/* UG PROGRAM 2022*/}
                     <div className={`mb-10 ${(ug == false) ? "hidden" : ""}`}>
+                    <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">UG Course :-</div>
                         <div className=" overflow-x-auto">
                             <div className="border grid grid-cols-12 min-w-[1100px]">
                                 <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -1344,7 +1345,7 @@ function Page() {
                     </div>
                     {/* PG PROGRAM  */}
                     <div className={`mb-10 ${(pg == false) ? "hidden" : ""}`}>
-                        <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">PG PROGRAM :-</div>
+                        <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">PG PROGRAM :-</div>
                         <div className=" overflow-x-auto">
                             <div className="border grid grid-cols-12 min-w-[1100px]">
                                 <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>
@@ -1368,7 +1369,7 @@ function Page() {
                     </div>
                     {/* PhD  */}
                     <div className={`mb-10 ${(phd == false) ? "hidden" : ""}`}>
-                        <div className="text-red-900 font-bold text-3xl max-sm:text-2xl mb-8">M.Tech PROGRAM :-</div>
+                        <div className="text-red-900 font-semibold text-xl lg:text-2xl mb-8">PhD PROGRAM :-</div>
                         <div className=" overflow-x-auto">
                             <div className="border grid grid-cols-12 min-w-[1100px]">
                                 <div className="col-span-1 border border-black flex flex-col justify-center text-red-900 font-semibold pl-4 py-2">Dept.</div>

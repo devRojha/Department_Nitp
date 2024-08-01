@@ -6,13 +6,13 @@ import { useState } from "react";
 function ActComp({ title, content }) {
     return (
         <div className="flex flex-col mt-8 lg:ml-10">
-            <p className="text-2xl font-semibold mb-4">
+            <p className="text-xl lg:text-2xl font-semibold mb-4">
                 {title}
             </p>
             <ul>
                 {content.map((points, i) => {
                     return (
-                        <li key={i} className="list-disc ml-4 md:text-lg
+                        <li key={i} className="list-disc ml-4 text-sm lg:text-base
                         pb-2">
                             {points}
                         </li>
@@ -59,12 +59,12 @@ function Page() {
         <div className=" flex flex-col p-5">
             <div className="flex flex-col  mb-6">
                 <div>
-                    <p className="text-red-900 text-2xl  font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl  font-bold">
                         Syllabus
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-base font-semibold">
+                <div className="mt-1 lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         CHEMISTRY
                     </p>
                 </div>

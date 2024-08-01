@@ -29,12 +29,12 @@ function Page() {
         <div className=" flex flex-col p-5">
             <div className="flex flex-col  mb-6">
                 <div>
-                    <p className="text-red-900 text-2xl  font-bold">
+                    <p className="text-red-900 lg:text-2xl text-xl  font-bold">
                     ACHIEVEMENTS
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-base font-semibold">
+                <div className="mt-1 lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         CHEMISTRY
                     </p>
                 </div>
@@ -156,7 +156,7 @@ function Page() {
                             Patents:
                         </p>
                     </div>
-                    <ol className='list-decimal mt-4 ml-4'>
+                    <ol className='list-decimal mt-4 ml-4 space-y-4'>
                         <li>
                             <p>
                                 <span className='font-semibold text-red-800 text-lg'>Subrata Das</span>, P. K. Sukul and A. Mondal.
