@@ -3,13 +3,13 @@ import BackDepartment from "@/components/BackDepartment"
 function ActComp({ title, content }) {
   return (
     <div className="flex flex-col mt-8 lg:ml-10">
-      <p className="text-2xl font-semibold mb-4">{title}</p>
+      <p className="font-semibold lg:text-2xl text-xl mb-4">{title}</p>
       <ul>
         {content.map((points, i) => {
           return (
             <li
               key={i}
-              className="list-disc ml-4 md:text-lg
+              className="list-disc ml-4 lg:text-base text-sm
                         pb-2"
             >
               {points}
@@ -69,10 +69,10 @@ function page() {
     <div className=" flex flex-col p-5">
       <div className="flex flex-col md:ml-10">
         <div>
-          <p className="text-red-900 text-4xl font-bold">ACTIVITIES</p>
+          <p className="text-red-900 text-xl lg:text-2xl font-bold">ACTIVITIES</p>
         </div>
-        <div className="mt-2">
-          <p className="text-gray-500 text-xl font-semibold">
+        <div className="lg:mt-2">
+          <p className="text-gray-500 text-sm lg:text-base font-semibold">
             Mathematics
           </p>
         </div>
@@ -89,7 +89,7 @@ function page() {
         ]}
       />
       <div className="mt-8 lg:ml-10">
-        <div className="text-2xl font-semibold mb-5">
+        <div className="font-semibold lg:text-2xl text-xl mb-5">
           Externally Funded Projects Running in the Department
         </div>
         <div className="mb-10 overflow-x-auto lg:mr-10">
@@ -135,7 +135,7 @@ function page() {
       </div>
 
       <div className="mt-8 lg:ml-10">
-        <div className="text-2xl font-semibold mb-5">Invited Lectures</div>
+        <div className="font-semibold lg:text-2xl text-xl mb-5">Invited Lectures</div>
         <div className="mb-10 overflow-x-auto lg:mr-10">
           <div className="grid grid-cols-6 border min-w-[500px]">
             {/* heading */}
