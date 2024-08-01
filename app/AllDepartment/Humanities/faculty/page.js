@@ -6,7 +6,7 @@ const Home=() =>{
   return (
    <>
     <div>
-      <FacultyList url={"/AllDepartment/Math/faculty"} branch={"maths"}/>
+      <FacultyList url={"/AllDepartment/Humanities/faculty"} branch={"hss"}/>
     </div>
    </>
   )
