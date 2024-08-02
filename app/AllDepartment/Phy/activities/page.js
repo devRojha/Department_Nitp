@@ -32,12 +32,12 @@ function Page() {
         <div className=" flex flex-col p-5">
             <div className="flex flex-col md:ml-10">
                 <div>
-                    <p className="text-red-900 text-3xl font-bold">
+                    <p className="text-red-900 text-xl lg:text-2xl font-bold">
                         Activities
                     </p>
                 </div>
-                <div className="mt-2">
-                    <p className="text-gray-500 text-xl font-semibold">
+                <div className="lg:mt-2">
+                    <p className="text-gray-500 text-sm lg:text-base font-semibold">
                         Physics
                     </p>
                 </div>
@@ -49,7 +49,7 @@ function Page() {
                         Externally Funded Projects Running in the Department
                     </p>
                 </div>
-                <div className="mb-10 overflow-x-auto lg:mr-10">
+                <div className="mb-10 overflow-x-auto lg:mr-10 mt-5">
                     <div className="grid grid-cols-11 border min-w-[1000px]">
                         {/* heading  */}
                         <div className=" col-span-1 border border-black pl-4 py-2 flex flex-col justify-center text-red-900 font-semibold">
