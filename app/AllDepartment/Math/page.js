@@ -73,8 +73,15 @@ export default function Math() {
             in teaching and research in several branches of Mathematics.
             Department of Mathematics is one of the backbone of the Institution
             as it is an essential department for engineering courses up to Ph.D
-            level.
+            level. 
+            <button
+              onClick={() => router.push('/AllDepartment/Phy/about')}
+              className="text-blue-600"
+            >
+             more...
+          </button>
           </div>
+
         </div>
         {/* Navigation Button  */}
         <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
