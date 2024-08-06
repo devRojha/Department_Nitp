@@ -22,7 +22,7 @@ export default function Home() {
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Humanities");}}department={"Humanities & Social Sciences"} icon={"/humanities_icon.png"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Material");}}department={"Material Science & Engineering"} icon={"/mathematics-icon.png"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Math");}}department={"Mathmatics And Computing"} icon={"/mathematics-icon.png"}/>
-            <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/MCA");}}department={"Master of Computer Applications"} icon={"/mathematics-icon.png"}/>
+            {/* <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/MCA");}}department={"Master of Computer Applications"} icon={"/mathematics-icon.png"}/> */}
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/ME");}}department={"Mechanical"} icon={"/mechanical_icon.png"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Mechatronics");}}department={"Mechatronics & Automation"} icon={"/mechatronics_icon.png"}/>
             <DepartmentNavigateButton onClick={()=>{router.push("/AllDepartment/Phy");}}department={"Physics"} icon={"/physics_icon.png"}/>

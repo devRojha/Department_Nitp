@@ -104,7 +104,7 @@ export default function Chem() {
           />
 
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Chem/hod')}
+            onClick={() => router.push('/AllDepartment/Chem/timeTable')}
             Title={'TIME TABLE'}
           />
 
