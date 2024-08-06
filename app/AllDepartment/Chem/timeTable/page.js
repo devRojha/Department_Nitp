@@ -1,5 +1,6 @@
 import BackDepartment from "@/components/BackDepartment"
 
+
 function Page(){
     return (
         <div className=" flex flex-col p-5 h-screen">  

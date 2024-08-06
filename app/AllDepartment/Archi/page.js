@@ -130,7 +130,7 @@ export default function Archi() {
           />
 
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Archi/syllabus')}
+            onClick={() => router.push('/AllDepartment/Archi/timeTable')}
             Title={'TIME TABLE'}
           />
 

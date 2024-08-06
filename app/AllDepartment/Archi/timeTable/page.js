@@ -1,5 +1,6 @@
 import BackDepartment from "@/components/BackDepartment"
 
+
 function Page(){
     return (
         <div className=" flex flex-col p-5 h-screen">  
@@ -11,11 +12,11 @@ function Page(){
                 </div>
                 <div className="mt-2">
                     <p className="text-gray-500 text-xl font-semibold">
-                    CHEMICAL ENGINEERING
+                        Architecture
                     </p>
                 </div>
                 <div>
-                <BackDepartment navigate={'/AllDepartment/Chemical'}/>
+                <BackDepartment navigate={'/AllDepartment/Archi'}/>
                 </div>
             </div>
             <div className="max-sm:mx-6 max-md:mx-8 mx-20 border p-4 rounded-md shadow-lg shadow-slate-400 backdrop-blur-md h-screen">
