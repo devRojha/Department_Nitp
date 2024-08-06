@@ -61,12 +61,12 @@ export default function Humanities() {
 
         {/* About */}
 
-        {/* <div className="px-6 max-sm:px-2 ">
+        <div className="px-6 max-sm:px-2 ">
           <div className="mb-4 text-2xl max-sm:text-lg font-semibold text-red-950">
             About
           </div>
           <div className="text-justify max-sm:text-[12px]">
-            
+            About fdsfdsf sdfjkdsjfdksfj
                 <button
                 onClick={() => router.push('/AllDepartment/Mechatronics/about')}
                 className="text-blue-600"
@@ -74,15 +74,11 @@ export default function Humanities() {
                 more...
                 </button>
           </div>
-        </div> */}
+        </div>
 
         {/* Navigation Button  */}
 
-        {/* <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
-          <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Mechatronics/hod')}
-            Title={'HOD Info'}
-          />
+        <div className="grid grid-cols-3 max-sm:grid-cols-2 mt-10">
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Mechatronics/mission')}
             Title={'MISSION AND VISSION'}
@@ -91,15 +87,19 @@ export default function Humanities() {
             onClick={() => router.push('/AllDepartment/Mechatronics/faculty')}
             Title={'FACULTY'}
           />
-          <DepartmentNavigationButton
+          {/* <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Mechatronics/labs')}
             Title={'LABS'}
-          />
+          /> */}
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Mechatronics/syllabus')}
             Title={'SYLLABUS'}
           />
           <DepartmentNavigationButton
+            onClick={() => router.push('/AllDepartment/Mechatronics/timeTable')}
+            Title={'Time Table'}
+          />
+          {/* <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Mechatronics/activities')}
             Title={'ACTIVITIES'}
           />
@@ -114,8 +114,8 @@ export default function Humanities() {
           <DepartmentNavigationButton
             onClick={() => router.push('/AllDepartment/Mechatronics/usefullLinks')}
             Title={'USEFULL LINKS'}
-          />
-        </div> */}
+          /> */}
+        </div>
       </div>
     </div>
   )
