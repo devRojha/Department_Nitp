@@ -86,7 +86,7 @@ function Page(){
 
                         </div>
                     </div>
-                    <div className='w-[300px] sm:w-[400px]  lg:w-1/3 m-auto mt-8 xl:mr-20'>
+                    <div className='w-[300px] sm:w-[400px]  lg:w-1/2 m-auto mt-8 xl:mr-20'>
                     <Carousel autoSlide={true}>
                     {labUrl.map((img,i)=>(
                         
