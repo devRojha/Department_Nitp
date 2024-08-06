@@ -1,31 +1,24 @@
-"use client"
 import Image from "next/image"
 import BackDepartment from "../../../../components/BackDepartment";
-import { useEffect, useState } from "react";
 
 export default function labs(){
-    const [feature , setFeature] = useState("https://web.nitp.ac.in/dept/ee/labs/DSC_0057.jpg")
-    const [it, setIt]= useState(0);
-    var picture = [
-        "https://web.nitp.ac.in/dept/ee/labs/DSC_0057.jpg",
-        "https://web.nitp.ac.in/dept/ee/labs/DSC_0056.jpg",
+    var labUrl = [
         "https://web.nitp.ac.in/dept/ee/labs/DSC_0063.jpg",
+        "https://web.nitp.ac.in/dept/ee/labs/DSC_0056.jpg",
+        "https://web.nitp.ac.in/dept/ee/labs/DSC_0057.jpg",
         "https://web.nitp.ac.in/dept/ee/labs/DSC_0058.jpg",
         "https://web.nitp.ac.in/dept/ee/labs/DSC_0061.jpg",
         "https://web.nitp.ac.in/dept/ee/labs/DSC_0063.jpg",
     ]
-    useEffect(()=>{
-        const interval = setInterval(()=>{
-          setFeature(picture[it]);
-          setIt(it+1);
-          if(it == picture.length-1){
-            setIt(0);
-          }
-        },2500)
-        return ()=> clearInterval(interval)
-      },[it])
-
-
+    var image = labUrl[0];
+    var idx = 0;
+    setInterval(()=>{
+        image = labUrl[idx]
+        idx++
+        if(idx >= 6){
+            idx = 0;
+        }
+    },2000)
 
     return (
         <div className=" flex flex-col p-10 max-sm:p-2">  
@@ -66,7 +59,7 @@ export default function labs(){
                         </ol>
                         <div className=" flex justify-center max-md:hidden">
                             <div className="flex flex-col justify-center">
-                                <Image src={`${feature}`} width={700} height={1000} alt="Loading.." className="col-span-1 h-80 border rounded-lg bg-rose-200" />
+                                <Image src={"https://lh3.googleusercontent.com/d/1Q0TgCyX0bpbtiKhYiqtDBQ0N_7JzwiQI=w320?authuser=0"} width={700} height={1000} alt="Loading.." className="col-span-1 h-80 border rounded-lg bg-rose-200" />
                             </div>
                         </div>
                     </div>
@@ -74,7 +67,7 @@ export default function labs(){
                 <div className="mb-10">
                     <div className=" max-md:flex justify-center hidden">
                         <div className="flex flex-col justify-center">
-                            <Image src={`${feature}`} width={700} height={1000} alt="Loading.." className="col-span-1 h-80 border rounded-lg bg-rose-200" />
+                            <Image src={"https://lh3.googleusercontent.com/d/1Q0TgCyX0bpbtiKhYiqtDBQ0N_7JzwiQI=w320?authuser=0"} width={700} height={1000} alt="Loading.." className="col-span-1 h-80 border rounded-lg bg-rose-200" />
                         </div>
                     </div>
                 </div>
