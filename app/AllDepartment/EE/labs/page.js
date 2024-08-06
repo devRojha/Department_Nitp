@@ -3,7 +3,7 @@ import Image from "next/image"
 import BackDepartment from "../../../../components/BackDepartment";
 import { useEffect, useState } from "react";
 
-export default function labs(){
+export default function Labs(){
     const [feature , setFeature] = useState("https://web.nitp.ac.in/dept/ee/labs/DSC_0057.jpg")
     const [it, setIt]= useState(0);
     var picture = [
