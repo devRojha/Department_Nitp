@@ -7,10 +7,86 @@ import {useRouter} from 'next/navigation';
 import { useEffect, useState } from "react";
 
 const Notices = [
+  
   {
-      id:1,
-      notice:"No any notice for now",
-      link:""
+    id:1,
+    notice:"B.Tech(CSE) 1st semester Group Division",
+    link:"https://web.nitp.ac.in/uploads20/NOTICEforB.TechDivison.pdf"
+  },
+  {
+    id:2,
+    notice:"M.Tech CSE 3rd and PhD 2nd End Sem Exam July_Dec2020.",
+    link:"https://web.nitp.ac.in/uploads20/M.Tech%20and%20PhD%20Notice_Dissertation.pdf"
+  },
+  {
+    id:3,
+    notice:"M Tech CSE and PhD CSE 1st semester End Sem Viva Voice schedule.",
+    link:"https://web.nitp.ac.in/uploads20/m.tech_phd%20notice.jpeg"
+  },
+  {
+    id:4,
+    notice:"Notice : Open PhD Viva-Voice Examination of Kriti Kumari(Roll NO. 155CS07) Dept. of CSE .",
+    link:"https://web.nitp.ac.in/uploads20/WhatsApp%20Image%202021-03-17%20at%2014.58.36.jpeg"
+  },
+  {
+    id:5,
+    notice:"End Sem Viva Voice Jan-June 2021 For 4th and 8th Semester (CSE Department)",
+    link:"https://web.nitp.ac.in/uploads20/Notice%20of%20End%20sem%20Viva-19.04.2021.pdf"
+  },
+  {
+    id:6,
+    notice:"Revised M.Tech 4th Semester End Sem Viva Voce schedule (CSE Department)",
+    link:"https://web.nitp.ac.in/uploads20/M.Tech%204th%2011May%202021_Revised-09.05.2021.pdf"
+  },
+  {
+    id:7,
+    notice:"Schedule of End Sem Viva Voice for M Tech 2nd and B Tech 6th(CSE Department)",
+    link:"https://web.nitp.ac.in/uploads20/NOTICE_Mtech2nd%20&%20btech%206th-13.05.2021.pdf"
+  },
+  {
+    id:8,
+    notice:"Schedule of PhD Seminar & Technical report writing presentation(CSE Department).",
+    link:"https://web.nitp.ac.in/uploads20/PhD_NOTICE-23.05.2021.pdf"
+  },
+  {
+    id:11,
+    notice:"CSE Dept. End Sem Viva-Voce Exam (Even semester) 2023",
+    link:"https://drive.google.com/file/d/1z-C5GgZ7VHwW_nWS9uTq_vWXiJ4H7hYh/view"
+  },
+  {
+    id:12,
+    notice:"EndSem Viva Schedule July2023",
+    link:"https://drive.google.com/file/d/1phtAAvzX98wR-sE1RtIAgsz16uS4cDDf/view"
+  },
+  {
+    id:13,
+    notice:"Summer Special End Sem Viva-Voce July 2023",
+    link:"https://drive.google.com/file/d/1pGa3yDMuDDqFNTO-_WBB48_4-Vh68YHT/view"
+  },
+  {
+    id:14,
+    notice:"PG(M.Tech/MURP) syllabus course",
+    link:"https://drive.google.com/file/d/1SM0SXL_8ZBi6V9L4VHPeRDptfZYHbj9M/view"
+  },
+  {
+    id:15,
+    notice:"Summer Special End Sem Viva-Voce August 2023",
+    link:"https://drive.google.com/file/d/1RlfVf3eTXbGYGZwIKd5ImpKaPUlm1oKE/view"
+  },
+  {
+    id:16,
+    notice:"CSE Dept: Summer Special End Semester Viva-Voce August 2023",
+    link:"https://drive.google.com/file/d/1h5C-NkYONeHe2Fo3eae_KpA_0t32hQl6/view"
+  },
+  {
+    id:17,
+    notice:"End Sem Viva-Voce Exam July-Dec, 2023",
+    link:"https://drive.google.com/file/d/1703br8LKXmOLombfm2ggjTDkA2Mpbovq/view"
+  },
+  {
+    id:18,
+    notice:"CSE End Sem Viva-Voce Exam Schedule, Jan-Jun 2024",
+    link:"https://drive.google.com/file/d/1V-MHhLibIMhJlvVVzidfZL1HzTWgIjhI/view"
   },
   
 ]
@@ -63,7 +139,7 @@ export default function CSE() {
           <div className=" py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
             <div className="bg-white rounded-lg shadow-lg shadow-slate-600 px-4 h-[420px] overflow-y-auto">
               <div className="flex justify-between mb-4 text-lg font-semibold text-slate-500">
-                <div>Important Notice</div>
+                <div>Announcement</div>
                 <button className="hover:text-blue-500">View All</button>
               </div>
               <div className="overflow-hidden flex flex-col-reverse">
