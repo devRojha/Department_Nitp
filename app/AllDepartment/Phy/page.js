@@ -40,7 +40,7 @@ export default function ME() {
         <div className=" py-10  col-span-3 max-lg:col-span-3 flex flex-col max-md:mb-10">
           <div className="bg-white rounded-lg shadow-lg shadow-slate-600 px-4 h-[420px] overflow-y-auto">
             <div className="flex justify-between mb-4 text-lg font-semibold text-slate-500">
-              <div>Important Notice</div>
+              <div>Announcement</div>
               <button className="hover:text-blue-500">View All</button>
             </div>
             <div className="overflow-hidden flex flex-col-reverse">
