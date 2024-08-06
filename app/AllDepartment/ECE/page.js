@@ -108,7 +108,7 @@ export default function ECE() {
           />
 
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/ECE/hod')}
+            onClick={() => router.push('/AllDepartment/ECE/timeTable')}
             Title={'TIME TABLE'}
           />
 

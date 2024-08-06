@@ -94,7 +94,7 @@ export default function ME() {
             Title={'SYLLABUS'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Phy/faculty')}
+            onClick={() => router.push('/AllDepartment/Phy/timeTable')}
             Title={'TIME TABLE'}
           />
           <DepartmentNavigationButton

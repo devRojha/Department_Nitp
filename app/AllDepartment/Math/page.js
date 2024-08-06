@@ -99,7 +99,7 @@ export default function Math() {
             Title={'SYLLABUS'}
           />
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/Math/hod')}
+            onClick={() => router.push('/AllDepartment/Math/timeTable')}
             Title={'TIME TABLE'}
           />
 

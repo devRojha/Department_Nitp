@@ -114,7 +114,7 @@ export default function ME() {
           />
 
           <DepartmentNavigationButton
-            onClick={() => router.push('/AllDepartment/ME/faculty')}
+            onClick={() => router.push('/AllDepartment/ME/timeTable')}
             Title={'TIME TABLE'}
           />
 
